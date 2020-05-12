@@ -3,20 +3,20 @@
   href: /blog/
 
 # edit following lines to custom your blog page, make sure name is the same as href but capitalized first letter(except HTML)
-- name: Python
-  href: /python/
+- name: Python3
+  href: /python3/
 
-- name: Linux
-  href: /linux/
+- name: Java
+  href: /java/
 
-- name: HTML
-  href: /html/
+- name: Web
+  href: /web/
 
 - name: Database
   href: /database/
 
-- name: Mac
-  href: /mac/
+- name: Coding test
+  href: /coding test/
 
 - name: Life
   href: /life/
