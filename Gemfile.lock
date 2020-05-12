@@ -79,6 +79,7 @@ GEM
       unicode-display_width (~> 1.1, >= 1.1.1)
     tilt (2.0.10)
     unicode-display_width (1.7.0)
+    wdm (0.1.1)
 
 PLATFORMS
   x64-mingw32
@@ -86,6 +87,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4.0)
   jekyll-admin
+  wdm (~> 0.1.0)
 
 BUNDLED WITH
    2.1.4
