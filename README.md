@@ -1,0 +1,2 @@
+# daljaru.github.io
+blog
