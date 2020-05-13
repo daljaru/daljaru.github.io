@@ -17,7 +17,7 @@
   present: true
 
 
-  - name:
+- name:
     detail: KIIS, KITS presentation
     #i18n: company_a
   desc:
@@ -30,7 +30,7 @@
     detail: Computer Science Student
     #i18n: company_a_job
   icon: fa-plus-square
-  present: true
+  present: true  
 
 
 
