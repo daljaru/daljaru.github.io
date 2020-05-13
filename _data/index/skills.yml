@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: VCS, Python3, HTML5, MySQL, C++, Java, Algorithm
-percentage: 50,50, 50, 50, 50, 50, 50
+aspects: VCS, Python3, ML-DL, MySQL, C++, Java, Algorithm
+percentage: 50, 50, 30, 50, 50, 50, 50
