@@ -27,7 +27,7 @@ Gitlab계정을 2개 생성해서 한 계정은 Project Manager용으로, 다른
 
  Project Manager는 **Group**을 하나 만듭니다. Group은 Project들을 모아놓은 장소입니다. 멤버들과 여러 Project들을 관리할 수 있습니다.
 
-![makeGroup](/static/assets/img/blog/usefulSkills/gitlabImages/makeGroup.png){: width="80%" height="80%"}
+![makeGroup](/static/assets/img/blog/usefulSkills/gitlabImages/makeGroup.png){: width="100%" height="100%"}
 
 
 
@@ -37,7 +37,7 @@ Gitlab계정을 2개 생성해서 한 계정은 Project Manager용으로, 다른
 
 이제 오른쪽 상단에 New group을 클릭합니다.
 
-![makeGroup2](/static/assets/img/blog/usefulSkills/gitlabImages/makeGroup2.png)
+![makeGroup2](/static/assets/img/blog/usefulSkills/gitlabImages/makeGroup2.png){: width="100%" height="100%"}
 
 * Group name에 그룹 이름을 설정합니다. 
 * Group URL에는 Group name에서 설정한 이름 그대로 자동으로 들어가게 됩니다. 
@@ -49,7 +49,7 @@ Gitlab계정을 2개 생성해서 한 계정은 Project Manager용으로, 다른
 
 설정을 마무리하고 Create Group을 클릭합니다.  
 
-![newGroup](/static/assets/img/blog/usefulSkills/gitlabImages/newGroup.png)
+![newGroup](/static/assets/img/blog/usefulSkills/gitlabImages/newGroup.png){: width="100%" height="100%"}
 
 그룹을 생성했다면 위과 같이 그룹의 메인화면으로 옮겨집니다. 오른쪽 상단에 New project 초록색 버튼이 보입니다. 이제 그룹을 생성했으니 프로젝트를 하나 만들 차례입니다.
 
@@ -57,7 +57,7 @@ Gitlab계정을 2개 생성해서 한 계정은 Project Manager용으로, 다른
 
 New project를 클릭합니다. 
 
-![makeProject](/static/assets/img/blog/usefulSkills/gitlabImages/makeProject.png)
+![makeProject](/static/assets/img/blog/usefulSkills/gitlabImages/makeProject.png){: width="100%" height="100%"}
 
 * Blank project라고 빈 프로젝트를 생성하는 탭이 있습니다.
 
@@ -71,7 +71,7 @@ New project를 클릭합니다.
 
 설정을 마무리하고 Create project 버튼을 클릭합니다.
 
-![projectCreated](/static/assets/img/blog/usefulSkills/gitlabImages/projectCreated.png)
+![projectCreated](/static/assets/img/blog/usefulSkills/gitlabImages/projectCreated.png){: width="100%" height="100%"}
 
 Project 'First_OOP_Project'가 성공적으로 만들어졌다는 메시지와 함께 프로젝트 페이지가 로드됩니다. 현재 branch가 1개가 있고 master branch임을 확인할 수 있습니다.
 
@@ -81,7 +81,7 @@ Project 'First_OOP_Project'가 성공적으로 만들어졌다는 메시지와 �
 
 branch는 하나의 작업공간 혹은 파일시스템이라고 볼 수 있습니다. 우리는 First_OOP_Project를 만들면서 초기 작업공간의 상태인 master branch를 생성했습니다. 
 
-![master](/static/assets/img/blog/usefulSkills/gitlabImages/master.png)
+![master](/static/assets/img/blog/usefulSkills/gitlabImages/master.png){: width="100%" height="100%"}
 
 이 master branch에 프로젝트의 최종 완성본만 넣을 것입니다.
 
@@ -89,11 +89,11 @@ branch는 하나의 작업공간 혹은 파일시스템이라고 볼 수 있습�
 
 좀 더 구체적으로 말하면, 새로운 branch를 만드는 순간 기존 branch의 복사본이 파일시스템에 기록되는데 새로운 branch에서 작업을 진행하고 기존 branch로 병합하는 과정을 반복합니다. 이러한 과정 덕분에 Project version 관리가 용이합니다. 그리고 멤버들이 상호간 코드 비교를 수시로 하지 않아도 수정사항을 팀 멤버들과 공유할 수 있습니다.
 
-![branch](/static/assets/img/blog/usefulSkills/gitlabImages/branch.png)
+![branch](/static/assets/img/blog/usefulSkills/gitlabImages/branch.png){: width="100%" height="100%"}
 
 VCS를 잘 이용하면 아래와 같이 귀찮은 작업을 하지 않아도 됩니다.
 
-.![complicateUpdate](/static/assets/img/blog/usefulSkills/gitlabImages/complicateUpdate.png)
+.![complicateUpdate](/static/assets/img/blog/usefulSkills/gitlabImages/complicateUpdate.png){: width="100%" height="100%"}
 
 
 
@@ -103,13 +103,13 @@ VCS를 잘 이용하면 아래와 같이 귀찮은 작업을 하지 않아도 �
 
 이제 Remote master branch에서 Remote premaster branch 하나 만들겠습니다.
 
-![createBranch](/static/assets/img/blog/usefulSkills/gitlabImages/createBranch.png)
+![createBranch](/static/assets/img/blog/usefulSkills/gitlabImages/createBranch.png){: width="100%" height="100%"}
 
 master > first_oop_project 오른쪽에 `+`버튼이 보입니다. `+`버튼으로 현재 디렉토리에 새로운 파일이나 폴더를 만들거나 파일업로드가 가능합니다. 또한 현재 branch에 연결된 새로운 branch나 tag생성이 가능합니다.
 
 
 
-New branch를 클릭합니다.  ![newPremasterBranch](/static/assets/img/blog/usefulSkills/gitlabImages/newPremasterBranch.png)
+New branch를 클릭합니다.  ![newPremasterBranch](/static/assets/img/blog/usefulSkills/gitlabImages/newPremasterBranch.png){: width="100%" height="100%"}
 
 새로운 branch를 만드는 화면이 로드됩니다. 
 
@@ -119,7 +119,7 @@ New branch를 클릭합니다.  ![newPremasterBranch](/static/assets/img/blog/us
 
 Create branch버튼을 클릭합니다. 
 
-![premasterCreated](/static/assets/img/blog/usefulSkills/gitlabImages/premasterCreated.png)
+![premasterCreated](/static/assets/img/blog/usefulSkills/gitlabImages/premasterCreated.png){: width="100%" height="100%"}
 
 
 
@@ -133,13 +133,13 @@ master branch에서 premaster branch를 방금 만든 상태이기 때문에 pre
 
 왼쪽 하단에 Settings탭에 Members 항목이 있습니다. 
 
-![addMembers](/static/assets/img/blog/usefulSkills/gitlabImages/addMembers.png)
+![addMembers](/static/assets/img/blog/usefulSkills/gitlabImages/addMembers.png){: width="100%" height="100%"}
 
 
 
 Members를 클릭합니다.
 
-![inviteMembers](/static/assets/img/blog/usefulSkills/gitlabImages/inviteMembers.png)
+![inviteMembers](/static/assets/img/blog/usefulSkills/gitlabImages/inviteMembers.png){: width="100%" height="100%"}
 
 * GitLab member or Email address 에서 멤버들을 검색해서 추가합니다.
 * **Choose a role permission**에서 멤버들의 접근권한을 부여합니다. Developer들이 Merge 기능을 이용하기 위해 developer로 설정합니다. 
@@ -148,7 +148,7 @@ Members를 클릭합니다.
 
 설정을 완료하고 Invite를 클릭합니다. `Users were succesfully added` 메시지가 뜹니다.
 
-![inviteSuccess](/static/assets/img/blog/usefulSkills/gitlabImages/inviteSuccess.png)
+![inviteSuccess](/static/assets/img/blog/usefulSkills/gitlabImages/inviteSuccess.png){: width="100%" height="100%"}
 
 이제부터 premaster branch에 PM과 developer가 프로그램파일들을 지속적으로 업데이트할 것입니다. 그리고  배포가 가능한 프로젝트가 되면 PM이 master branch와 merge작업을 하고 프로젝트가 최종완성됩니다. 
 
@@ -170,7 +170,7 @@ Member들을 추가한다.
 
 자 이제 Project Manager가 멤버들을 추가했습니다. 멤버들은 GitLab에 들어가면 자신의 프로젝트 목록에서First_OOP_Project를 확인할 수 있습니다.
 
-![memberProject](/static/assets/img/blog/usefulSkills/gitlabImages/memberProject.png)
+![memberProject](/static/assets/img/blog/usefulSkills/gitlabImages/memberProject.png){: width="100%" height="100%"}
 
 
 
@@ -178,7 +178,7 @@ Member들을 추가한다.
 
 Your projects를 누르면 자신이 추가된 프로젝트가 뜹니다. 
 
-![MemberYourProject](/static/assets/img/blog/usefulSkills/gitlabImages/MemberYourProject.png)
+![MemberYourProject](/static/assets/img/blog/usefulSkills/gitlabImages/MemberYourProject.png){: width="100%" height="100%"}
 
 
 
@@ -190,7 +190,7 @@ Your projects를 누르면 자신이 추가된 프로젝트가 뜹니다.
 
 Developer의 작업방식은 아래와 같습니다.
 
-![developRoute](/static/assets/img/blog/usefulSkills/gitlabImages/developRoute.png)
+![developRoute](/static/assets/img/blog/usefulSkills/gitlabImages/developRoute.png){: width="100%" height="100%"}
 
 1번부터 5번까지의 과정을 PM과 Developer가 프로젝트가 완성되서 끝날 때까지 반복합니다.
 
@@ -208,13 +208,13 @@ Remote repository를 자신의 로컬환경으로 가져오는 명령어는 git 
 git clone 'repository url'
 ~~~
 
-![developGitclone](/static/assets/img/blog/usefulSkills/gitlabImages/developGitclone.png)
+![developGitclone](/static/assets/img/blog/usefulSkills/gitlabImages/developGitclone.png){: width="100%" height="100%"}
 
 subAccount라는 디렉토리를 만들고 해당 디렉토리 안에서 git clone명령어를 실행했습니다. 
 
 Repository url은 GitLab에 있는 Repository에 가면 해당 Repository의 URL을 복사할 수 있는 Clone 버튼이 있습니다.
 
-![developColoneButton](/static/assets/img/blog/usefulSkills/gitlabImages/developColoneButton.png)
+![developColoneButton](/static/assets/img/blog/usefulSkills/gitlabImages/developColoneButton.png){: width="100%" height="100%"}
 
  
 
@@ -224,7 +224,7 @@ git branch -a
 
 위 명령어를 쳐볼까요. git branch -a를 치면 Local branch와 Remote branch 모두를 볼 수 있습니다. 
 
-![gitBranchA](/static/assets/img/blog/usefulSkills/gitlabImages/gitBranchA.png)
+![gitBranchA](/static/assets/img/blog/usefulSkills/gitlabImages/gitBranchA.png){: width="100%" height="100%"}
 
 초록색으로 표시된 것이 Local환경에 있는 branch들이고 빨간색이 Remote환경에 있는 branch들입니다. 우리가 GitLab사이트에서 premater branch를 만들었기 때문에 remotes/origin/premaster이 보입니다.
 
@@ -242,7 +242,7 @@ git checkout -b premaster
 
 위 명령어로 premaster branch를 로컬에서 만들고 해당 branch로 이동합니다. 
 
-![localNewPremaster](/static/assets/img/blog/usefulSkills/gitlabImages/localNewPremaster.png)
+![localNewPremaster](/static/assets/img/blog/usefulSkills/gitlabImages/localNewPremaster.png){: width="100%" height="100%"}
 
 
 
@@ -253,7 +253,7 @@ git remote update
 git fetch -p
 ~~~
 
-![remoteUpdatePull](/static/assets/img/blog/usefulSkills/gitlabImages/remoteUpdatePull.png)
+![remoteUpdatePull](/static/assets/img/blog/usefulSkills/gitlabImages/remoteUpdatePull.png){: width="100%" height="100%"}
 
 
 
@@ -283,7 +283,7 @@ Remote branch를  update한다. (git remote update, git fetch -p)
 git pull origin master
 ~~~
 
-![pull](/static/assets/img/blog/usefulSkills/gitlabImages/pull.png)
+![pull](/static/assets/img/blog/usefulSkills/gitlabImages/pull.png){: width="100%" height="100%"}
 
 `git pull origin premaster`는 Remote에 있는 premaster branch에 있는 내용을 현재 로컬(premaster branch)와 병합한다는 의미입니다.   
 
@@ -291,7 +291,7 @@ git pull origin master
 
 참고로 origin은 remote에 있는 repository를 가리킵니다. `git remote -v`을 통해 확인할 수 있습니다. 
 
-![originMeaning](/static/assets/img/blog/usefulSkills/gitlabImages/originMeaning.png)
+![originMeaning](/static/assets/img/blog/usefulSkills/gitlabImages/originMeaning.png){: width="100%" height="100%"}
 
 
 
@@ -303,7 +303,7 @@ git checkout -b loginBranch
 
 git checkout 명령어를 통해 branch를 새로 만들고 해당 branch로 이동했습니다.
 
-![loginbranch](/static/assets/img/blog/usefulSkills/gitlabImages/loginbranch.png)
+![loginbranch](/static/assets/img/blog/usefulSkills/gitlabImages/loginbranch.png){: width="100%" height="100%"}
 
 .
 
@@ -311,7 +311,7 @@ git checkout 명령어를 통해 branch를 새로 만들고 해당 branch로 이
 
 .
 
-![completeLogin](/static/assets/img/blog/usefulSkills/gitlabImages/completeLogin.png)
+![completeLogin](/static/assets/img/blog/usefulSkills/gitlabImages/completeLogin.png){: width="100%" height="100%"}
 
 
 
@@ -355,7 +355,7 @@ git add .  (모든 파일을 add합니다.)
 
 git status는 현재 파일시스템의 상태를 확인합니다. git status를 입력했더니 git에서 add할 파일이 있다고 알려줍니다. `git add Login.class`로 add를 진행하겠습니다. 
 
-![add](/static/assets/img/blog/usefulSkills/gitlabImages/add.png)
+![add](/static/assets/img/blog/usefulSkills/gitlabImages/add.png){: width="100%" height="100%"}
 
 
 
@@ -366,7 +366,7 @@ git commit -m "commit message"
 
 git status를 입력했더니 이젠 commit할 파일이 있다고 알려줍니다.`git commit -m "Login class update"`로 commit을 진행하겠습니다. 
 
-![commit](/static/assets/img/blog/usefulSkills/gitlabImages/commit.png)
+![commit](/static/assets/img/blog/usefulSkills/gitlabImages/commit.png){: width="100%" height="100%"}
 
 
 
@@ -430,7 +430,7 @@ Local premaster branch와 merge를 해봅시다.  Local premaster branch가 변�
 git merge premaster
 ~~~
 
-![confilctOccur](/static/assets/img/blog/usefulSkills/gitlabImages/confilctOccur.png)
+![confilctOccur](/static/assets/img/blog/usefulSkills/gitlabImages/confilctOccur.png){: width="100%" height="100%"}
 
 **(처음에는 당연히 충돌이 발생하지 않아서 설명을 위해 한번 다시 작업하느라 conflictBranch branch가 있는 것입니다. 설명은 loginBranch branch로 진행하겠습니다.)**
 
@@ -438,7 +438,7 @@ git merge premaster
 
 충돌이 발생했네요! 이제 충돌이 발생하지 않게 수정해야겠습니다. 한번 Login.class를 살펴볼까요. 
 
-![conflictSolve](/static/assets/img/blog/usefulSkills/gitlabImages/conflictSolve.png)
+![conflictSolve](/static/assets/img/blog/usefulSkills/gitlabImages/conflictSolve.png){: width="100%" height="100%"}
 
 ​	
 
@@ -460,19 +460,19 @@ git merge premaster
 
 이제 여기서 적절하게 수정을 해줍니다. 내 코드가 이상하면 HEAD쪽을 날려버리고 동료개발자 코드가 이상하면 premaster쪽을 날려버리면 되겠죠? 동료 개발자 코드를 날려버립시다. 
 
-.![conflictSolve2](/static/assets/img/blog/usefulSkills/gitlabImages/conflictSolve2.png)
+.![conflictSolve2](/static/assets/img/blog/usefulSkills/gitlabImages/conflictSolve2.png){: width="100%" height="100%"}
 
 
 
 충돌이 일어나고 아직 merging중이라 loginBranch|MERGING이라는 표시가 뜨고 있습니다. 
 
-![confilctMerging](/static/assets/img/blog/usefulSkills/gitlabImages/confilctMerging.png)
+![confilctMerging](/static/assets/img/blog/usefulSkills/gitlabImages/confilctMerging.png){: width="100%" height="100%"}
 
 
 
 login.class 파일을 새로 수정했으므로 이제 다시 add와 commit을 진행합니다. 
 
-![conflictSolve3](/static/assets/img/blog/usefulSkills/gitlabImages/conflictSolve3.png)
+![conflictSolve3](/static/assets/img/blog/usefulSkills/gitlabImages/conflictSolve3.png){: width="100%" height="100%"}
 
 
 
@@ -482,7 +482,7 @@ login.class 파일을 새로 수정했으므로 이제 다시 add와 commit을 �
 git push --set-upstream origin loginBranch
 ~~~
 
-![pushUpstream](/static/assets/img/blog/usefulSkills/gitlabImages/pushUpstream.png)
+![pushUpstream](/static/assets/img/blog/usefulSkills/gitlabImages/pushUpstream.png){: width="100%" height="100%"}
 
 `git push --set-upstream origin loginBranch`는 origin에 loginBranch branch에 commit한 파일들을 기록합니다. 
 
@@ -494,19 +494,19 @@ git push --set-upstream origin loginBranch
 
 GitLab사이트로 가봅시다.  프로젝트의 Branch가 3개가 된것을 확인할 수 있습니다. 
 
-![mergeRequest1](/static/assets/img/blog/usefulSkills/gitlabImages/mergeRequest1.png)
+![mergeRequest1](/static/assets/img/blog/usefulSkills/gitlabImages/mergeRequest1.png){: width="100%" height="100%"}
 
 
 
 Branches를 눌러볼까요. 우리가 만들었던 loginBranch branch가 push를 통해 올려진 것을 확인할 수 있습니다.  
 
-![branches](/static/assets/img/blog/usefulSkills/gitlabImages/branches.png)
+![branches](/static/assets/img/blog/usefulSkills/gitlabImages/branches.png){: width="100%" height="100%"}
 
 
 
 loginBranch branch오른쪽에 있는 Merge request버튼을 눌러볼까요.
 
-![mergeRequest2](/static/assets/img/blog/usefulSkills/gitlabImages/mergeRequest2.png)
+![mergeRequest2](/static/assets/img/blog/usefulSkills/gitlabImages/mergeRequest2.png){: width="100%" height="100%"}
 
 위의 빨간색 박스에 주목해주세요. 우린 loginBranch branch에서 premaster branch로 merge를 하고 싶기 때문에 저렇게 설정을 하면 안됩니다. master branch에는 최종본만 올리려고 한다고 정했습니다. 
 
@@ -514,13 +514,13 @@ loginBranch branch오른쪽에 있는 Merge request버튼을 눌러볼까요.
 
 From loginBranch into premaster로 변경하기 위해 Change branches를 눌러봅시다. Source branch를 자신이 작업했던 loginBranch로, Traget branch를 premaster로 설정해줍시다. 
 
-![mergeRequest3](/static/assets/img/blog/usefulSkills/gitlabImages/mergeRequest3.png)
+![mergeRequest3](/static/assets/img/blog/usefulSkills/gitlabImages/mergeRequest3.png){: width="100%" height="100%"}
 
 
 
 Compare branches and continue를 눌러줍니다. 
 
-![mergeRequest4](/static/assets/img/blog/usefulSkills/gitlabImages/mergeRequest4.png)
+![mergeRequest4](/static/assets/img/blog/usefulSkills/gitlabImages/mergeRequest4.png){: width="100%" height="100%"}
 
 * Title에는 merge request의 제목을 적습니다. 
 * Assignee는 이 Merge Request를 검토할 사람을 지정할 수 있습니다. 여기서는 PM에게 관리를 받을 것이기 때문에 관리자를 선택해줍시다. 
@@ -570,7 +570,7 @@ Gitlab 사이트에서 merge request를 진행합니다. Source는 working branc
 
 PM은 GitLab에서 Project Repository로 이동합니다. 
 
-![OwnerMergeRequest](/static/assets/img/blog/usefulSkills/gitlabImages/OwnerMergeRequest.png)
+![OwnerMergeRequest](/static/assets/img/blog/usefulSkills/gitlabImages/OwnerMergeRequest.png){: width="100%" height="100%"}
 
 Project Manager에게 Merge Request가 온것을 확인 할 수 있습니다. 오른쪽 상단에 보면 빨간 박스가 2개가 있죠. 왼쪽은 Merge request가 1건있다는 뜻이고 오른쪽은 나에게 할일이 생겼다는 뜻입니다. (Asignee를 PM으로 설정했기 때문에 발생하는 알림입니다.)
 
@@ -578,7 +578,7 @@ Project Manager에게 Merge Request가 온것을 확인 할 수 있습니다. �
 
 왼쪽 탭에서 Merge Request를 눌러봅시다. 
 
-![OwnerMergeRequest2](/static/assets/img/blog/usefulSkills/gitlabImages/OwnerMergeRequest2.png)
+![OwnerMergeRequest2](/static/assets/img/blog/usefulSkills/gitlabImages/OwnerMergeRequest2.png){: width="100%" height="100%"}
 
 어떤 Merge request가 있는지 확인할 수 있습니다. Developer가 적어둔 Merge request 제목이 보이네요. 
 
@@ -586,7 +586,7 @@ Project Manager에게 Merge Request가 온것을 확인 할 수 있습니다. �
 
 Login class update를 클릭합니다.
 
-![OwnerMergeRequest3](/static/assets/img/blog/usefulSkills/gitlabImages/OwnerMergeRequest3.png)
+![OwnerMergeRequest3](/static/assets/img/blog/usefulSkills/gitlabImages/OwnerMergeRequest3.png){: width="100%" height="100%"}
 
 좋아요 싫어요를 표시할 수 있고 Comment도 달 수 있습니다.! 오른쪽 위에`Close merge request`로 merge request를 거절할 수도 있습니다. 
 
@@ -594,19 +594,19 @@ Login class update를 클릭합니다.
 
 Overview탭 오른쪽에 있는 Changes탭에서 작성한 코드들을 볼 수 있습니다.
 
-![OwnerMergeRequest4](/static/assets/img/blog/usefulSkills/gitlabImages/OwnerMergeRequest4.png)
+![OwnerMergeRequest4](/static/assets/img/blog/usefulSkills/gitlabImages/OwnerMergeRequest4.png){: width="100%" height="100%"}
 
 
 
 충돌이 일어난 파일이였다면 아래와 같이 뜹니다.
 
-![OwnerconflictMergeRequest](/static/assets/img/blog/usefulSkills/gitlabImages/OwnerconflictMergeRequest.png)
+![OwnerconflictMergeRequest](/static/assets/img/blog/usefulSkills/gitlabImages/OwnerconflictMergeRequest.png){: width="100%" height="100%"}
 
 
 
 이제 Merge버튼을 눌러줍시다. 
 
-![merged](/static/assets/img/blog/usefulSkills/gitlabImages/merged.png)
+![merged](/static/assets/img/blog/usefulSkills/gitlabImages/merged.png){: width="100%" height="100%"}
 
 Merge Request가 0개로 줄어든 것을 확인할 수 있습니다. 그리고 premaster branch로 옮겨보니 Login.class가 업데이트 된것을 확인할 수 있네요!
 
@@ -641,13 +641,13 @@ Remote premaster branch로부터 pull작업을 진행합니다. 자신의 로컬
 git pull origin premaster
 ~~~
 
-![localFinishmerged](/static/assets/img/blog/usefulSkills/gitlabImages/localFinishmerged.png)
+![localFinishmerged](/static/assets/img/blog/usefulSkills/gitlabImages/localFinishmerged.png){: width="100%" height="100%"}
 
 
 
 그리고 이제 Local환경에서 loginBranch branch를 삭제해주어야겠죠.
 
-![deleteloginBranch](/static/assets/img/blog/usefulSkills/gitlabImages/deleteloginBranch.png)
+![deleteloginBranch](/static/assets/img/blog/usefulSkills/gitlabImages/deleteloginBranch.png){: width="100%" height="100%"}
 
 
 
@@ -655,7 +655,7 @@ git pull origin premaster
 
 이제 `git remote update`와 `git fetch -p`로 동기화를 해줍시다. 
 
-![deleteRemoteWB](/static/assets/img/blog/usefulSkills/gitlabImages/deleteRemoteWB.png)
+![deleteRemoteWB](/static/assets/img/blog/usefulSkills/gitlabImages/deleteRemoteWB.png){: width="100%" height="100%"}
 
 remote/origin/loginBranch가 삭제된 것을 확인할 수 있습니다. 
 
