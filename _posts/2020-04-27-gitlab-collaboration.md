@@ -27,7 +27,7 @@ Gitlab계정을 2개 생성해서 한 계정은 Project Manager용으로, 다른
 
  Project Manager는 **Group**을 하나 만듭니다. Group은 Project들을 모아놓은 장소입니다. 멤버들과 여러 Project들을 관리할 수 있습니다.
 
-![makeGroup](/static/assets/img/blog/usefulSkills/gitlabImages/makeGroup.png)
+![makeGroup](/static/assets/img/blog/usefulSkills/gitlabImages/makeGroup.png =250x)
 
 
 
