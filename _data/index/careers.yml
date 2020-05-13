@@ -17,6 +17,23 @@
   present: true
 
 
+  - name:
+    detail: KIIS, KITS presentation
+    #i18n: company_a
+  desc:
+    detail: present paper on KIIS, KITS
+    #i18n: company_a_desc
+  date:
+    detail: Nov. 2019
+    #i18n: company_a_date
+  job:
+    detail: Computer Science Student
+    #i18n: company_a_job
+  icon: fa-plus-square
+  present: true
+
+
+
 - name:
     detail: Dongguk University
     #i18n: company_a
