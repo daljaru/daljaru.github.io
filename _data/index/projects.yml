@@ -24,4 +24,4 @@
 - name : A.I Drum app
   url : https://github.com/daljaru/testDrum
   img : /static/assets/img/landing/drum.png
-  desc : This project was taken by 4 Dongguk CS Students. Generate drum part of MIDI music by ML(RF) 
+  desc : This project was taken by 4 Dongguk CS Students.\nGenerate drum part of MIDI music by ML(RF) 
