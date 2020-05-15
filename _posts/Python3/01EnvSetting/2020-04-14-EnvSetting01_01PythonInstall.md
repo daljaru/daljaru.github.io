@@ -1,3 +1,18 @@
+---
+title: Install Python
+layout: post
+date: '2020-04-14'
+desc: Learn about python, and how to install python3
+keywords: python3, pip, env, pipenv, interpreter, guido
+categories: [Python3]
+tags:
+- python3
+- install
+- pipenv
+- pip
+- env
+---
+
 ## Python
 
 ![Python](/static/assets/img/blog/python3/01EnvSetting/Python.png){: width="100%" height ="100%"}
