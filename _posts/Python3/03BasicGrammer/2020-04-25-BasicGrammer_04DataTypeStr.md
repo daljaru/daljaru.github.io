@@ -32,7 +32,7 @@ if __name__ == '__main__':   # Line1
         print(str[i], end='')
 ~~~
 
-![strIndexing](./images/strIndexing.png)
+![strIndexing](/static/assets/img/blog/python3/03BasicGrammer/strIndexing.png)
 
 
 

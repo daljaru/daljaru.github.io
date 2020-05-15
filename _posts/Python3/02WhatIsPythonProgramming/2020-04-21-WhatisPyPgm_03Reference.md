@@ -2,7 +2,7 @@
 title: Reference
 layout: post
 date: '2020-04-21'
-desc: userful skills for studying python3
+desc: "userful skills for studying python3"
 keywords: reference, document, google, stackoverflow, github, gitlab
 categories: [Python3]
 tags:

@@ -1,3 +1,15 @@
+---
+title: Comment
+layout: post
+date: '2020-04-22'
+desc: "How to write comment"
+keywords: comment, python3
+categories: [Python3]
+tags:
+- python3
+- comment
+---
+
 ## 주석(Comment)
 
 Comment는 컴퓨터가 인터프리터를 통해 해독하지 않는다고 인식하는 기호입니다. 
@@ -9,7 +21,7 @@ Comment뒤에 주로 코드, 프로젝트에 대한 설명을 적습니다.  주
 print('Hello World!!') #print 메소드는 문자열을 출력할 수 있습니다. 
 ~~~
 
- ![Comment](./images/Comment.png)
+ ![Comment](/static/assets/img/blog/python3/03BasicGrammer/Comment.png)
 
 한글로 친 주석부분은 인터프리터가 넘기고 print()만 실행합니다.
 
@@ -30,7 +42,7 @@ print('Hello World!!') #print 메소드는 문자열을 출력할 수 있습니�
 
 Github에서 아무 Python 파일이나 찾아서 확인해보면 각 프로그래머들이 자신이 달고 싶은 주석을 단 것을 확인할 수 있습니다.
 
-![CoomentExample](./images/CoomentExample.png)
+![CoomentExample](/static/assets/img/blog/python3/03BasicGrammer/CoomentExample.png)
 
 
 

@@ -1,3 +1,18 @@
+---
+title: Data type
+layout: post
+date: '2020-04-22'
+desc: "There are some datatypes in python3. First, let's learn numerical type."
+keywords: datatype, numerical, variable, number, , object, memory
+categories: [Python3]
+tags:
+- python3
+- variable
+- memory
+- object
+- logical_scope
+---
+
 ## Data Type(자료형)
 
 Python의 대표적인 자료형을 알아보겠습니다. <br>파이썬에서 자주 사용하는 5가지의 자료형이 있습니다. 
@@ -59,7 +74,7 @@ cplx3 = cplx1 + cplx2
 print(cplx3)
 ~~~
 
-.![calNumeric](./images/calNumeric.png)
+.![calNumeric](/static/assets/img/blog/python3/03BasicGrammer/calNumeric.png)
 
 
 

@@ -63,7 +63,7 @@ if __name__ == '__main__':
 
 리스트를 초기화하는 방법은 위와 같은 방법들이 있습니다. 여기에 더해서 나중에 반복문인 for문을 배우면 **List comprehension**이라는 초기화 방법을 배우고 **iterator 타입**이라는 것을 배우면 list(iterable)형식으로 초기화하는 방식을 배울 것입니다. 
 
-![listresult](./images/listresult.png)
+![listresult](/static/assets/img/blog/python3/03BasicGrammer/listresult.png)
 
 코드를 보면 알겠지만 리스트는 '**[**'와 '**]**' 기호를 가지고 초기화할 수 있습니다.<br>list1은 **빈 리스트로 초기화**가 되었고 list2는 1부터 10까지를 리스트의 값으로 만들었습니다. <br>list3는 문자열을 넣어주고 각 문자를 리스트의 값으로 만들었습니다. list4는 리스트 안에 Tuple이라는 것을 넣은 코드입니다. 
 

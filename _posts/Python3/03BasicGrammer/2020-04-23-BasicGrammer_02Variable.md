@@ -1,3 +1,18 @@
+---
+title: Variable
+layout: post
+date: '2020-04-22'
+desc: "How to write variable with python3"
+keywords: variable, python3, namespace, datatype, logical scope, object, memory
+categories: [Python3]
+tags:
+- python3
+- variable
+- memory
+- object
+- logical_scope
+---
+
 ## 숫자를 계산하는 프로그램
 
 ~~~python
@@ -14,7 +29,7 @@ var1, var2 = 10, 20 #이렇게도 적을 수 있습니다.
 var3 = var1 + var2
 ~~~
 
- ![plus](./images/plus.png)
+ ![plus](/static/assets/img/blog/python3/03BasicGrammer/plus.png)
 
 
 
@@ -52,7 +67,7 @@ print(variable) #초기화를 하지 않은 변수
 
 **초기화** : 변수에 지정되어 있는 객체를 갱신하는 것.
 
-![variableError](./images/variableError.png)
+![variableError](/static/assets/img/blog/python3/03BasicGrammer/variableError.png)
 
 
 

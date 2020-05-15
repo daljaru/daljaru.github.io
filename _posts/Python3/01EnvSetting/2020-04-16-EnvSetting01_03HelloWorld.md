@@ -2,7 +2,7 @@
 title: Hello World
 layout: post
 date: '2020-04-16'
-desc: start python programming..
+desc: "start python programming.."
 keywords: python3, helloworld, print, project, source, code
 categories: [Python3]
 tags:

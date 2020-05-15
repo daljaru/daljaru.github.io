@@ -43,7 +43,7 @@ if __name__ == '__main__':
 
 실행해보면 아래와 같이 100과 1000이 뜨는 것을 확인할 수 있습니다. 
 
-.![module](./images/module.png)
+.![module](/static/assets/img/blog/python3/03BasicGrammer/module.png)
 
 
 
@@ -62,7 +62,7 @@ if __name__ == '__main__':
 
 이제 메인모듈을 실행하면 아래와 같은 결과가 뜹니다. 
 
-.![moduleResult](./images/moduleResult.png)
+.![moduleResult](/static/assets/img/blog/python3/03BasicGrammer/moduleResult.png)
 
  드디어 100이 출력되지 않게 할 수 있었네요. 저렇게 testModule모듈안에 `if __name__ == '__main__'`을 넣으면 외부에서 해당 모듈을 import할 때 `__name__`에 `__main__`대신 모듈의 이름(여기서는 testModule)를 넣어버립니다. 그래서 if 조건문 아래의 내용이 실행되지 않는 것이죠.
 

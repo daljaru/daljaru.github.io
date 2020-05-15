@@ -14,7 +14,7 @@ if __name__ == '__main__':
     print(testString)
 ```
 
-.![input](./images/input.png)
+.![input](/static/assets/img/blog/python3/03BasicGrammer/input.png)
 
 
 
@@ -24,7 +24,7 @@ if __name__ == '__main__':
     print(testString)
 ```
 
-.![stringInput](./images/stringInput.png)
+.![stringInput](/static/assets/img/blog/python3/03BasicGrammer/stringInput.png)
 
 
 

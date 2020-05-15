@@ -2,7 +2,7 @@
 title: What is programming
 layout: post
 date: '2020-04-21'
-desc: what is programming
+desc: "what is programming"
 keywords: programming, programmer, programming language, computer
 categories: [Python3]
 tags:

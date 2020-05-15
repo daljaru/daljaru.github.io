@@ -2,7 +2,7 @@
 title: Install Python
 layout: post
 date: '2020-04-14'
-desc: Learn about python, and how to install python3
+desc: "Learn about python, and how to install python3"
 keywords: python3, pip, env, pipenv, interpreter, guido
 categories: [Python3]
 tags:
