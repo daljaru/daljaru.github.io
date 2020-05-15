@@ -1,13 +1,11 @@
 ---
-title: Comment
 layout: post
-date: '2020-04-22'
+title: "Comment"
+date: 2020-04-22
 desc: "How to write comment"
 keywords: comment, python3
 categories: [Python3]
-tags:
-- python3
-- comment
+tags: [python3,comment]
 ---
 
 ## 주석(Comment)

@@ -1,14 +1,11 @@
 ---
-title: Str object(String data type)
 layout: post
-date: '2020-04-25'
+title: "Str object(String data type)"
+date: 2020-04-25
 desc: "There are some datatypes in python3. Let's learn str type."
 keywords: datatype, str, object, sequence
 categories: [Python3]
-tags:
-- python3
-- str
-- sequence
+tags: [python3,str,sequence]
 ---
 
 ###  Str(문자열)(Sequence Type)

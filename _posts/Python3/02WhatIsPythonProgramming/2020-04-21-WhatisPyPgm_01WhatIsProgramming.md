@@ -1,14 +1,11 @@
 ---
-title: What is programming
 layout: post
-date: '2020-04-21'
+title: "What is programming"
+date: 2020-04-21
 desc: "what is programming"
 keywords: programming, programmer, programming language, computer
 categories: [Python3]
-tags:
-- programming
-- computer
-- pl
+tags: [programming,computer,pl]
 ---
 
 ## Programming?

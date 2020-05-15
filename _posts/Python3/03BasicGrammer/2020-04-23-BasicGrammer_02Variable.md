@@ -1,16 +1,11 @@
 ---
-title: Variable
 layout: post
-date: '2020-04-23'
+title: "Variable"
+date: 2020-04-23
 desc: "How to write variable with python3"
 keywords: variable, python3, namespace, datatype, logical scope, object, memory
 categories: [Python3]
-tags:
-- python3
-- variable
-- memory
-- object
-- logical_scope
+tags: [python3,variable,memory,object,logical_scope]
 ---
 
 ## 숫자를 계산하는 프로그램

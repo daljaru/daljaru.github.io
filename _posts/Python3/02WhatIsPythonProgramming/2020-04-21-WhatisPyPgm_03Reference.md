@@ -1,13 +1,11 @@
 ---
-title: Reference
 layout: post
-date: '2020-04-21'
+title: "Reference"
+date: 2020-04-21
 desc: "userful skills for studying python3"
 keywords: reference, document, google, stackoverflow, github, gitlab
 categories: [Python3]
-tags:
-- reference
-- document
+tags: [reference,document]
 ---
 
 ## 프로그래밍을 공부할 때 참고하면 좋은 점
