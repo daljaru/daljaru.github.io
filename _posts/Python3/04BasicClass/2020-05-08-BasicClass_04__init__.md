@@ -1,4 +1,12 @@
-
+---
+layout: post
+title: """__init__"""
+date: 2020-05-07
+desc: "Class attribute, class method, instance attribute, instance method"
+keywords: class attribute, instance attribute, class method, class attribute
+categories: [Python3]
+tags: [python3,namespace, attribute, method, class]
+---
 
 ## `__init__`method. . .
 

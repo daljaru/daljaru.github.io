@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "attribute"
+title: "Attribute"
 date: 2020-05-07
-desc: "Understaning namespace is important"
-keywords: class, namespace, dir, __dict__
+desc: "Class attribute, class method, instance attribute, instance method"
+keywords: class attribute, instance attribute, class method, class attribute
 categories: [Python3]
-tags: [python3,class, namespace, dir, variable]
+tags: [python3,namespace, attribute, method, class]
 ---
 
 ## Mutable Attribute
