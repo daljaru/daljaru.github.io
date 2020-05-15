@@ -1,3 +1,16 @@
+---
+title: Str object(String data type)
+layout: post
+date: '2020-04-25'
+desc: "There are some datatypes in python3. Let's learn str type."
+keywords: datatype, str, object, sequence
+categories: [Python3]
+tags:
+- python3
+- str
+- sequence
+---
+
 ###  Str(문자열)(Sequence Type)
 
 앞에서 print('Hello world')에서 우리는 이미 문자열 **객체**를 다루었습니다. 문자열은 아래와 같은 규칙을 가지고 있습니다.

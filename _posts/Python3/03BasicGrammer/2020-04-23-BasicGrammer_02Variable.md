@@ -1,7 +1,7 @@
 ---
 title: Variable
 layout: post
-date: '2020-04-22'
+date: '2020-04-23'
 desc: "How to write variable with python3"
 keywords: variable, python3, namespace, datatype, logical scope, object, memory
 categories: [Python3]

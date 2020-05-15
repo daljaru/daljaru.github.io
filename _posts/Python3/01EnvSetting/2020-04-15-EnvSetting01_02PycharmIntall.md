@@ -1,17 +1,11 @@
 ---
-title: Install Pycharm
 layout: post
+title: "Install Pycharm"
 date: '2020-04-15'
 desc: "Learn about pycharm, and how to install pycharm IDE"
 keywords: python3, pip, env, pipenv, pycharm, ide
 categories: [Python3]
-tags:
-- pycharm
-- install
-- pipenv
-- pip
-- env
-- Integrated Development Environment
+tags: [pycharm,install, pipenv, pip, env, Integrated Development Environment]
 ---
 
 ## Pycharm

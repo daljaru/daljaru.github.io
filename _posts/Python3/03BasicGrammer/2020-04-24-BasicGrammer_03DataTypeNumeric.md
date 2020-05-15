@@ -1,16 +1,17 @@
 ---
 title: Data type
 layout: post
-date: '2020-04-22'
+date: '2020-04-24'
 desc: "There are some datatypes in python3. First, let's learn numerical type."
-keywords: datatype, numerical, variable, number, , object, memory
+keywords: datatype, numerical, variable, number, dynamic data type
 categories: [Python3]
 tags:
 - python3
-- variable
-- memory
-- object
-- logical_scope
+- numeric
+- number
+- int
+- float
+- complex
 ---
 
 ## Data Type(자료형)
