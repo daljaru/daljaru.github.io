@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "How to make MD Files.."
-date: 2020-04-27
+date: 2020-04-01
 desc: "How to make MD Files..."
 keywords: header, table, bold, italic, code, quotes
-categories: [Useful skills]
+categories: [Useful]
 tags: [mdfile]
 ---
 
