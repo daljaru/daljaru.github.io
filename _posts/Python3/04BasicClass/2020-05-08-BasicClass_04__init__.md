@@ -1,7 +1,7 @@
 ---
 layout: post
 title: """__init__"""
-date: 2020-05-07
+date: 2020-05-08
 desc: "Class attribute, class method, instance attribute, instance method"
 keywords: class attribute, instance attribute, class method, class attribute
 categories: [Python3]
