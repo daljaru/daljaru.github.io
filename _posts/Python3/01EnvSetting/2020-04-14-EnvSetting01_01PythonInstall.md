@@ -1,6 +1,6 @@
 ## Python
 
-![Python](./images/Python.png).
+![Python](/static/assets/img/blog/python3/01EnvSetting/Python.png){: width="100%" height ="100%"}
 
 Guido van Rossum이라는 네덜란드 프로그래머가 1991년에 개발.
 
@@ -35,19 +35,19 @@ Time Peters라는 미국의 소프트웨어 개발자가 파이썬의 핵심철�
 
 1. [Python 공식 홈페이지](https://www.python.org/)에 들어가서 Downloads -> Windows클릭.
 
-   ![PythonDownload](./images/PythonDownload.png)
+   ![PythonDownload](/static/assets/img/blog/python3/01EnvSetting/PythonDownload.png){: width="100%" height ="100%"}
 
    
 
 2. Python3.8.2 - Feb.24, 2020을 찾아 Windows x86-64 executable installer를 다운로드 받고 실행한다. 
 
-   ![PythonVersion](./images/PythonVersion.png)
+   ![PythonVersion](/static/assets/img/blog/python3/01EnvSetting/PythonVersion.png){: width="100%" height ="100%"}
 
    
 
 3. Add Python 3.8 to PATH를 클릭하고 Install Now를 클릭한다. 이후 설치과정 진행.
 
-   ![Install](./images/Install.png)
+   ![Install](/static/assets/img/blog/python3/01EnvSetting/Install.png){: width="100%" height ="100%"}
 
    
 
@@ -55,7 +55,7 @@ Time Peters라는 미국의 소프트웨어 개발자가 파이썬의 핵심철�
 
    * 윈도우키 + R 을 치고 검색창에 cmd 입력 > 콘솔 창이 나오면 python을 입력.
 
-   ![PythonConsole](./images/PythonConsole.png)
+   ![PythonConsole](/static/assets/img/blog/python3/01EnvSetting/PythonConsole.png){: width="100%" height ="100%"}
 
    위와 같은 창이 나온다면 설치가 정상적으로 진행이 된 것입니다. 
 
@@ -73,19 +73,19 @@ pipenv는 pip와 virtualenv가 합쳐진 것이다.
 
 1. 윈도우키 + x -> Window Powershell로 입장 -> 파이썬이 설치된 폴더로 경로 변경 -> pipenv를 위한 새로운 폴더를 만들고 -> pip install pipenv 입력.
 
-   ![Pipenv](./images/Pipenv.png)
+   ![Pipenv](/static/assets/img/blog/python3/01EnvSetting/Pipenv.png){: width="100%" height ="100%"}
 
    
 
 2. 다음과 같이 진행이 완료된 후 python -m pip install --upgrade pip라는 명령을 치라고 문구가 뜨게 될것이다. 그대로 진행한다. 
 
-   ![pipenvInstallFinish](./images/pipenvInstallFinish.png)
+   ![pipenvInstallFinish](/static/assets/img/blog/python3/01EnvSetting/pipenvInstallFinish.png){: width="100%" height ="100%"}
 
    
 
 3. 업그레이드까지 완료되면 다음과 같이 마지막에 Successfully installed pip-20.0.2라고 뜨게 된다. 
 
-   ![pipenvUpgrade](./images/pipenvUpgrade.png)
+   ![pipenvUpgrade](/static/assets/img/blog/python3/01EnvSetting/pipenvUpgrade.png){: width="100%" height ="100%"}
 
 
 
