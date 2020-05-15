@@ -61,7 +61,7 @@ IDE(Integrated Development Environment)로 프로그램을 가장 처음에 만�
 
 New로 들어가면 여러 파일들을 선택할 수 있는데 우리는 Python언어로 프로그램을 만들 것이므로 Python File을 선택한다. 파일 이름을 HelloWorld라고 지으면 아래의 화면처럼 HelloWorld.py라는 이름의 파일이 생성되고 Editor가 뜨는 것을 확인할 수 있다. 여기에 print('Hello World')라고 일단 쳐보자. 
 
-![HelloWorld](/static/assets/img/blog/python3/01EnvSetting/HelloWorld.png)
+![HelloWorld](/static/assets/img/blog/python3/01EnvSetting/HelloWorld.png){: width="100%" height="100%"}
 
 
 

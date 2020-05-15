@@ -1,10 +1,23 @@
+---
+title: What is programming
+layout: post
+date: '2020-04-21'
+desc: what is programming
+keywords: programming, programmer, programming language, computer
+categories: [Python3]
+tags:
+- programming
+- computer
+- pl
+---
+
 ## Programming?
 
 #### 시작하기에 앞서
 
 프로그램을 한번 만들어 봤으니 조금 얼떨떨 하죠? '그냥 Hello World 하나 뜨게 한건데 저게 무슨 프로그램인가?' 라는 생각이 들 수도 있습니다. 그러나 개발하는 사람들 모두는 '프로그램'이라고 말할 것이다. 
 
-![Program](./images/Program.png)
+![Program](/static/assets/img/blog/python3/02WhatIsPythonProgramming/Program.png)
 
 
 
@@ -48,5 +61,5 @@
 
 그렇게 나오게 된게 **파스칼의 계산기**입니다. 시간이 흘러 전자공학이 발달하여  최초의 전자식 컴퓨터 **콜로서스**가 나오게 되었고 이후  반도체공학이 발달하고 하드웨어의 소형화가 이루어지며 PC의 개인화가 이루어졌습니다. **IBM, Apple, Microsoft**등 CLI방식에서 GUI환경으로 전환되며 오늘날의 **Mac book**과 **Windows 10** 같은 일반 사용자 중심의 컴퓨터가 나오게 된 것입니다.
 
-![cal](./images/cal.png)
+![cal](/static/assets/img/blog/python3/02WhatIsPythonProgramming/cal.png)
 

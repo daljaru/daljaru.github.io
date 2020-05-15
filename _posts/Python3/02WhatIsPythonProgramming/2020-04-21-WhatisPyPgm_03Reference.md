@@ -1,3 +1,15 @@
+---
+title: Reference
+layout: post
+date: '2020-04-21'
+desc: userful skills for studying python3
+keywords: reference, document, google, stackoverflow, github, gitlab
+categories: [Python3]
+tags:
+- reference
+- document
+---
+
 ## 프로그래밍을 공부할 때 참고하면 좋은 점
 
 #### Reference Site
@@ -14,7 +26,7 @@ Python은 공식문서를 사이트에서 친절하게 제공하고 있습니다
 
 * 레퍼런스 사이트 사진
 
-![referenceSite](./images/referenceSite.png)
+![referenceSite](/static/assets/img/blog/python3/02WhatIsPythonProgramming/referenceSite.png)
 
 
 
@@ -26,7 +38,7 @@ Python은 공식문서를 사이트에서 친절하게 제공하고 있습니다
 
 Google을 활용하는 것은 매우 좋은 방법입니다. 개발자들은 한국인보다 외국인이 몇 백배 더 많이 있고 그들은 매우 깊이 알고 있습니다. Google에서 원하는 키워드를 입력, 검색해서 도움을 받는 것은 매우 효과적입니다. 검색도 영어로 하는 것이 좋습니다. 프로그래밍이라는 것은 너무 방대해서 여러 사람들의 도움을 받을 수밖에 없습니다. 
 
-![google](./images/google.png)
+![google](/static/assets/img/blog/python3/02WhatIsPythonProgramming/google.png)
 
 
 
@@ -34,7 +46,7 @@ Google을 활용하는 것은 매우 좋은 방법입니다. 개발자들은 한
 
 [Stackoverflow](https://stackoverflow.com/) 페이지는 전 세계의 컴퓨터 종사자들이 자신의 궁금증을 올리고 답변을 받을 수 있는 사이트 입니다. 혹은 자신이 다른 사람의 질문에 답변할 수 있습니다. 입문자가 궁금해하는 99.9%의 질문의 답변이 아마 있을 것입니다. 
 
-![stackoverflow](./images/stackoverflow.png)
+![stackoverflow](/static/assets/img/blog/python3/02WhatIsPythonProgramming/stackoverflow.png)
 
 
 
@@ -44,7 +56,7 @@ Google을 활용하는 것은 매우 좋은 방법입니다. 개발자들은 한
 
 프로그래밍을 공부하다보면 작성했던 그 수많은 코드들 중에 어떤 것이 필요해질 때가 있습니다. 혹은 다른 사람에게 자신이 공부한 것을 포트폴리오로 보여주고 싶을 때가 있습니다. 그럴때 GitLab에 저장된 자신의 Repository를 찾거나 그 주소를 보여주면 됩니다. 실제로 많은 개발자들은 입사지원을 하거나 면접을 볼때 자신의 포트폴리오로 해당 사이트의 주소를 보여주기도 합니다. 
 
-![gitlab](./images/gitlab.png)
+![gitlab](/static/assets/img/blog/python3/02WhatIsPythonProgramming/gitlab.png)
 
 
 

@@ -70,7 +70,7 @@ Time Peters라는 미국의 소프트웨어 개발자가 파이썬의 핵심철�
 
    * 윈도우키 + R 을 치고 검색창에 cmd 입력 > 콘솔 창이 나오면 python을 입력.
 
-   ![PythonConsole](/static/assets/img/blog/python3/01EnvSetting/PythonConsole.png)
+   ![PythonConsole](/static/assets/img/blog/python3/01EnvSetting/PythonConsole.png){: width="100%" height="100%"}
 
    위와 같은 창이 나온다면 설치가 정상적으로 진행이 된 것입니다. 
 
