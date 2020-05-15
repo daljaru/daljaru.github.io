@@ -1,3 +1,13 @@
+---
+layout: post
+title: "Input, Output"
+date: 2020-05-07
+desc: "How to input your number or string to program??"
+keywords: input, sys, sequence, print, format, escape sequence
+categories: [Python3]
+tags: [python3,input,sys,format, escape sequence]
+---
+
 ## Input(입력)
 
  우리는 지금까지 변수에 **객체**을 숫자나 문자열로 명시적으로 정한 뒤에 프로그램을 실행했습니다. 하지만 실제 프로그램들은 **사용자의 입력을 받는 경우가 더 많습니다.** 예를 들어 카카오톡의 버튼을 누르는 것, 메시지 창에 글자를 쓰는 것, 전송 버튼을 누르는 것 모두가  사용자의 입력을 받는 경우입니다. 

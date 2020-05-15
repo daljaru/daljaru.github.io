@@ -1,3 +1,13 @@
+---
+layout: post
+title: "Range()"
+date: 2020-05-01
+desc: "number range.."
+keywords: range, for, sequence
+categories: [Python3]
+tags: [python3,for,range]
+---
+
 ## Range()
 
 range형은 숫자의 범위를 나타내는 내장 클래스입니다. range는 **숫자형 불변 시퀀스**입니다. <br>range(start, stop, step)형식으로 쓰입니다. 일정한 간격이 있는 수열을 만들고 싶을 때 range를 쓰면 편리합니다. **start**는 시작하는 숫자, **stop**은 마지막 (검사)숫자, **step**은 간격입니다. 아래 예시를 볼까요.

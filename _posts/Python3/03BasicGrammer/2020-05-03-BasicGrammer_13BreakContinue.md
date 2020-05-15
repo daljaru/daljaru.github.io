@@ -1,3 +1,13 @@
+---
+layout: post
+title: "Break, Continue"
+date: 2020-05-03
+desc: "Control your code looping flow with break, continue"
+keywords: while, condition, break, continue
+categories: [Python3]
+tags: [python3,while,for,break,continue]
+---
+
 ### Break, Continue
 
 반복문 안에서만 쓰이는 제어흐름도구들이 있습니다. 

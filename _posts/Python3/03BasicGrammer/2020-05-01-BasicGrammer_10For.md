@@ -1,3 +1,13 @@
+---
+layout: post
+title: "For"
+date: 2020-05-01
+desc: "Control your code flow to make better program.."
+keywords: loop, for
+categories: [Python3]
+tags: [python3,for, range]
+---
+
 ## Loop(반복문)
 
 **일련의 코드들을 반복적으로 사용하고 싶을때** 반복문을 사용합니다. 반복을 위한 대표적인 제어흐름도구로 **for**와 **while**이 있습니다. 

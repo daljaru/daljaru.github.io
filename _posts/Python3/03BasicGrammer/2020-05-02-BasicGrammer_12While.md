@@ -1,3 +1,14 @@
+---
+layout: post
+title: "While"
+date: 2020-05-02
+desc: "Control your code flow with while."
+keywords: while, condition
+categories: [Python3]
+tags: [python3,while]
+---
+
+
 ## while	
 
 반복문의 또 다른 형태인 while문을 알아보겠습니다. while은 for와 마찬가지로 일련의 코드들을 반복하고 싶을 때 사용합니다. 

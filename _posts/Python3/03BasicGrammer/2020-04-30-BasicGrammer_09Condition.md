@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Control your code flow with Condition"
+title: "Condition"
 date: 2020-04-30
 desc: "Control your code flow to make better program.."
 keywords: condition, if, elif, else
