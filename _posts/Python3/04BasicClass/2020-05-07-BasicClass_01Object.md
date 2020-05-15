@@ -1,3 +1,13 @@
+---
+layout: post
+title: "Object"
+date: 2020-05-07
+desc: "Python is composed of objects"
+keywords: OOP, object, method, attribute, instance
+categories: [Python3]
+tags: [python3,object, oop, method, attribute, instance]
+---
+
 ## Object Oriented Language(객체지향 언어)
 
 파이썬은 **객체지향언어**입니다. 영어로는 Object Oriengted Language라고 합니다. 
@@ -60,8 +70,6 @@ if __name__ == '__main__':
 
 
 
-
-
 ### **파이썬은 모든 것이 객체입니다.** 
 
  우리가 그동안 너무 당연하게 썼지만 사실 객체였던 것이 있습니다. 
@@ -85,7 +93,7 @@ if __name__ == '__main__':
 
 **Pycharm**에서 메소드 확인하기
 
-.![strMethod](./images/strMethod.png)
+.![strMethod](/static/assets/img/blog/python3/04BasicClass/strMethod.png)
 
 testString 뒤에 .을 붙이면 위 사진과 같이 여러개의 메소드들이 뜨는 것을 볼 수 있습니다. m이라고 나오나요? str클래스에 rstrip, format등의 메소드들이 정의되어 있다는 뜻입니다.
 

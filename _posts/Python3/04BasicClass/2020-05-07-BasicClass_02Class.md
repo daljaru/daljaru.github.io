@@ -1,8 +1,19 @@
+---
+layout: post
+title: "Class"
+date: 2020-05-07
+desc: "Let's make object with class code"
+keywords: class, instance, object, attribute, method
+categories: [Python3]
+tags: [python3,class, instance]
+---
+
+
 ## Class(클래스)
 
 '객체'를 어떻게 만들 수 있을까요? Python에서는 class라는 키워드으로 구현할 수 있습니다. 
 
-클래스는 '객체'라는 개념을 프로그래밍으로 구현하기 위한 실제 코드입니다. '클래스를 작성한다'라고 표현합니다.
+클래스는 '객체'라는 개념을 프로그래밍으로 구현하기 위한 실제 코드입니다. '클래스를 작성한다'라고 말합니다.
 
 기본 형태는 아래와 같습니다. 
 

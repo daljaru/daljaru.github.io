@@ -1,3 +1,13 @@
+---
+layout: post
+title: "Namespace"
+date: 2020-05-07
+desc: "Understaning namespace is important"
+keywords: class, namespace, dir, __dict__
+categories: [Python3]
+tags: [python3,class, namespace, dir, variable]
+---
+
 ## Namespace에 대한 이해
 
 클래스를 '정확히' 이해하려면 **Namespace에 대한 이해**가 필수입니다. 약간 어려울 수도 있습니다. 하지만 정확히 알면 남들보다 확연히 다른 이해도를 가지게 될 것입니다. 파이썬은 쉬운 언어가 아닙니다. 잘 몰라서 쉽다고 하는 사람들이 많을 뿐입니다. 

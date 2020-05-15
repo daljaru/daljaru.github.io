@@ -1,3 +1,13 @@
+---
+layout: post
+title: "attribute"
+date: 2020-05-07
+desc: "Understaning namespace is important"
+keywords: class, namespace, dir, __dict__
+categories: [Python3]
+tags: [python3,class, namespace, dir, variable]
+---
+
 ## Mutable Attribute
 
 NameSpace를 소개하면서 인스턴스의 attribute를 초기화하면 해당 인스턴스의 Namespace가 갱신되면서 인스턴스만의 이름공간에서 attribute를 사용하게 된다고 말했습니다.  
@@ -14,7 +24,7 @@ NameSpace를 소개하면서 인스턴스의 attribute를 초기화하면 해당
 
 
 
-클래스의 Attribute를 선언과 무슨 관계가 있는지 알아보겠습니다. 아래 코드를 적어봅시다.
+클래스의 Attribute가 선언과 무슨 관계가 있는지 알아보겠습니다. 아래 코드를 적어봅시다.
 
 ~~~python
 class Bread:
@@ -35,7 +45,7 @@ if __name__ == '__main__':
 위 코드를 보고 이제 보이는 것이 있죠. 
 
 * Bread 클래스가 만들어졌다. 
-* 클래스 Attribute에 리스트형 객체의 인스턴스가 있고 ingredients로 바인딩했다. 
+* 클래스 Attribute에 리스트형 객체의 인스턴스(`[]`)가 있는데 변수 ingredients로 바인딩했다. 
 * addIngredients(), breadInfo()메소드가 있다. 
 * Bread 객체를 이용해서 인스턴스 2개를 만들고 각각 chocolateBread와 muffin변수로 바인딩했다.
 
