@@ -1,16 +1,11 @@
 ---
-title: Gitlab-Collaboration
 layout: post
-date: '2020-04-27'
-desc: How to collaborate team memeber with GitLab..
+title: "Gitlab-Collaboration"
+date: 2020-04-27
+desc: "How to collaborate team memeber with GitLab.."
 keywords: gitlab, git, branch, master, push, pull, merge, conflict
 categories: [Useful skills]
-tags:
-- useful
-- collaboration
-- team
-- git
-- gitlab
+tags: [useful,collaboration,team,git,gitlab]
 ---
 
 # GitLab으로 협업하기 

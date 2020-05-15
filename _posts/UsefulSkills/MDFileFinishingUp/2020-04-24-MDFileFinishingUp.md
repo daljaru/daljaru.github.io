@@ -1,4 +1,12 @@
-
+---
+layout: post
+title: "How to make MD Files.."
+date: 2020-04-27
+desc: "How to make MD Files..."
+keywords: header, table, bold, italic, code, quotes
+categories: [Useful skills]
+tags: [mdfile]
+---
 
 ## 헤더
 
@@ -132,7 +140,7 @@ _다르게 표현_
   > [Google](https://www.google.com " 이 링크는 구글링크입니다.")
   > ```
 
-  예시)![testlink](./MDFileFinishingImages/testlink.png)
+  예시)![testlink](/static/assets/img/blog/usefulSkills/MDFileFinishingImages/testlink.png)
   
   
 
@@ -152,10 +160,10 @@ _다르게 표현_
 
 위의 형식으로 쓸 수 있습니다. !가 붙는다는 점이 일반 링크와의 차이입니다. 
 
-![창문](./MDFileFinishingImages/window.png "창문")
+![창문](/static/assets/img/blog/usefulSkills/MDFileFinishingImages/window.png "창문")
 
 ```
-![창문](./MDFileFinishingImages/window.png "창문")
+![창문](/static/assets/img/blog/usefulSkills/MDFileFinishingImages/window.png "창문")
 ```
 
 
@@ -169,11 +177,11 @@ _다르게 표현_
 
 ![창문][window]
 
-[window]: ./MDFileFinishingImages/window.png "창문"
+[window]: /static/assets/img/blog/usefulSkills/MDFileFinishingImages/window.png "창문"
 
 ```
 ![창문][window]
-[window]: ./MDFileFinishingImages/window.png 창문
+[window]: /static/assets/img/blog/usefulSkills/MDFileFinishingImages/window.png 창문
 ```
 
 
@@ -192,10 +200,10 @@ _다르게 표현_
 [![텍스트](이미지 링크 "링크 설명")](사이트 주소)
 ```
 
-[![GoogleImageLink](./MDFileFinishingImages/window.png "windowGoogle")](https://www.google.com)
+[![GoogleImageLink](/static/assets/img/blog/usefulSkills/MDFileFinishingImages/window.png "windowGoogle")](https://www.google.com)
 
 ```
-[![GoogleImageLink](./MDFileFinishingImages/window.png "windowGoogle")](https://www.google.com)
+[![GoogleImageLink](/static/assets/img/blog/usefulSkills/MDFileFinishingImages/window.png "windowGoogle")](https://www.google.com)
 ```
 
 
@@ -262,7 +270,7 @@ A를 클릭하면 A내용으로 페이지 위치가 옮겨집니다.
 
 * 예시1. 코드선택
 
-![code](./MDFileFinishingImages/code.png)
+![code](/static/assets/img/blog/usefulSkills/MDFileFinishingImages/code.png)
 
 
 
@@ -311,7 +319,7 @@ A를 클릭하면 A내용으로 페이지 위치가 옮겨집니다.
 
 
 
-![header](./MDFileFinishingImages/header.png)
+![header](/static/assets/img/blog/usefulSkills/MDFileFinishingImages/header.png)
 
 Typora에서는 상단의 헤더만 만들면 자동으로 표가 만들어지며 그 이후 크기 조정, 글자정렬 등은 마우스로 조절할 수 있는 기능을 제공합니다. 
 
