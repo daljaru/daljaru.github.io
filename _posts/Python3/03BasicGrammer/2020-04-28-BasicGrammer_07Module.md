@@ -1,3 +1,13 @@
+---
+layout: post
+title: "Module programming"
+date: 2020-04-28
+desc: "module programming is essential."
+keywords: module, function, import, package, from
+categories: [Python3]
+tags: [python3,module, package]
+---
+
 ## 모듈(Module)에 대해서
 
 잠시 쉬어갈겸 **모듈**로 프로그래밍을 하는 방법에 대해 알아보겠습니다. **모듈이란 파이썬 함수나 클래스들을 모아놓은 파일**을 말합니다. 우리는 이제까지 짧은 프로그램 예시를 만들었기 때문에 파일을 체계적으로 만들지는 않았습니다. 하지만 앞으로 클래스나 함수를 배우면서 우린 파일관리를 체계적으로 하며 코딩하는 방법을 알게 될 것입니다. 

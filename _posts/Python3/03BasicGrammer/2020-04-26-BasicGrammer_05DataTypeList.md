@@ -1,3 +1,13 @@
+---
+layout: post
+title: "List Object(List data type)"
+date: 2020-04-26
+desc: "There are some datatypes in python3. Let's learn List type."
+keywords: datatype, list, object, sequence, immutable, mutable
+categories: [Python3]
+tags: [python3,list,sequence, mutable, immutable]
+---
+
 ## Immutable Sequence, Mutable Sequence
 
 **Sequence**형에도 종류가 있습니다. 크게 **불변 시퀀스**와 **가변 시퀀스**로 나뉘어 지는데 문자열은 대표적인 불변 시퀀스 입니다. 문자열에서 더하기 연산같은 경우 각기 다른 두 문자열 객체를 이어 붙여 새로운 객체를 생성한 것입니다. 

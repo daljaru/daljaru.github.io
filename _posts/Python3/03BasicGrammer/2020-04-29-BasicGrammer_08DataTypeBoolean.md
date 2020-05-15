@@ -1,3 +1,13 @@
+---
+layout: post
+title: "Logical type. boolean typle"
+date: 2020-04-29
+desc: "true of false."
+keywords: boolean, True, False
+categories: [Python3]
+tags: [python3,boolean]
+---
+
 ## Boolean(논리값)
 
  논리값은 두 개의 상수 객체인 **True**와 **False**입니다. 실제로 파이썬에서 True와 False를 사용할 수 있습니다.

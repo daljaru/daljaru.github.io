@@ -1,3 +1,13 @@
+---
+layout: post
+title: "Control your code flow with Condition"
+date: 2020-04-30
+desc: "Control your code flow to make better program.."
+keywords: condition, if, elif, else
+categories: [Python3]
+tags: [python3,if, condition]
+---
+
 ## Condition 조건문
 
 #### 제어흐름도구

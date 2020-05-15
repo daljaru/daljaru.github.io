@@ -1,3 +1,13 @@
+---
+layout: post
+title: "Function - basic"
+date: 2020-04-27
+desc: "Let's learn function"
+keywords: function, arguments, def
+categories: [Python3]
+tags: [python3,function]
+---
+
 ## Basic Function
 
  함수를 기초적으로 다루어보겠습니다. 수학공부를 하다보면 함수라는 건 미지수에 값을 넣고 계산을 통해 결과값을 출력하는 것이죠.
