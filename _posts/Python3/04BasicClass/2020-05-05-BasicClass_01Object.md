@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Object"
-date: 2020-05-07
+date: 2020-05-05
 desc: "Python is composed of objects"
 keywords: OOP, object, method, attribute, instance
 categories: [Python3]

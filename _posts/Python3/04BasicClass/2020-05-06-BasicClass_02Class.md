@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Class"
-date: 2020-05-07
+date: 2020-05-06
 desc: "Let's make object with class code"
 keywords: class, instance, object, attribute, method
 categories: [Python3]

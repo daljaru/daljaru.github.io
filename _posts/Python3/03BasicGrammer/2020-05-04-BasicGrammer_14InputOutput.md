@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Input, Output"
-date: 2020-05-07
+date: 2020-05-04
 desc: "How to input your number or string to program??"
 keywords: input, sys, sequence, print, format, escape sequence
 categories: [Python3]
