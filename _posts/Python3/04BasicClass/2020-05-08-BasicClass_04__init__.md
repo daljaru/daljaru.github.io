@@ -8,7 +8,7 @@ categories: [Python3]
 tags: [python3,namespace, attribute, method, class]
 ---
 
-## `__init__`method. . .
+## `__init__`method
 
 이제 `__init__`method에 대하여 알아봅시다. 앞서 보았듯이 클래스에서 **Mutable Attribute의 경우 Instance attribute를 생성하는데 어려움**이 있었습니다. Mutable Attribute는 메모리 공간이 변하지 않기 때문에 여러 Instance를 만들 수 없었기 때문이죠. 
 
@@ -110,9 +110,53 @@ if __name__ == '__main__':
 
 제목에서도 알 수 있듯이 method에서도 두 종류가 나뉩니다.  Class method도 Class attribute와 마찬가지로 메소드를 공유할 수 있습니다. 
 
+Class Method를 만들 때는 메소드 위에 @classmethod라는 데코레이션을 적어야 합니다. 
+
 아래 예제를 봅시다. 
+~~~python
+class Bread:
+    count = 0
 
+    def __init__(self, name, num_of_ingredients):
+        self.name = name
+        self.num_of_ingredients = num_of_ingredients
 
+    @classmethod
+    def plus_count(cls):
+        Bread.count += 1
+
+    def print_bread_info(self):
+        print("name: {}, ingreNums: {}, totalNum: {}".format(self.name, self.num_of_ingredients, Bread.count))
+~~~
+
+Bread 클래스를 하나 만들었습니다.<br>
+instance attribute로 name과 num_of_ingredients가 보입니다.<br>
+class attribute로 count를 만들었습니다. 
+
+아래에 2개의 method가 보이네요.<br>
+여기서 plus_count가 바로 Class method입니다. Class method를 작성하기 전에 `@classmethod`라는 decoration을 작성해야합니다. 그리고 `cls`라는 인자를 넣어줘야 합니다. plus_count는 count에 1씩 더해줍니다. 모든 instance에 공통적으로 작동하는 method입니다. 
+
+print_bread_info method는 Instace method입니다. 빵에 대한 정보를 출력합니다. 
+
+실행 코드를 보겠습니다.
+~~~python
+if __name__ == '__main__':
+   muffin = Bread("muffin_bread", 3)
+   muffin.plus_count()
+   muffin.print_bread_info()
+
+   cake = Bread("berry_cake", 10)
+   cake.plus_count()
+   cake.print_bread_info()
+
+   #결과
+   #name: muffin_bread, ingreNums: 3, totalNum: 1
+   #name: berry_cake, ingreNums: 10, totalNum: 2
+~~~
+
+muffin과 cake instance를 Bread를 클래스로 만들었습니다. 
+
+muffin과 cake에 plus_count()라는 클래스 메소드를 각각 적용했는데 결과로 totalNum이 증가하는 것을 확인할 수 있습니다. 
 
 
 
