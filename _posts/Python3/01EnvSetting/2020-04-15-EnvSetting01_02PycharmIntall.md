@@ -10,13 +10,13 @@ tags: [pycharm,install, pipenv, pip, env, Integrated Development Environment]
 
 ## Pycharm
 
-![PycharmLogo](/static/assets/img/blog/python3/01EnvSetting/PycharmLogo.png)
+![PycharmLogo](/static/assets/img/blog/python3/01EnvSetting/PycharmLogo.png){: width="30%" height="30%"}
 
 + [Jetbrains](https://www.https://www.jetbrains.com/)가 만든 파이썬 전용 IDE(Intergrated Development Environment).
 
 + 전 세계 파이썬 IDE 사용비중 중 2위를 차지한다. (1위는 [Anaconda]()환경 내 Jupyter Notebook) 
 
-  ![Anaconda](/static/assets/img/blog/python3/01EnvSetting/Anaconda.png)
+  ![Anaconda](/static/assets/img/blog/python3/01EnvSetting/Anaconda.png){: width="30%" height="30%"}
 
   
 
@@ -28,7 +28,7 @@ Anaconda :  Scipy(통계분석패키지), Numpy(수치 컴퓨팅 패키지), Pan
 
 1. [pycharm download page](https://www.jetbrains.com/ko-kr/pycharm/)에서 다운로드 버튼 클릭. 
 
-   ![PycharmDownload](/static/assets/img/blog/python3/01EnvSetting/PycharmDownload.png) 
+   ![PycharmDownload](/static/assets/img/blog/python3/01EnvSetting/PycharmDownload.png){: width="40%" height="40%"}
 
    
 
@@ -38,7 +38,7 @@ Anaconda :  Scipy(통계분석패키지), Numpy(수치 컴퓨팅 패키지), Pan
 
 2. Pycharm download version 중 community 클릭.
 
-   ![PycharmDownloadVersion](/static/assets/img/blog/python3/01EnvSetting/PycharmDownloadVersion.png)
+   ![PycharmDownloadVersion](/static/assets/img/blog/python3/01EnvSetting/PycharmDownloadVersion.png){: width="40%" height="40%"}
 
    |              Function              | Professional | Community |
    | :--------------------------------: | :----------: | :-------: |
@@ -60,19 +60,19 @@ Anaconda :  Scipy(통계분석패키지), Numpy(수치 컴퓨팅 패키지), Pan
 
 3. Community 다운로드 버튼을 누르면 Install Program을 받을 수 있다. 
 
-   ![AutoInstall](/static/assets/img/blog/python3/01EnvSetting/AutoInstall.png).
+   ![AutoInstall](/static/assets/img/blog/python3/01EnvSetting/AutoInstall.png){: width="25%" height="25%"}
 
    
 
 4. 기본설정으로 진행하되 저장 위치는 개인이 원하는 곳으로 받아도 무방하다. 재부팅(PC 다시시작)이 필요하다면 하는 것이 좋다.
 
-   ![BasicConfiguration](/static/assets/img/blog/python3/01EnvSetting/BasicConfiguration.png)
+   ![BasicConfiguration](/static/assets/img/blog/python3/01EnvSetting/BasicConfiguration.png){: width="50%" height="50%"}
 
    
 
 5. 설치완료 후 실행화면의 모습.
 
-   ![Start](/static/assets/img/blog/python3/01EnvSetting/Start.png)
+   ![Start](/static/assets/img/blog/python3/01EnvSetting/Start.png){: width="60%" height="60%"}
 
 
 

@@ -45,19 +45,19 @@ Time Peters라는 미국의 소프트웨어 개발자가 파이썬의 핵심철�
 
 1. [Python 공식 홈페이지](https://www.python.org/)에 들어가서 Downloads -> Windows클릭.
 
-   ![PythonDownload](/static/assets/img/blog/python3/01EnvSetting/PythonDownload.png)
+   ![PythonDownload](/static/assets/img/blog/python3/01EnvSetting/PythonDownload.png){: width="70%" height="70%"}
 
    
 
 2. Python3.8.2 - Feb.24, 2020을 찾아 Windows x86-64 executable installer를 다운로드 받고 실행한다. 
 
-   ![PythonVersion](/static/assets/img/blog/python3/01EnvSetting/PythonVersion.png)
+   ![PythonVersion](/static/assets/img/blog/python3/01EnvSetting/PythonVersion.png){: width="50%" height="50%"}
 
    
 
 3. Add Python 3.8 to PATH를 클릭하고 Install Now를 클릭한다. 이후 설치과정 진행.
 
-   ![Install](/static/assets/img/blog/python3/01EnvSetting/Install.png)
+   ![Install](/static/assets/img/blog/python3/01EnvSetting/Install.png){: width="70%" height="70%"}
 
    
 
@@ -83,19 +83,19 @@ pipenv는 pip와 virtualenv가 합쳐진 것이다.
 
 1. 윈도우키 + x -> Window Powershell로 입장 -> 파이썬이 설치된 폴더로 경로 변경 -> pipenv를 위한 새로운 폴더를 만들고 -> pip install pipenv 입력.
 
-   ![Pipenv](/static/assets/img/blog/python3/01EnvSetting/Pipenv.png)
+   ![Pipenv](/static/assets/img/blog/python3/01EnvSetting/Pipenv.png){: width="100%" height="100%"}
 
    
 
 2. 다음과 같이 진행이 완료된 후 python -m pip install --upgrade pip라는 명령을 치라고 문구가 뜨게 될것이다. 그대로 진행한다. 
 
-   ![pipenvInstallFinish](/static/assets/img/blog/python3/01EnvSetting/pipenvInstallFinish.png)
+   ![pipenvInstallFinish](/static/assets/img/blog/python3/01EnvSetting/pipenvInstallFinish.png){: width="100%" height="100%"}
 
    
 
 3. 업그레이드까지 완료되면 다음과 같이 마지막에 Successfully installed pip-20.0.2라고 뜨게 된다. 
 
-   ![pipenvUpgrade](/static/assets/img/blog/python3/01EnvSetting/pipenvUpgrade.png)
+   ![pipenvUpgrade](/static/assets/img/blog/python3/01EnvSetting/pipenvUpgrade.png){: width="100%" height="100%"}
 
 
 
