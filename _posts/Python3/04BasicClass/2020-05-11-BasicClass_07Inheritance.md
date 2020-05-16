@@ -183,4 +183,34 @@ if __name__ == "__main__":
 
 자식 클래스는 부모 클래스에 포함되므로 당연히 부모클래스의 Instance Attribute를 쓸 수 있어야 합니다.
 
-그런데 부모클래스의 `__init__()` Method를 가져와야 lec_name과 prof_name을 쓸 수 있는데  이미 BioLab클래스에서 `__init__()` Method를 만든 상태네요. 
+그런데 부모클래스의 `__init__()` Method를 가져와야 lec_name과 prof_name을 쓸 수 있는데  이미 BioLab클래스에서 `__init__()` Method를 만든 상태네요.
+
+이럴 때는 자식클래스의 `__init__()` Method에서 부모클래스의 `__init__()` Method를 호출함으로써 해결합니다. 
+
+아래 코드를 볼까요. 
+~~~python
+class Lecture:
+
+    def __init__(self, lec_name, prof_name):
+        self.lec_name = lec_name
+        self.prof_name = prof_name
+
+
+class BioLab(Lecture):
+
+    def __init__(self, lec_name, prof_name, laboratory):
+        super().__init__(lec_name, prof_name)
+        self.laboratory = laboratory
+~~~
+
+자식클래스의 `__init__()` Method안에 `__init__()`메소드가 또 나옵니다. 앞에 `super()`가 붙어있네요. `super()` 는 부모 객체를 반환하기 때문에 `super().__init__()`f로 부모클래스의 `__init__()` Method를 호출할 수 있었습니다. 
+
+아래에서 결과를 확인해보세요. 
+
+~~~python
+if __name__ == "__main__":
+    bio_lecture1 = BioLab("Cell Division", "Lee", "Bio laboratory015")
+    print(bio_lecture1.lec_name) #Cell Division
+    print(bio_lecture1.prof_name) #Lee
+    print(bio_lecture1.laboratory) #Bio laboratory015
+~~~
