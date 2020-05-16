@@ -10,7 +10,7 @@ tags: [python3,install,pipenv,pip,env]
 
 ## Python
 
-![Python](/static/assets/img/blog/python3/01EnvSetting/Python.png)
+![Python](/static/assets/img/blog/python3/01EnvSetting/Python.png){: width="25%" height="25%"}
 
 Guido van Rossum이라는 네덜란드 프로그래머가 1991년에 개발.
 
