@@ -22,7 +22,6 @@ tags: [python3,oop]
 * Information Hiding(정보 은닉)
 * Inheritance(상속)
 * Polymorphism(다형성)
-* 
 
 
 우린 이미 추상화에 대해서 배웠습니다. 객체라는 개념을 배우는 순간부터 추상화에 대해서 배운 겁니다. 
