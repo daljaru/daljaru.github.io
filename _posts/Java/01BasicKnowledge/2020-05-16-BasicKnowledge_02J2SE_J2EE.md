@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Java SDKs, and configurations"
-date: 2020-05-06
+date: 2020-05-16
 desc: "Difference J2SE, J2EE"
 keywords: java, jdk, jre, J2SE, J2EE
 categories: [Java]
