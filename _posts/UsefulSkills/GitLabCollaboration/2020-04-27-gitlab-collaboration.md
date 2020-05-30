@@ -4,7 +4,7 @@ title: "Gitlab-Collaboration"
 date: 2020-04-27
 desc: "How to collaborate team memeber with GitLab.."
 keywords: gitlab, git, branch, master, push, pull, merge, conflict
-categories: [Useful skills]
+categories: [Useful_Skills]
 tags: [useful,collaboration,team,git,gitlab]
 ---
 

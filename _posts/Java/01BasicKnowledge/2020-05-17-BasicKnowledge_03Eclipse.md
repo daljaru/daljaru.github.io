@@ -4,7 +4,7 @@ title: "Eclipse IDE"
 date: 2020-05-17
 desc: "About Eclipse.."
 keywords: IDE, Java, eclipse
-categories: [java]
+categories: [Java]
 tags: [Java,elcipse,ide]
 ---
 

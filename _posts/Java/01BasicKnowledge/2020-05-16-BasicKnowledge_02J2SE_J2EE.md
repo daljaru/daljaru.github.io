@@ -4,7 +4,7 @@ title: "Java SDKs, and configurations"
 date: 2020-05-16
 desc: "Difference J2SE, J2EE"
 keywords: java, jdk, jre, J2SE, J2EE
-categories: [java]
+categories: [Java]
 tags: [Java,JRE,JDK,J2SE, J2EE]
 ---
 

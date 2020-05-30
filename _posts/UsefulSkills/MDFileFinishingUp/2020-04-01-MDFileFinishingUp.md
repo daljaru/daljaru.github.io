@@ -4,7 +4,7 @@ title: "How to make MD Files.."
 date: 2020-04-01
 desc: "How to make MD Files..."
 keywords: header, table, bold, italic, code, quotes
-categories: [Useful skills]
+categories: [Useful_Skills]
 tags: [mdfile]
 ---
 
