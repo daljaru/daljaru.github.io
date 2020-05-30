@@ -4,7 +4,7 @@ title: "Install Python"
 date: 2020-04-14
 desc: "Learn about python, and how to install python3"
 keywords: python3, pip, env, pipenv, interpreter, guido
-categories: [python3]
+categories: [Python3]
 tags: [python3,install,pipenv,pip,env]
 ---
 

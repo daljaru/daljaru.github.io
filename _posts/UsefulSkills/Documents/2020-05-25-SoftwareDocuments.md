@@ -4,7 +4,7 @@ title: "SoftwareDocuments"
 date: 2020-05-25
 desc: "How to write Software Project documents??"
 keywords: 설계, 요구사항, 분석, 작업, 진행
-categories: [Useful]
+categories: [Useful skills]
 tags: [Software, Architecture, Documents]
 ---
 

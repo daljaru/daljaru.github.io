@@ -4,7 +4,7 @@ title: "About Java"
 date: 2020-05-15
 desc: "Learn about Java. What can I do with java?"
 keywords: java, jdk, jre, eclipse, sun
-categories: [Useful]
+categories: [Java]
 tags: [Java,JavaSE,JavsEE,OOP,PL]
 ---
 
