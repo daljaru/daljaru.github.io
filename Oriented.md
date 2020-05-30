@@ -10,6 +10,7 @@
 
 ![Blog](https://github.com/jarrekk/Jalpc/raw/master/readme_files/Jalpc.png)
 
+- [Jalpc. ![Analytics](https://github.com/jarrekk/Jalpc)](#jalpc-img-srchttpsga-beaconappspotcomua-73784599-1welcome-page-altanalytics)
 - [3 steps to setup this theme at your website!](#3-steps-to-setup-this-theme-at-your-website)
 - [Features](#features)
   - [Index page](#index-page)
@@ -28,6 +29,10 @@
 - [Upgrading Jalpc](#upgrading-jalpc)
   - [Ensure there's an upstream remote](#ensure-theres-an-upstream-remote)
   - [Pull in the latest changes](#pull-in-the-latest-changes)
+- [Testing Locally](#testing-locally)
+  - [Installing ruby](#installing-ruby)
+  - [Installing the github-pages gem](#installing-the-github-pages-gem)
+  - [Later, to update the gem, type:](#later-to-update-the-gem-type)
 - [Todo](#todo)
 - [Donate Jalpc](#donate-jalpc)
 - [Wiki](#wiki)
@@ -242,4 +247,3 @@ If this project let you enjoy your blog time, you can give me a cup of coffee :)
 
 # Ad
 [Jalpc-A](https://github.com/Jack614/Jalpc-A): another Jekyll theme written by [AngularJS](https://angularjs.org/).
-
