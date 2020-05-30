@@ -15,10 +15,10 @@
 - name: Database
   href: /database/
 
-- name: Coding_test
-  href: /codingtest/
+- name: Algorithm
+  href: /algorithm/
 
-- name: Useful_Skills
+- name: Useful
   href: /useful/
 
 - name: Life
