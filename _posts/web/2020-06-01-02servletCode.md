@@ -11,7 +11,7 @@ tags: [web, server, servlet, tomcat, container, WAS]
 해당 게시글은 웹을 공부하기 위해 개인적으로 기록했던 자료입니다. 정보를 얻는 목적으로는 적합하지 않다는 점을 참고바랍니다. 
 
 ## Servlet을 간단하게 구현해보자. 
-
+<br>
 ## Tomcat Server 설정
 
 Eclipse에서 Apache tomcat을 서버로 만듭니다. 
@@ -35,6 +35,8 @@ bin은 tomcat이 실행되기 위한 여러가지 파일들이 들어있고 conf
 Eclipse에서 서버를 새로 생성할 때 ServerLocation을 tomcat Installation으로 설정합니다. 그리고 Browse를 눌러 webapps에 배포가 되도록 합니다. 
 
 Tomcat과 Web Application Server, Container는 모두 같은 말입니다. 
+<br>
+<br>
 
 ## Tomcat Servlet 3.0 API
 
@@ -88,7 +90,8 @@ sevice 메소드에서 인자의 이름에서 유추할 수 있듯이 **요청**
 우리는 이 service Method를 재정의 해주면 servlet을 완성할 수 있습니다.
 
 ![05servletAPI](/static/assets/img/blog/web/02MakeServlet/05servletAPI.png){:width="70%" height="70%"}
-
+<br>
+<br>
 
 ## Eclipse Dynamic Project
 
@@ -142,6 +145,8 @@ res instance에서 getWriter()를 사용해서 java의 입출력 객체인 Print
 전부 보내고 close()메소드를 통해 객체를 닫아줍니다.
 
 여기서 그냥 실행하면 Page 404 페이지가 뜨는데 이 그 이유는 WebContent\WEB-INF\web.xml파일을 잘못만들었기 때문입니다. 
+<br>
+<br>
 
 ## web.xml
 web xml은 web application의 설정을 위한 deployment descriptor입니다. 
