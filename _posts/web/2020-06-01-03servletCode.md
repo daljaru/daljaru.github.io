@@ -11,8 +11,9 @@ tags: [web, server, servlet, tomcat, container, WAS]
 
 ## javax.servlet.http
 
-이제 javax.servlet.http패키지를 이용한 servlet을 생성해보겠습니다. 
-![20httpServlet](/static/assets/img/blog/web/02MakeServlet/20httpServlet.png)
+이제 javax.servlet.http패키지를 이용한 servlet을 생성해보겠습니다.
+
+![20httpServlet](/static/assets/img/blog/web/02MakeServlet/20httpServlet.png){:width="70%" height="70%"}
 
 [Tomcat Servlet 3.0 API](http://tomcat.apache.org/tomcat-7.0-doc/servletapi/index.html)에서 확인해보면 HttpServlet은 GenericServlet과 상속관계에 있고 HttpServletRequest는 ServletRequest와 HttpServletResponse는 ServletResponse와 상속관계에 있습니다. 왜 GenericServlet이라고 불렀었는지 이제 조금 감이 옵니다. 
 
@@ -99,8 +100,8 @@ WordEncoreServlet이 하나 추가된 것을 확인할 수 있습니다. 이 코
 
 이제 index.html을 돌려보면 아래 화면처럼 나오고
 
-![21httpServlet02](/static/assets/img/blog/web/02MakeServlet/21httpServlet02.png)
+![21httpServlet02](/static/assets/img/blog/web/02MakeServlet/21httpServlet02.png){:width="70%" height="70%"}
 
 위 페이지에서 myworld를 입력하고 send버튼을 누르면 아래와 같은 페이지가 응답되어 나오는 것을 확인 할 수 있습니다. 
 
-![22httpServlet02response](/static/assets/img/blog/web/02MakeServlet/22httpServlet02response.png)
+![22httpServlet02response](/static/assets/img/blog/web/02MakeServlet/22httpServlet02response.png){:width="70%" height="70%"}

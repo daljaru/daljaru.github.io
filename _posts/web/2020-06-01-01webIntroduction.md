@@ -8,6 +8,7 @@ categories: [Web]
 tags: [web, bootstrap,web server]
 ---
 
+해당 게시글은 웹을 공부하기 위해 개인적으로 기록했던 자료입니다. 정보를 얻는 목적으로는 적합하지 않다는 점을 참고바랍니다. 
 ## Web에서 다룰 중요한 기술들
 
 Web에서 Servet과 JSP라는 중요한 두 기술을 다루게 될겁니다.  
@@ -15,6 +16,8 @@ Web에서 Servet과 JSP라는 중요한 두 기술을 다루게 될겁니다.
 Servlet은 웹프로그래밍에서 클라이언트의 요청을 처리하고 그 결과를 다시 클라이언트에게 전송하는 Servlet 클래스의 구현 규칙을 지킨 자바 프로그래밍 기술입니다. 
 
 JSP는 이 Servlet을 Tag중심으로 바꾼 것일 뿐입니다. 즉 코드를 기술하는 방식이 다른 것일 뿐입니다. 
+<br>
+<br>
 
 ## 둘 중에 어떤 것을 배워야 하는가? 
 
@@ -24,6 +27,8 @@ JSP는 이 Servlet을 Tag중심으로 바꾼 것일 뿐입니다. 즉 코드를 
 * JSP - Web에서 돌아가는 프로그래밍 기술, Tag 중심.
 * 참고 - Python은 라이브러리가 매우 강력하기 때문에 실제로 서버사이드 프로그래밍을 하기에는 무리가 있습니다.
 * Servlet을 배우면서 비동기통신인 Ajax를 다룰 것입니다.
+<br>
+<br>
 
 ## Model
 
@@ -36,13 +41,17 @@ DB Server에서 DBMS를 통해 DB Schema를 만들고 그 안에 Table들을 만
 DB Server와 Model을 JDBC로 연결하게 됩니다. 그 과정에서 DML쿼리문과 SELECT쿼리문을 통해 CRUD를 진행합니다. 
 
 여기까지가 기초적인 Back-end 단계입니다. 
-![01_serverside](/static/assets/img/blog/web/01BasicServlet/01_serverside.png)
+![01_serverside](/static/assets/img/blog/web/01BasicServlet/01_serverside.png){:width="50%" height="50%"}
+<br>
+<br>
 
 ## Front UI
 
 Appearance를 만드는 기술에 HTML5, CSS3, Javascript를 사용했고 Javascript를 더 쉽게 사용하기 위해 Front UI Framework인 JQuery를 사용했습니다. 그리고 이 모든게 합쳐진 Bootstrap3, 4를 사용했습니다. 
 
 HTML5에서 제공하는 가장 중요한 Storage를 Web Storage가 2개가 있는데 Local Storage와 Session Storage가 있습니다. 두 개중에 Local Storage만 알면 됩니다. Session Storage는 거의 쓸 일이 없습니다. 
+<br>
+<br>
 
 ## Static Document(Script language) versus Dynamic Language
 
@@ -52,9 +61,12 @@ Front UI를 만들때 .html파일을 만들었는데 이와 같은 문서는 프
 
 여기까지가 기초적인 Front-end의 구성입니다.
 
-![02_front](/static/assets/img/blog/web/01BasicServlet/02_front.png)
+![02_front](/static/assets/img/blog/web/01BasicServlet/02_front.png){:width="80%" height="80%"}
 
 ---
+<br>
+<br>
+
 ## Servlet
 
 Front와 Back이 생긴다고 전체적인 메카니즘이 확립되지 않습니다. Front에서 값을 입력하고 이 값을 Database에 어떻게 저장할 것인지.. 혹은 Database에 있는 값을 읽어와서 어떻게 인터넷 브라우저에 띄우게 할 것인지에 대한 해답이 제시되지 않았습니다. 중간에 Middle이 있어야 하는데  보통 이 Servlet과 Back-end를 합쳐서 Server side라고 합니다. 
@@ -65,7 +77,7 @@ Front와 Back이 생긴다고 전체적인 메카니즘이 확립되지 않습�
 
 Client의 요청을 Server Side의 가장 앞 단에서 받는 게 Servlet입니다. Servlet은 보통 5각형으로 표현하는게 일반적입니다. 
 
-![03_framework](/static/assets/img/blog/web/01BasicServlet/03_framework.png)
+![03_framework](/static/assets/img/blog/web/01BasicServlet/03_framework.png){:width="80%" height="80%"}
 
 
 위 그림도 꽤나 두루뭉술 합니다. Front와 Back사이에서 Servlet이라는 것이 어떻게 동작하는지 알아봅시다. 
