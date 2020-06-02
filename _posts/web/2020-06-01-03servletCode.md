@@ -8,6 +8,8 @@ categories: [Web]
 tags: [web, server, servlet, tomcat, container, WAS]
 ---
 해당 게시글은 웹을 공부하기 위해 개인적으로 기록했던 자료입니다. 정보를 얻는 목적으로는 적합하지 않다는 점을 참고바랍니다. 
+
+---
 <br>
 <br>
 
@@ -71,9 +73,8 @@ public class WordEncoreServlet extends HttpServlet {
 우선 요청을 받아야 하므로 request 인스턴스의 getPrameter()Method를 사용합니다. 인자는 index.html의 텍스트입력창 이름이 word였으므로 "word"를 입력합니다. 불러온 문자열을 wName이란 변수와 바인딩합니다. 
 
 이제 응답절차를 작성합니다. 앞에서 했던 예제와 같이 만듭니다. PrintWriter Instance를 생성해서 response.getWriter()로부터 반환되는 값을 받고 out.println()을 통해 브라우저에 내용을 띄워줍니다. 마지막으로 close()를 통해 객체를 닫습니다. 
-<br>
-<br>
 
+<br>
 
 web.xml파일을 수정해야합니다.
  
@@ -102,6 +103,7 @@ web.xml파일을 수정해야합니다.
   
 </web-app>
 ~~~
+<br>
 
 WordEncoreServlet이 하나 추가된 것을 확인할 수 있습니다. 이 코드에서 중요한 것은 `<url-pattern>`인데 `/`를 적고 index.html에서 `<form>`태그에 action을 urlname이라고 지정했으므로 urlname을 적어줍니다. 
 

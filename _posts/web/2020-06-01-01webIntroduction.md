@@ -9,13 +9,20 @@ tags: [web, bootstrap,web server]
 ---
 
 해당 게시글은 웹을 공부하기 위해 개인적으로 기록했던 자료입니다. 정보를 얻는 목적으로는 적합하지 않다는 점을 참고바랍니다. 
+
+---
+<br>
+<br>
+
 ## Web에서 다룰 중요한 기술들
 
 Web에서 Servet과 JSP라는 중요한 두 기술을 다루게 될겁니다.  
 
 Servlet은 웹프로그래밍에서 클라이언트의 요청을 처리하고 그 결과를 다시 클라이언트에게 전송하는 Servlet 클래스의 구현 규칙을 지킨 자바 프로그래밍 기술입니다. 
 
-JSP는 이 Servlet을 Tag중심으로 바꾼 것일 뿐입니다. 즉 코드를 기술하는 방식이 다른 것일 뿐입니다. 
+JSP는 이 Servlet을 Tag중심으로 바꾼 것일 뿐입니다. 즉 코드를 기술하는 방식이 다른 것일 뿐입니다.
+
+---
 <br>
 <br>
 
@@ -27,6 +34,8 @@ JSP는 이 Servlet을 Tag중심으로 바꾼 것일 뿐입니다. 즉 코드를 
 * JSP - Web에서 돌아가는 프로그래밍 기술, Tag 중심.
 * 참고 - Python은 라이브러리가 매우 강력하기 때문에 실제로 서버사이드 프로그래밍을 하기에는 무리가 있습니다.
 * Servlet을 배우면서 비동기통신인 Ajax를 다룰 것입니다.
+
+---
 <br>
 <br>
 
@@ -43,6 +52,8 @@ DB Server와 Model을 JDBC로 연결하게 됩니다. 그 과정에서 DML쿼리
 여기까지가 기초적인 Back-end 단계입니다.
 
 ![01_serverside](/static/assets/img/blog/web/01BasicServlet/01_serverside.png){:width="50%" height="50%" align="center";}
+
+---
 <br>
 <br>
 
@@ -51,6 +62,8 @@ DB Server와 Model을 JDBC로 연결하게 됩니다. 그 과정에서 DML쿼리
 Appearance를 만드는 기술에 HTML5, CSS3, Javascript를 사용했고 Javascript를 더 쉽게 사용하기 위해 Front UI Framework인 JQuery를 사용했습니다. 그리고 이 모든게 합쳐진 Bootstrap3, 4를 사용했습니다. 
 
 HTML5에서 제공하는 가장 중요한 Storage를 Web Storage가 2개가 있는데 Local Storage와 Session Storage가 있습니다. 두 개중에 Local Storage만 알면 됩니다. Session Storage는 거의 쓸 일이 없습니다. 
+
+---
 <br>
 <br>
 
