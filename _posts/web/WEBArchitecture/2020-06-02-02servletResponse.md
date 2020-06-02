@@ -102,5 +102,3 @@ F12를 누르고 개발자 모드에서도 확인해보면 header까지만 확�
 method방식은 Query String이 아니라 Form data형식으로 확인이 됩니다. 하지만 URL에서는 확인할 수 없습니다. 
 
 그렇기 때문에 method방식은 request.setCharacterEncoding()메소드를 통해 한글인코딩을 진행해주어야 합니다. 만약 인코딩을 해주지 않는다면 한글깨짐 현상이 발생할 것입니다. 
-
-
