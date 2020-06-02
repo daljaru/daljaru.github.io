@@ -37,15 +37,15 @@ ___
 ___
 만약 Java를 배웠다면 Class를 만드는 방법을 알 것입니다. Java로 클래스를 만들때 가장 기초적인 정보를 저장하는 방법으로 VO(Value Object)를 만듭니다. Private field에 생성자 오버로딩으로 구현한 생성자를 통해 정보를 주입합니다. 그리고 Database에 Access하는 클래스인 DAO(Data Access Object)를 만듭니다. 
 
-DAO와 VO두개를 Model이라고 합니다. 두 개를 합쳐서 Model이라고 부르기도 하고 각각을 Model이라고 말해도 좋습니다. 2
+DAO와 VO두개를 Model이라고 합니다. 두 개를 합쳐서 Model이라고 부르기도 하고 각각을 Model이라고 말해도 좋습니다.
 
-DB Server에서 DBMS를 통해 DB Schema를 만들고 그 안에 Table들을 만들고 Relations, restriction을 설정하게 됩니다. 
+DB Server에서 DBMS로 DB Schema를 만들고 그 안에 Table들을 만들고 Relations, restriction을 설정하게 됩니다. 
 
 DB Server와 Model을 JDBC로 연결하게 됩니다. 그 과정에서 DML쿼리문과 SELECT쿼리문을 통해 CRUD를 진행합니다. 
 
 여기까지가 기초적인 Back-end 단계입니다.
 
-![01_serverside](/static/assets/img/blog/web/01BasicServlet/01_serverside.png){:width="50%" height="50%" align="center";}
+![01_serverside](/static/assets/img/blog/web/01BasicServlet/01_serverside.png){:width="50%" height="50%" text-align="center";}
 <br>
 <br>
 
