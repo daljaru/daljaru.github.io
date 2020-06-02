@@ -9,43 +9,50 @@ tags: [mdfile]
 ---
 
 ## 헤더
+<br>
 
 # 제목1
 
 ```
 # 제목1
 ```
+<br>
 
 ## 제목2
 
 ```
 ## 제목2
 ```
+<br>
 
 ### 제목3
 
 ```
 ### 제목3
 ```
+<br>
 
 #### 제목4
 
 ```
 #### 제목4
 ```
+<br>
 
 ##### 제목5
 
 ```
 ##### 제목5
 ```
+<br>
 
 ###### 제목6
 
 ```
 ###### 제목6
 ```
-
+<br>
+<br>
 
 
 ## 글씨 변형
@@ -55,37 +62,43 @@ tags: [mdfile]
 ```
 **굵게**
 ```
+<br>
 
 기울인 글씨는 *기울이게*
 
 ```
 *기울이게*
 ```
+<br>
 
 기울인 글씨는 _다르게 표현_도 가능
 
 ```
 _다르게 표현_
 ```
+<br>
 
 기울이면서 굵은 글씨는 ***별을 세개 붙인다.***
 
 ```
 간단하게 ***별을 세개 붙이는 방법***도 있다.
 ```
+<br>
 
 취소선은 ~~물결표시~~로 가능.
 
 ```
 ~~물결표시~~
 ```
+<br>
 
 밑줄은 <u>u태그로 가능.</u>
 
 ```
 <u>태그로 가능.</u>
 ```
-
+<br>
+<br>
 
 
 ## 목록
@@ -103,6 +116,7 @@ _다르게 표현_
 1. 순서가 있는 목록2
 1. 순서가 있는 목록3
 ```
+<br>
 
 - 순서가 있는 목록1 ---> 순서는 앞에 번호를 붙인다.
 	- 순서가 있는 서브 목록1
@@ -119,12 +133,12 @@ _다르게 표현_
 ```
 
 -는 * + 기호로 대체가능하다. 
-
-
+<br>
+<br>
 
 ## 링크
 
-+ 일단 사이트 주소를 그냥 써도 링크는 만들어진다. https://www.google.com
++ 일단 사이트 주소를 그냥 써도 링크는 만들어진다.<br>https://www.google.com
 
 + 글자에 링크기능을 주소 싶으면 [글자]링크주소를 적는다.
   + [Google](https://www.google.com)
@@ -132,6 +146,7 @@ _다르게 표현_
   >```
   >[Google](https://www.google.com)
   >```
+<br>
 
 + 링크설명을 쓸 수도 있다. 링크에 커서를 갖다대면 뜨는 문구다. 
   + [Google](https://www.google.com " 이 링크는 구글링크입니다.")
@@ -141,16 +156,16 @@ _다르게 표현_
   > ```
 
   예시)![testlink](/static/assets/img/blog/usefulSkills/MDFileFinishingImages/testlink.png)
+  <br>
   
-  
 
-- 자신의 디렉토리 안의 사이트를 상대적 참조할 수도 있습니다. 
+- 자신의 디렉토리 안의 사이트를 상대적 참조할 수도 있다. 
 
-  - [myFile](./Python3/)
+  - [myFile](./Python3/2020-04-14-EnvSetting01_01PythonInstall)
 
-    > [myFile](./Python3/)
-
-
+    > [myFile](./Python3/2020-04-14-EnvSetting01_01PythonInstall)
+<br>
+<br>
 
 ## 이미지
 
@@ -165,7 +180,7 @@ _다르게 표현_
 ```
 ![창문](/static/assets/img/blog/usefulSkills/MDFileFinishingImages/window.png "창문")
 ```
-
+<br>
 
 
 ```
@@ -183,8 +198,8 @@ _다르게 표현_
 ![창문][window]
 [window]: /static/assets/img/blog/usefulSkills/MDFileFinishingImages/window.png 창문
 ```
-
-
+<br>
+<br>
 
 ## 이미지 + 링크
 
@@ -199,12 +214,14 @@ _다르게 표현_
 ```
 [![텍스트](이미지 링크 "링크 설명")](사이트 주소)
 ```
+<br>
 
 [![GoogleImageLink](/static/assets/img/blog/usefulSkills/MDFileFinishingImages/window.png "windowGoogle")](https://www.google.com)
 
 ```
 [![GoogleImageLink](/static/assets/img/blog/usefulSkills/MDFileFinishingImages/window.png "windowGoogle")](https://www.google.com)
 ```
+<br>
 
 
 
@@ -233,12 +250,14 @@ _다르게 표현_
 * [B](#B_place)
 * [C](#C_place)
 ```
+<br>
+<br>
+<br>
+<a id = "A_place">A 내용</a>
 
-A 내용<a id = "A_place"></a>
+<a id = "B_place">B 내용</a>
 
-B 내용<a id = "B_place"></a>
-
-C 내용<a id = "C_place"></a>
+<a id = "C_place">C 내용</a>
 
 ```
 A 내용<a id = "A_place"></a>
@@ -249,7 +268,8 @@ C 내용<a id = "C_place"></a>
 ```
 
 A를 클릭하면 A내용으로 페이지 위치가 옮겨집니다. 
-
+<br>
+<br>
 
 
 ## 코드
@@ -265,33 +285,34 @@ A를 클릭하면 A내용으로 페이지 위치가 옮겨집니다.
 코드내용
 ​```
 ```
+<br>
 
 위의 형식으로 씁니다. 코드의 내용이 언어에 알맞게 타이핑되시는 걸 확인할 수 있습니다. 
 
 * 예시1. 코드선택
 
 ![code](/static/assets/img/blog/usefulSkills/MDFileFinishingImages/code.png)
-
+<br>
 
 
 * 예시2 코드 작성
 
-  ```java
-  int num = 0;
-  int plusNum(int num){
-      return ++num;
-  }
-  ```
+```java
+int num = 0;
+int plusNum(int num){
+     return ++num;
+}
+```
 
-  ```
-  ​```java
-  int num = 0;
-  int plusNum(int num){
-  	return ++num;
-  }
-  ```
-
-
+```
+​```java
+int num = 0;
+int plusNum(int num){
+  return ++num;
+}
+```
+<br>
+<br>
 
 ## 표
 
@@ -316,7 +337,7 @@ A를 클릭하면 A내용으로 페이지 위치가 옮겨집니다.
 | 내용1-2 | 내용2-2 | 내용3-2 |
 | 내용1-3 | 내용2-3 | 내용3-3 |
 ```
-
+<br>
 
 
 ![header](/static/assets/img/blog/usefulSkills/MDFileFinishingImages/header.png)
@@ -324,8 +345,8 @@ A를 클릭하면 A내용으로 페이지 위치가 옮겨집니다.
 Typora에서는 상단의 헤더만 만들면 자동으로 표가 만들어지며 그 이후 크기 조정, 글자정렬 등은 마우스로 조절할 수 있는 기능을 제공합니다. 
 
 Typora에서는 크기 조절, 정렬등을 자유로히 쓰시면 됩니다. 
-
-
+<br>
+<br>
 
 ## 인용문
 
@@ -339,14 +360,14 @@ Typora에서는 크기 조절, 정렬등을 자유로히 쓰시면 됩니다.
 > 인용문을 적습니다. 
 >> 중첩된 인용문입니다. 
 ```
-
-
+<br>
+<br>
 
 ## Raw HTMl
 
 마크다운 문서에는 html코드를 넣어도 괜찮습니다. 
-
-
+<br>
+<br>
 
 ## 수평선
 
@@ -355,14 +376,14 @@ Typora에서는 크기 조절, 정렬등을 자유로히 쓰시면 됩니다.
 ```
 ---
 ```
-
+<br>
 ___
 
 ```
 ___
 ```
-
-
+<br>
+<br>
 
 ## 줄바꿈
 
