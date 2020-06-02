@@ -8,16 +8,13 @@ categories: [Web]
 tags: [web, server, servlet, tomcat, container, WAS]
 ---
 
-해당 게시글은 웹을 공부하기 위해 개인적으로 기록했던 자료입니다. 정보를 얻는 목적으로는 적합하지 않다는 점을 참고바랍니다. 
-
----
+해당 게시글은 웹을 공부하기 위해 개인적으로 기록했던 자료입니다.
+___
 <br>
 <br>
 
-## Servlet을 간단하게 구현해보자. 
-
-## Tomcat Server 설정
-
+## Servlet 구현하기 - Tomcat Server 설정
+___
 Eclipse에서 Apache tomcat을 서버로 만듭니다. 
 
 서버 타입을 설치한 Tomcat의 버전에 맞게 선택하고 next를 누릅니다. 
@@ -39,13 +36,11 @@ bin은 tomcat이 실행되기 위한 여러가지 파일들이 들어있고 conf
 Eclipse에서 서버를 새로 생성할 때 ServerLocation을 tomcat Installation으로 설정합니다. 그리고 Browse를 눌러 webapps에 배포가 되도록 합니다. 
 
 Tomcat과 Web Application Server, Container는 모두 같은 말입니다. 
-
----
 <br>
 <br>
 
 ## Tomcat Servlet 3.0 API
-
+___
 [Tomcat Servlet 3.0 API](http://tomcat.apache.org/tomcat-7.0-doc/servletapi/index.html)화면으로 가봅시다.
 
 ![04_tomcatServletAPI](/static/assets/img/blog/web/02MakeServlet/04_tomcatServletAPI.png){:width="40%" height="40%"}
@@ -67,7 +62,6 @@ javax.servlet에서 interface Summary를 봅시다.
 Servlet interface는 servlet이 반드시 실행해햐하는 모든 method가 정의되어 있습니다. 
 
 ![08servlet](/static/assets/img/blog/web/02MakeServlet/08servlet.png){:width="40%" height="40%"}
-
 
 ServletConfig는 초기화과정에서 servlet container에 의해서 servlet으로 정보가 보내지는 servlet구성객체를 반환하는 Method를 담고 있습니다.
 
@@ -96,13 +90,11 @@ sevice 메소드에서 인자의 이름에서 유추할 수 있듯이 **요청**
 우리는 이 service Method를 재정의 해주면 servlet을 완성할 수 있습니다.
 
 ![05servletAPI](/static/assets/img/blog/web/02MakeServlet/05servletAPI.png){:width="40%" height="40%"}
-
----
 <br>
 <br>
 
 ## Eclipse Dynamic Project
-
+___
 Eclipse로 돌아와서 Dynamic Web Project를 하나 만듭니다. 이름은 web01_GenericServlet이라고 하겠습니다. 여기서 Dynamic web module version을 2.5로 설정했는데 servlet구축을 좀더 상세히 하고 싶어서 설정했습니다. 
 
 ![12newProjectGenericServlet](/static/assets/img/blog/web/02MakeServlet/12newProjectGenericServlet.png){:width="40%" height="40%"}
@@ -118,6 +110,7 @@ Finish를 눌러 프로젝트를 생성합니다.
 우선 servlet을 만들건데 기본적으로 프로젝트에서 우클릭 후에 new를 누르면 servlet을 만들 수 있지만 학습을 위해 클래스 파일부터 만들어봅니다. 이름은 GenericServletTest1으로 하겠습니다.
 
 ![16_createClass](/static/assets/img/blog/web/02MakeServlet/16_createClass.png){:width="40%" height="40%"}
+<br>
 
 ~~~java
 package servlet.generic;
@@ -143,7 +136,7 @@ public class GenericServletTest1 extends GenericServlet{
 	//http://127.0.0.1:8888/web01_GenericServlet/GenericServletTest1
 }
 ~~~
-
+<br>
 GenericServlet abstract class를 재정의 해야하므로 `extends GenericServlet`을 붙였습니다. 
 
 그리고 재정의할 메소드는 바로 service입니다. 우선 일련의 요청을 수행했다고 치고 인자 ServletResponse res를 다뤄보도록 하겠습니다. 
@@ -153,12 +146,11 @@ res instance에서 getWriter()를 사용해서 java의 입출력 객체인 Print
 전부 보내고 close()메소드를 통해 객체를 닫아줍니다.
 
 여기서 그냥 실행하면 Page 404 페이지가 뜨는데 이 그 이유는 WebContent\WEB-INF\web.xml파일을 잘못만들었기 때문입니다. 
-
----
 <br>
 <br>
 
 ## web.xml
+___
 web xml은 web application의 설정을 위한 deployment descriptor입니다. 
 
 Deploy할 때 Servlet의 정보를 설정해줍니다. 브라우저가 Java Servlet에 접근하기 위해서는 WAS(Web Application Server)에 필요한 정보를 알려줘야 해당하는 Servlet을 호출할 수 있습니다. 
@@ -166,6 +158,7 @@ Deploy할 때 Servlet의 정보를 설정해줍니다. 브라우저가 Java Serv
 * 배포할 Servlet이 무엇인지
 * 해당 Servlet이 어떤 URL에 매핑되는지
 를 알려줘야 합니다. 
+<br>
 
 ~~~xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -180,6 +173,7 @@ Deploy할 때 Servlet의 정보를 설정해줍니다. 브라우저가 Java Serv
   </servlet-mapping>
 </web-app>
 ~~~
+<br>
 위와 같이 web.xml을 바꿔줍니다. xml파일은 메타데이터로 쓰이는데 정보에 대한 의미를 담고 있기 때문입니다. 
 
 `<servlet>`태그는 servlet 인스턴스를 생성한다는 의미입니다. servlet-class는 servelt.generic.GenericServletTest1클래스를 사용하는 것이고 여기에 GenericServletTest1이라는 이름을 붙여주었습니다. 
@@ -189,4 +183,3 @@ Deploy할 때 Servlet의 정보를 설정해줍니다. 브라우저가 Java Serv
 이제 web.xml도 고쳤으니 다시 실행을 해봅니다. 페이지가 정상적으로 로드되는 것을 확인할 수 있습니다. 
 
 ![18resultGeneric](/static/assets/img/blog/web/02MakeServlet/18resultGeneric.png){:width="40%" height="40%"}
-
