@@ -5,12 +5,14 @@ date: 2020-06-02
 desc: "more specific about servlet response..."
 keywords: web, html, servlet, server, WAS, tomcat, container, request
 categories: [Web]
-tags: [web, server, servlet, tomcat, container, WAS, httpservletrequest]
+tags: [web, server, servlet, tomcat, container, WAS, httpservletresponse]
 ---
 
 ## post방식
 
-아래의 두 코드를 가지고 post방식을 계속 이야기 해보겠습니다. 이번엔 form.html의 `<form>`태그에 post method방식으로 넘겨보겠습니다.
+___
+
+아래의 두 코드를 가지고 post방식을 이야기 해보겠습니다. 이번엔 form.html의 `<form>`태그에 post method방식으로 넘겨보겠습니다.
 <br>
 
 ~~~html
@@ -101,4 +103,5 @@ F12를 누르고 개발자 모드에서도 확인해보면 header까지만 확�
 
 method방식은 Query String이 아니라 Form data형식으로 확인이 됩니다. 하지만 URL에서는 확인할 수 없습니다. 
 
-그렇기 때문에 method방식은 request.setCharacterEncoding()메소드를 통해 한글인코딩을 진행해주어야 합니다. 만약 인코딩을 해주지 않는다면 한글깨짐 현상이 발생할 것입니다. 
+그렇기 때문에 method방식은 request.setCharacterEncoding()메소드를 통해 한글인코딩을 해줘야합니다. 만약 인코딩을 해주지 않는다면 한글깨짐 현상이 발생합니다.
+
