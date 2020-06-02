@@ -41,7 +41,7 @@ Java는 Sun Microsystems사에서 개발한 언어였지만 지금은 Oracle이 
 
 링크를 타고 가면 아래와 같은 화면이 나옵니다. 
 
-![javase_ee](/static/assets/img/blog/java/01BasicKnowledge/03_javase_ee.png)
+![javase_ee](/static/assets/img/blog/java/01BasicKnowledge/03_javase_ee.png){:width="100%" height="100%"}
 
 java 언어를 쓰고 싶다면 java SDK(Software Development Kit)를 다운받아야 합니다. 오른쪽에 Java SDKs and Tools들이 보이죠. 그 안에도 여러가지가 있는 것을 볼 수 있습니다. 
 

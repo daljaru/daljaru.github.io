@@ -20,11 +20,12 @@ tags: [Java,JRE,JDK,J2SE, J2EE]
 
 ### JDK, JRE
 Java SE를 누르면 [Java SE Download페이지](https://www.oracle.com/java/technologies/javase-downloads.html)로 넘어갑니다.
-![04_javaSEDownloadPage](/static/assets/img/blog/java/01BasicKnowledge/04_javaSEDownloadPage.png)
+
+![04_javaSEDownloadPage](/static/assets/img/blog/java/01BasicKnowledge/04_javaSEDownloadPage.png){:width="100%" height="100%"}
 
 여러가지 버전이 있습니다. 어떤 버전을 선택해서 다운로드 받을지는 개발자들에게는 아주아주 중요한 문제입니다. 우리는 자바를 배우는 단계이기 때문에 아주 안전한 java SE 8u251을 다운로드 받습니다. 
 
-![05_j2SE_8u](/static/assets/img/blog/java/01BasicKnowledge/05_j2SE_8u.png)
+![05_j2SE_8u](/static/assets/img/blog/java/01BasicKnowledge/05_j2SE_8u.png){:width="80%" height="80%"}
 
 
 Oracle JDK라고 적힌 곳 아래에 다운로드 아이콘이 5개나 있습니다. 여기에서 JDK Download를 선택하고 다운로드를 진행합니다. 

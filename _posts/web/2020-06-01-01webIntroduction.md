@@ -45,7 +45,7 @@ DB Server와 Model을 JDBC로 연결하게 됩니다. 그 과정에서 DML쿼리
 
 여기까지가 기초적인 Back-end 단계입니다.
 
-![01_serverside](/static/assets/img/blog/web/01BasicServlet/01_serverside.png){:.aligncenter width="50%" height="50%"}
+![01_serverside](/static/assets/img/blog/web/01BasicServlet/01_serverside.png){:width="50%" height="50%"}
 
 이 콘텐츠를 블로그나 웹사이트 또는 인쇄물의 콘텐츠로 사용하면 저작권 문제로 처벌 받을 수 있습니다.
 원본: https://blog.kalkin7.com/2014/03/04/how-to-align-images-on-writing-with-markdown/ Copyright © 칼킨;}
@@ -68,7 +68,7 @@ Front UI를 만들때 .html파일을 만들었는데 이와 같은 문서는 프
 
 여기까지가 기초적인 Front-end의 구성입니다.
 
-![02_front](/static/assets/img/blog/web/01BasicServlet/02_front.png){:width="30%" height="30%"}
+![02_front](/static/assets/img/blog/web/01BasicServlet/02_front.png){:width="20%" height="20%"}
 <br>
 <br>
 
