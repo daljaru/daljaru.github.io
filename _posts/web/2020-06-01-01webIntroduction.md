@@ -40,8 +40,9 @@ DB Server에서 DBMS를 통해 DB Schema를 만들고 그 안에 Table들을 만
 
 DB Server와 Model을 JDBC로 연결하게 됩니다. 그 과정에서 DML쿼리문과 SELECT쿼리문을 통해 CRUD를 진행합니다. 
 
-여기까지가 기초적인 Back-end 단계입니다. 
-![01_serverside](/static/assets/img/blog/web/01BasicServlet/01_serverside.png){:width="50%" height="50%"}
+여기까지가 기초적인 Back-end 단계입니다.
+
+![01_serverside](/static/assets/img/blog/web/01BasicServlet/01_serverside.png){:width="50%" height="50%" align="center";}
 <br>
 <br>
 
@@ -61,7 +62,7 @@ Front UI를 만들때 .html파일을 만들었는데 이와 같은 문서는 프
 
 여기까지가 기초적인 Front-end의 구성입니다.
 
-![02_front](/static/assets/img/blog/web/01BasicServlet/02_front.png){:width="80%" height="80%"}
+![02_front](/static/assets/img/blog/web/01BasicServlet/02_front.png){:width="30%" height="30%"}
 
 ---
 <br>
