@@ -44,7 +44,7 @@ IDE(Integrated Development Environment)로 프로그램을 가장 처음에 만�
 
 이제 Create를 누르면 새로운 프로젝트가 생성이 되고 다음과 같은 화면이 나온다. 
 
-![firstScreen](/static/assets/img/blog/python3/01EnvSetting/firstScreen.png)
+![firstScreen](/static/assets/img/blog/python3/01EnvSetting/firstScreen.png){:width="100%" height="100%"}
 
 
 
@@ -70,7 +70,7 @@ New로 들어가면 여러 파일들을 선택할 수 있는데 우리는 Python
 
 아래와 같이 윈도우의 파일창이 하나 켜진것을 확인할 수 있다. 프로젝트 이름으로 지은 MyProject가 하나의 폴더로 되어있고 그 안에 HelloWorld.py가 있는 것을 확인할 수 있다. 이제 Pycharm이 왜 tool이라고 부르는지 이해가 조금 될 수도 있다. 이런 tool이 없었다면 프로그래밍 개발은 아주 시간이 많이 들고  귀찮은 작업이 되었을 것이다. 
 
-![ExplorerScreen](/static/assets/img/blog/python3/01EnvSetting/ExplorerScreen.png)
+![ExplorerScreen](/static/assets/img/blog/python3/01EnvSetting/ExplorerScreen.png){:width="80%" height="80%"}
 
 
 
@@ -105,5 +105,5 @@ print(this)
 
 여기에 적힌 용어들은 모두 [pycharm-quick-start-guide](https://www.jetbrains.com/help/pycharm/installation-guide.html)에 나오는 용어들을 인용한 것이다. Pycharm이라는 Tool에 대해서 더 자세히 알고 싶고 또 영어에 자신이 있다면 들어가서 쭉 읽어보는 것도 방법이다. 
 
-![Notation](/static/assets/img/blog/python3/01EnvSetting/Notation.png)
+![Notation](/static/assets/img/blog/python3/01EnvSetting/Notation.png){:width="100%" height="100%"}
 
