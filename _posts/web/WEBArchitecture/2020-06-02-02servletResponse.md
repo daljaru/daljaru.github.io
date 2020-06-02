@@ -85,19 +85,19 @@ public class HttpFormServlet extends HttpServlet {
 form.index를 실행시키면 아래와 같이 나옵니다.
 <br> 
 
-![26post](/static/assets/img/blog/web/02MakeServlet/26post.png)
+![26post](/static/assets/img/blog/web/02MakeServlet/26post.png){:width="100% height="100%"}
 <br>
 주소창을 확인해보면 servlet-mapping까지만 url정보가 가는 것을 확인할 수 있습니다. 그렇다면 서버는 post방식에서 어떻게 브라우저가 전송한 데이터를 볼까요.
 
 http규약에 보면 브라우저가 전송하는 요청데이터 포맷은 아래와 같이 구성되어 있습니다. 
 
-![27requestFormat](/static/assets/img/blog/web/02MakeServlet/27requestFormat.png)
+![27requestFormat](/static/assets/img/blog/web/02MakeServlet/27requestFormat.png){:width="70% height="70%"}
 
 get 방식은 request Line과 header까지만 사용한다면 post방식은 body까지 사용합니다. 그리고 이 body부분은 일반적으로 확인할 수 없습니다. 
 
 F12를 누르고 개발자 모드에서도 확인해보면 header까지만 확인할 수 있는 것을 알 수 있습니다. 
 
-![28requestFormat02](/static/assets/img/blog/web/02MakeServlet/28requestFormat02.png)
+![28requestFormat02](/static/assets/img/blog/web/02MakeServlet/28requestFormat02.png){:width="80% height="80%"}
 
 method방식은 Query String이 아니라 Form data형식으로 확인이 됩니다. 하지만 URL에서는 확인할 수 없습니다. 
 
