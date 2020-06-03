@@ -19,9 +19,10 @@ Middle Server에서 WAS가 가동되기시작하고 일어나느 일들을 다�
 
 2. Servlet들의 인스턴스를 생성합니다. 인스턴스는 Servlet name tag에 매핑된 이름과 일치하게 만들어집니다. 그리고 인스턴스를 생성하기 위해 WAS는 내부적으로 Servlet.java의 기본 생성자를 이용해서 인스턴스를 만듭니다. 인스턴스가 없으면 윗단에서는 아무것도 돌아가지 않습니다. 
 
----여기가지가 Middle Server의 Ready on 상태라고 합니다. Ready on상태는 서버가 꺼지기 전까지 한 번만 이뤄집니다.<br>
+여기까지가 Middle Server의 Ready on 상태라고 합니다. Ready on상태는 서버가 꺼지기 전까지 한 번만 이뤄집니다.<br>
 
-ready on 상태 이후<br>
+ready on 상태 이후에는
+<br>
 <br>
 
 3. Servlet 인스턴스 하나당 ServletConfig 인스턴스를 하나 생성합니다. ServletConfig는 WAS가 init()과정에서 Servlet에게 Servlet 구성요소 객체를 전달하는 역할을 합니다. 

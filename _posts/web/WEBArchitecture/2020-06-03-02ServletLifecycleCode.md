@@ -10,6 +10,8 @@ tags: [web, server, servlet, tomcat, container, WAS, httpservletrequest, httpser
 
 ## Servlet Life Cycle 코드로 알아보기
 
+___
+
 아래와 같이 클릭 후 Servlet이 작동하는 lifecycle.html파일을 작성했습니다. 
 
 ~~~html
@@ -58,7 +60,7 @@ WAS의 Life cycle상 서버가 돌아가기 시작함과 동시에 web.xml파일
 이 태그를 작성한 상태를 pre loading상태라고 하고 그렇지 않은 상태를 lazy loading상태라고 합니다. 
 
 <br>
-Servlet을 아래아 같이 작성합니다. 
+Servlet을 아래와 같이 작성합니다. 
 <br>
 
 ~~~java
@@ -112,6 +114,7 @@ public class ServletLifeCycleTest1 extends HttpServlet {
 }
 
 ~~~
+<br>
 기본생성자, init(), destroy(), doProcess(), doGet(), doPost()에 각각 println()메소드를 넣어주고 확인해봅니다. 
 <br>
 
@@ -130,6 +133,7 @@ Eclipse에서 Tomcat의 동작 화면을 보면 `<load-on-startup>`태그를 작
 
 ![35lifecycle4](/static/assets/img/blog/web/02MakeServlet/35lifecycle4.png)
 
+<br>
 그리고 마지막으로 이클립스에서 Server탭을 눌러 오른쪽에 빨간 네모박스(중지 버튼)을 누르면 destroy() method가 작동되는 것을 확인할 수 있습니다. 
 <br>
 
