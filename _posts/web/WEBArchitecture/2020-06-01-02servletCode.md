@@ -45,7 +45,7 @@ ___
 
 ![04_tomcatServletAPI](/static/assets/img/blog/web/02MakeServlet/04_tomcatServletAPI.png){:width="100%" height="100%"}
 
-위 페이지는 톰캣환경에서 servlet을 구현하기 위한 API가 기술되어 있습니다. Servlet 3.0버전의 API가 있습니다. 
+위 페이지에는 톰캣환경에서 servlet을 구현하기 위한 API가 기술되어 있습니다. Servlet 3.0버전의 API가 있습니다. 
 
 Package들 중에서 javax.servlet과 javax.servlet.http이 두개만 알면 servlet을 만들어낼 수 있습니다. 
 
@@ -59,7 +59,7 @@ javax.servlet에서 interface Summary를 봅시다.
 
 여기에 Servlet과 ServletConfig라는 인터페이스가 있습니다. 
 
-Servlet interface는 servlet이 반드시 실행해햐하는 모든 method가 정의되어 있습니다. 
+Servlet interface는 servlet이 본연의 기능으로서 반드시 실행해햐하는 모든 method가 정의되어 있습니다. 
 
 ![08servlet](/static/assets/img/blog/web/02MakeServlet/08servlet.png){:width="100%" height="100%"}
 
@@ -69,7 +69,7 @@ ServletConfig는 초기화과정에서 servlet container에 의해서 servlet으
 
 내용을 보면 전부 get메소드밖에 없는 것을 알 수 있습니다. 그리고 servletContext인터페이스와 연관되어 있는 것을 확인할 수 있습니다.
 
-이 두 인터페이스를 상속받고 있는 것이 GenericServlet이라는 클래스입니다. 
+이 두 인터페이스를 implements하고 있는 것이 GenericServlet이라는 클래스입니다. 
 
 ![09genericServlet](/static/assets/img/blog/web/02MakeServlet/09genericServlet.png){:width="100%" height="100%"}
 
@@ -94,8 +94,10 @@ sevice 메소드에서 인자의 이름에서 유추할 수 있듯이 **요청**
 <br>
 
 ## Eclipse Dynamic Project
+
 ___
-Eclipse로 돌아와서 Dynamic Web Project를 하나 만듭니다. 이름은 web01_GenericServlet이라고 하겠습니다. 여기서 Dynamic web module version을 2.5로 설정했는데 servlet구축을 좀더 상세히 하고 싶어서 설정했습니다. 
+
+Eclipse로 돌아와서 Dynamic Web Project를 하나 만듭니다. 이름은 web01_GenericServlet이라고 하겠습니다. 여기서 Dynamic web module version을 2.5로 설정했는데 servlet구축을 좀더 상세히 하고 싶어서 설정했습니다. 상위버전에서는 Annotation을 이용해 더 쉽게 작성할 수 있습니다. 
 
 ![12newProjectGenericServlet](/static/assets/img/blog/web/02MakeServlet/12newProjectGenericServlet.png){:width="40%" height="40%"}
 
@@ -103,7 +105,7 @@ Java application이 저장되기 위한 폴더를 설정합니다. build\classes
 
 ![13classes](/static/assets/img/blog/web/02MakeServlet/13classes.png){:width="40%" height="40%"}
 
-Finish를 눌러 프로젝트를 생성합니다. 
+실제 배포가 된 파일을 tomcat폴더 안에서 찾을 수 있습니다. Root context > WEB-INF > classes > 에 배포가 되는 것을 확인 할 수 있습니다. Finish를 눌러 프로젝트를 생성합니다. 
 
 ![15_dynamicFinish](/static/assets/img/blog/web/02MakeServlet/15_dynamicFinish.png){:width="40%" height="40%"}
 
@@ -145,19 +147,19 @@ res instance에서 getWriter()를 사용해서 java의 입출력 객체인 Print
 
 전부 보내고 close()메소드를 통해 객체를 닫아줍니다.
 
-여기서 그냥 실행하면 Page 404 페이지가 뜨는데 이 그 이유는 WebContent\WEB-INF\web.xml파일을 잘못만들었기 때문입니다. 
+여기서 그냥 실행하면 Page 404 페이지가 뜨는데 이 그 이유는 WebContent\WEB-INF\web.xml파일을 제대로 작성하는 과정을 생략했기 때문입니다.  
 <br>
 <br>
 
 ## web.xml
 ___
-web xml은 web application의 설정을 위한 deployment descriptor입니다. 
+web xml은 web application의 설정을 위한 deployment descriptor(배포설명서)입니다. 
 
 Deploy할 때 Servlet의 정보를 설정해줍니다. 브라우저가 Java Servlet에 접근하기 위해서는 WAS(Web Application Server)에 필요한 정보를 알려줘야 해당하는 Servlet을 호출할 수 있습니다. 
 
-* 배포할 Servlet이 무엇인지
+* 배포할 Servlet이 무엇인지 (Servlet에 대한 정의)
 * 해당 Servlet이 어떤 URL에 매핑되는지
-를 알려줘야 합니다. 
+를 알려줘야 합니다. (Initialization 정보)
 <br>
 
 ~~~xml
@@ -181,5 +183,7 @@ Deploy할 때 Servlet의 정보를 설정해줍니다. 브라우저가 Java Serv
 `<servlet-mapping>`은 브라우저의 URL에 어떤 servlet이 매핑되는지를 설정하는 것입니다. 우리는 요청을 생략했으므로 url-pattern을 비워놔도 괜찮습니다. 
 
 이제 web.xml도 고쳤으니 다시 실행을 해봅니다. 페이지가 정상적으로 로드되는 것을 확인할 수 있습니다. 
+
+우리는 서버 설정에서 Tomcat home안으로 배포가 되게 했으므로 실제 배포가 된 파일을 tomcat폴더 안에서 찾을 수 있습니다. Root context > WEB-INF > classes > 에 배포가 되는 것을 확인 할 수 있습니다. 
 
 ![18resultGeneric](/static/assets/img/blog/web/02MakeServlet/18resultGeneric.png){:width="40%" height="40%"}
