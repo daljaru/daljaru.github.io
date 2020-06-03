@@ -34,7 +34,9 @@ ___
 <br>
 
 ## Model
+
 ___
+
 만약 Java를 배웠다면 Class를 만드는 방법을 알 것입니다. Java로 클래스를 만들때 가장 기초적인 정보를 저장하는 방법으로 VO(Value Object)를 만듭니다. Private field에 생성자 오버로딩으로 구현한 생성자를 통해 정보를 주입합니다. 그리고 Database에 Access하는 클래스인 DAO(Data Access Object)를 만듭니다. 
 
 DAO와 VO두개를 Model이라고 합니다. 두 개를 합쳐서 Model이라고 부르기도 하고 각각을 Model이라고 말해도 좋습니다.
@@ -54,15 +56,17 @@ DB Server와 Model을 JDBC로 연결하게 됩니다. 그 과정에서 DML쿼리
 
 ## Front UI
 ___
-Appearance를 만드는 기술에 HTML5, CSS3, Javascript를 사용했고 Javascript를 더 쉽게 사용하기 위해 Front UI Framework인 JQuery를 사용했습니다. 그리고 이 모든게 합쳐진 Bootstrap3, 4를 사용했습니다. 
+Appearance를 만드는 기술에 HTML5, CSS3, Javascript를 사용했고 Javascript를 더 쉽게 사용하기 위해 Front UI Framework인 JQuery를 사용합니다. 그리고 이 모든게 합쳐진 Bootstrap3, 4도 사용합니다.
 
-HTML5에서 제공하는 가장 중요한 Storage를 Web Storage가 2개가 있는데 Local Storage와 Session Storage가 있습니다. 두 개중에 Local Storage만 알면 됩니다. Session Storage는 거의 쓸 일이 없습니다. 
+HTML5에서 제공하는 Web Storage가 2개가 있는데 Local Storage와 Session Storage가 있습니다. 두 개중에 Local Storage만 알면 됩니다. Session Storage는 거의 쓸 일이 없습니다. 
 <br>
 <br>
 
 ## Static Document(Script language) versus Dynamic Language
+
 ___
-Front UI를 만들때 .html파일을 만들었는데 이와 같은 문서는 프로그램이 아니라 스크립트 문서라고 합니다. 프로그램은 동적인( 사용자의 입력에 따라서 결과값이 달라지는) 특징이 있어야 하기 때문에 작성한 그대로 보여지는 Front 화면은 프로그램이 아닙니다. 
+
+Front UI를 만들때 .html파일을 만들었는데 이와 같은 문서는 프로그램이 아니라 스크립트 문서라고 합니다. 프로그램은 동적인( 사용자의 입력에 따라서 결과값이 달라지는) 특징이 있어야 하기 때문에 작성한 그대로 보여지는 Front 화면은 프로그램이 아니라고 할 수 있습니다.  
 
 이런 html같은 파일을 Static Document라고 합니다. 그리고 이런 Tag기반 언어를 Script Language라고 합니다. 반대로 Java와 같은 언어를 Dynamic Language라고 합니다. 입력결과에 따라 그때그때 다르게 반응한다는 말입니다. 
 
@@ -74,7 +78,7 @@ Front UI를 만들때 .html파일을 만들었는데 이와 같은 문서는 프
 
 ## Servlet
 ___
-Front와 Back이 생긴다고 전체적인 메카니즘이 확립되지 않습니다. Front에서 값을 입력하고 이 값을 Database에 어떻게 저장할 것인지.. 혹은 Database에 있는 값을 읽어와서 어떻게 인터넷 브라우저에 띄우게 할 것인지에 대한 해답이 제시되지 않았습니다. 중간에 Middle이 있어야 하는데  보통 이 Servlet과 Back-end를 합쳐서 Server side라고 합니다. 
+Front와 Back이 생긴다고 전체적인 메카니즘이 확립되지 않습니다. Front에서 값을 입력하고 이 값을 Database에 어떻게 저장할 것인지.. 혹은 Database에 있는 값을 읽어와서 어떻게 인터넷 브라우저에 띄우게 할 것인지에 대한 해답이 제시되지 않았습니다. 중간에 Middle Server이 있어야 하는데  보통 여기서 Servlet과 jsp가 쓰이고 Back-end와 합쳐서 Server side라고 부릅니다. 
 
 전체적인 시각에서 보면 이 두개를 Server side라고 하지만 시야를 좁게 해서 Back-end의 입장에서 보면 Servlet은 Server side에서 front에 해당됩니다. 
 

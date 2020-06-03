@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "servlet response"
+title: "Servlet response"
 date: 2020-06-02
 desc: "more specific about servlet response..."
 keywords: web, html, servlet, server, WAS, tomcat, container, request
