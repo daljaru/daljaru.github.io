@@ -7,7 +7,10 @@ keywords: web, html, servlet, server, WAS, tomcat, container, request
 categories: [Web]
 tags: [web, server, servlet, tomcat, container, WAS, httpservletrequest, httpservletresponse, doget, dopost, service]
 ---
-
+해당 게시글은 웹을 공부하기 위해 개인적으로 기록했던 자료입니다.
+___
+<br>
+<br>
 ## Get방식의 쓰임새
 
 ___
@@ -99,7 +102,7 @@ $(function(){
 아래와 같은 UI를 만듭니다.
 <br>
 
-![30login](/static/assets/img/blog/web/02MakeServlet/30login.png)
+![30login](/static/assets/img/blog/web/01MakeSimpleServlet/30login.png)
 
 <br>
 아이디와 패스워드를 입력하면 로그인 성공페이지 혹은 로그인 실패 페이지로 넘어가게 됩니다. 우선 login버튼을 눌렀을 때 로직을 처리할 Servlet을 만들어야 합니다. 
@@ -108,7 +111,7 @@ $(function(){
 
 <br>
 
-![31ServletExplorer](/static/assets/img/blog/web/02MakeServlet/31ServletExplorer.png)
+![31ServletExplorer](/static/assets/img/blog/web/01MakeSimpleServlet/31ServletExplorer.png)
 
 <br>
 LoginForm.java

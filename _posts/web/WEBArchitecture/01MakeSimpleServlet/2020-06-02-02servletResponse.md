@@ -7,7 +7,10 @@ keywords: web, html, servlet, server, WAS, tomcat, container, request
 categories: [Web]
 tags: [web, server, servlet, tomcat, container, WAS, httpservletresponse]
 ---
-
+해당 게시글은 웹을 공부하기 위해 개인적으로 기록했던 자료입니다.
+___
+<br>
+<br>
 ## post방식
 
 ___

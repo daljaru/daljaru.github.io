@@ -19,7 +19,7 @@ Eclipse에서 Apache tomcat을 서버로 만듭니다.
 
 서버 타입을 설치한 Tomcat의 버전에 맞게 선택하고 next를 누릅니다. 
 
-![01_makeServer](/static/assets/img/blog/web/02MakeServlet/01_makeServer.png){:width="40%" height="40%"}
+![01_makeServer](/static/assets/img/blog/web/01MakeSimpleServlet/01_makeServer.png){:width="40%" height="40%"}
 
 Tomcat installation directory는 Tomcat의 home으로 지정합니다. 
 

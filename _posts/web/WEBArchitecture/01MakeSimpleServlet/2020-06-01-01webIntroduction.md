@@ -47,7 +47,7 @@ DB Server와 Model을 JDBC로 연결하게 됩니다. 그 과정에서 DML쿼리
 
 여기까지가 기초적인 Back-end 단계입니다.
 
-![01_serverside](/static/assets/img/blog/web/01BasicServlet/01_serverside.png){:width="50%" height="50%"}
+![01_serverside](/static/assets/img/blog/web/01MakeSimpleServlet/01_serverside.png){:width="50%" height="50%"}
 
 이 콘텐츠를 블로그나 웹사이트 또는 인쇄물의 콘텐츠로 사용하면 저작권 문제로 처벌 받을 수 있습니다.
 원본: https://blog.kalkin7.com/2014/03/04/how-to-align-images-on-writing-with-markdown/ Copyright © 칼킨;}
@@ -72,7 +72,7 @@ Front UI를 만들때 .html파일을 만들었는데 이와 같은 문서는 프
 
 여기까지가 기초적인 Front-end의 구성입니다.
 
-![02_front](/static/assets/img/blog/web/01BasicServlet/02_front.png){:width="20%" height="20%"}
+![02_front](/static/assets/img/blog/web/01MakeSimpleServlet/02_front.png){:width="20%" height="20%"}
 <br>
 <br>
 
@@ -86,7 +86,7 @@ Front와 Back이 생긴다고 전체적인 메카니즘이 확립되지 않습�
 
 Client의 요청을 Server Side의 가장 앞 단에서 받는 게 Servlet입니다. Servlet은 보통 5각형으로 표현하는게 일반적입니다. 
 
-![03_framework](/static/assets/img/blog/web/01BasicServlet/03_framework.png){:width="80%" height="80%"}
+![03_framework](/static/assets/img/blog/web/01MakeSimpleServlet/03_framework.png){:width="80%" height="80%"}
 
 
 위 그림도 꽤나 두루뭉술 합니다. Front와 Back사이에서 Servlet이라는 것이 어떻게 동작하는지 알아봅시다. 

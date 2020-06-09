@@ -7,7 +7,10 @@ keywords: web, html, servlet, server, WAS, tomcat, container, request
 categories: [Web]
 tags: [web, server, servlet, tomcat, container, WAS, httpservletrequest]
 ---
-
+해당 게시글은 웹을 공부하기 위해 개인적으로 기록했던 자료입니다.
+___
+<br>
+<br>
 ## Get과 Post
 
 ___
@@ -134,7 +137,7 @@ response.setContentType("text/html;charset=utf-8");
 
 ___
 
-하지만 위 Servlet코드에서는 request.setCharacterEncoding() Method가 주석처리 되어있습니다. 그럼에도 불구하고 결과값이 잘 나오고 있습니다. 
+그런데 위 Servlet코드에서는 request.setCharacterEncoding() Method가 주석처리 되어있습니다. 그럼에도 불구하고 결과값이 잘 나오고 있습니다. 
 
 **굳이 인코딩을 할 필요가 없었기 때문입니다.**
 
