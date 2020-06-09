@@ -90,7 +90,7 @@ this.addr = getInitParameter("addr");
 위의 코드입니다.<br>
 ServletContext에 정의되어 있는 getInitParameter()라는 Method를 사용하고 있습니다.
 
-ServletConfig가 ServletContext를 hasing하고 있고, 또한 GenericServlet이 ServletConfig를 상속하며 HttpServlet이 GEnericServlet을 상속하고 있는 구조를 기억해야합니다. 
+ServletConfig가 ServletContext와 연관되어 있고, 또한 GenericServlet이 ServletConfig를 상속하며 HttpServlet이 GEnericServlet을 상속하고 있는 구조를 기억해야합니다. 
 
 그렇기 때문에 방금 제가 만든 ServletConfigTest1.java Servlet에서 getInitParameter() Method를 바로 쓸 수 있습니다. 
 
