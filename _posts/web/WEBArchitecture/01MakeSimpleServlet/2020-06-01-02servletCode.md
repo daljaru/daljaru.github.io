@@ -23,15 +23,15 @@ Eclipse에서 Apache tomcat을 서버로 만듭니다.
 
 Tomcat installation directory는 Tomcat의 home으로 지정합니다. 
 
-![02_makeServer2](/static/assets/img/blog/web/02MakeServlet/02_makeServer2.png){:width="40%" height="40%"}
+![02_makeServer2](/static/assets/img/blog/web/01MakeSimpleServlet/02_makeServer2.png){:width="40%" height="40%"}
 
 tomcat을 설치한 폴더로 들어가면 아래와 같은 폴더와 파일들이 있습니다.
 
-![03_tomcatServer](/static/assets/img/blog/web/02MakeServlet/03_tomcatServer.png){:width="40%" height="40%"}
+![03_tomcatServer](/static/assets/img/blog/web/01MakeSimpleServlet/03_tomcatServer.png){:width="40%" height="40%"}
 
 bin은 tomcat이 실행되기 위한 여러가지 파일들이 들어있고 conf에는 환경설정과 관련된 파일들이 있습니다. webapps에는 우리가 만든 front파일들이 들어가게 될 것입니다.
 
-![14_webappsconfig](/static/assets/img/blog/web/02MakeServlet/14_webappsconfig.png){:width="60%" height="60%"}
+![14_webappsconfig](/static/assets/img/blog/web/01MakeSimpleServlet/14_webappsconfig.png){:width="60%" height="60%"}
 
 Eclipse에서 서버를 새로 생성할 때 ServerLocation을 tomcat Installation으로 설정합니다. 그리고 Browse를 눌러 webapps에 배포가 되도록 합니다. 
 
@@ -43,7 +43,7 @@ Tomcat과 Web Application Server, Container는 모두 같은 말입니다.
 ___
 [Tomcat Servlet 3.0 API](http://tomcat.apache.org/tomcat-7.0-doc/servletapi/index.html)화면으로 가봅시다.
 
-![04_tomcatServletAPI](/static/assets/img/blog/web/02MakeServlet/04_tomcatServletAPI.png){:width="100%" height="100%"}
+![04_tomcatServletAPI](/static/assets/img/blog/web/01MakeSimpleServlet/04_tomcatServletAPI.png){:width="100%" height="100%"}
 
 위 페이지에는 톰캣환경에서 servlet을 구현하기 위한 API가 기술되어 있습니다. Servlet 3.0버전의 API가 있습니다. 
 
@@ -55,25 +55,25 @@ javax.servlet같은 경우 프로토콜과 독립적인 servlet을 만들어낼 
 
 javax.servlet에서 interface Summary를 봅시다.
 
-![servletInterface](/static/assets/img/blog/web/02MakeServlet/06servletInterface.png){:width="100%" height="100%"}
+![servletInterface](/static/assets/img/blog/web/01MakeSimpleServlet/06servletInterface.png){:width="100%" height="100%"}
 
 여기에 Servlet과 ServletConfig라는 인터페이스가 있습니다. 
 
 Servlet interface는 servlet이 본연의 기능으로서 반드시 실행해햐하는 모든 method가 정의되어 있습니다. 
 
-![08servlet](/static/assets/img/blog/web/02MakeServlet/08servlet.png){:width="100%" height="100%"}
+![08servlet](/static/assets/img/blog/web/01MakeSimpleServlet/08servlet.png){:width="100%" height="100%"}
 
 ServletConfig는 초기화과정에서 servlet container에 의해서 servlet으로 정보가 보내지는 servlet구성객체를 반환하는 Method를 담고 있습니다.
 
-![07servletConfig](/static/assets/img/blog/web/02MakeServlet/07servletConfig.png){:width="100%" height="100%"}
+![07servletConfig](/static/assets/img/blog/web/01MakeSimpleServlet/07servletConfig.png){:width="100%" height="100%"}
 
 내용을 보면 전부 get메소드밖에 없는 것을 알 수 있습니다. 그리고 servletContext인터페이스와 연관되어 있는 것을 확인할 수 있습니다.
 
 이 두 인터페이스를 implements하고 있는 것이 GenericServlet이라는 클래스입니다. 
 
-![09genericServlet](/static/assets/img/blog/web/02MakeServlet/09genericServlet.png){:width="100%" height="100%"}
+![09genericServlet](/static/assets/img/blog/web/01MakeSimpleServlet/09genericServlet.png){:width="100%" height="100%"}
 
-![10genericServlet02](/static/assets/img/blog/web/02MakeServlet/10genericServlet02.png){:width="100%" height="100%"}
+![10genericServlet02](/static/assets/img/blog/web/01MakeSimpleServlet/10genericServlet02.png){:width="100%" height="100%"}
 
 GenericServlet에 대한 설명을 보면 일반적이고 프로토콜 독립적인 Servlet을 정의한다고 적혀있습니다. 즉 GenericServlet클래스(Generic)를 재정의하면 사용자가 원하는 Servlet을 만들 수 있다는 의미입니다. 
 
@@ -81,7 +81,7 @@ GenericServlet은 Service Interface에 있는 init(ServletConfig config)를 오�
 
 그리고 	service(ServletRequest req, ServletResponse res) Method를 오버라이딩 하고 있는 것을 알 수 있습니다.
 
-![11genericServlet03](/static/assets/img/blog/web/02MakeServlet/11genericServlet03.png){:width="100%" height="100%"}
+![11genericServlet03](/static/assets/img/blog/web/01MakeSimpleServlet/11genericServlet03.png){:width="100%" height="100%"}
 
 sevice 메소드에서 인자의 이름에서 유추할 수 있듯이 **요청**을 받고 **응답**을 처리하는 메소드인 것을 알 수 있습니다. 
 
@@ -89,7 +89,7 @@ sevice 메소드에서 인자의 이름에서 유추할 수 있듯이 **요청**
 
 우리는 이 service Method를 재정의 해주면 servlet을 완성할 수 있습니다.
 
-![05servletAPI](/static/assets/img/blog/web/02MakeServlet/05servletAPI.png){:width="80%" height="80%"}
+![05servletAPI](/static/assets/img/blog/web/01MakeSimpleServlet/05servletAPI.png){:width="80%" height="80%"}
 <br>
 <br>
 
@@ -99,19 +99,19 @@ ___
 
 Eclipse로 돌아와서 Dynamic Web Project를 하나 만듭니다. 이름은 web01_GenericServlet이라고 하겠습니다. 여기서 Dynamic web module version을 2.5로 설정했는데 servlet구축을 좀더 상세히 하고 싶어서 설정했습니다. 상위버전에서는 Annotation을 이용해 더 쉽게 작성할 수 있습니다. 
 
-![12newProjectGenericServlet](/static/assets/img/blog/web/02MakeServlet/12newProjectGenericServlet.png){:width="40%" height="40%"}
+![12newProjectGenericServlet](/static/assets/img/blog/web/01MakeSimpleServlet/12newProjectGenericServlet.png){:width="40%" height="40%"}
 
 Java application이 저장되기 위한 폴더를 설정합니다. build\classes가 기본적으로 설정됩니다. 
 
-![13classes](/static/assets/img/blog/web/02MakeServlet/13classes.png){:width="40%" height="40%"}
+![13classes](/static/assets/img/blog/web/01MakeSimpleServlet/13classes.png){:width="40%" height="40%"}
 
 실제 배포가 된 파일을 tomcat폴더 안에서 찾을 수 있습니다. Root context > WEB-INF > classes > 에 배포가 되는 것을 확인 할 수 있습니다. Finish를 눌러 프로젝트를 생성합니다. 
 
-![15_dynamicFinish](/static/assets/img/blog/web/02MakeServlet/15_dynamicFinish.png){:width="40%" height="40%"}
+![15_dynamicFinish](/static/assets/img/blog/web/01MakeSimpleServlet/15_dynamicFinish.png){:width="40%" height="40%"}
 
 우선 servlet을 만들건데 기본적으로 프로젝트에서 우클릭 후에 new를 누르면 servlet을 만들 수 있지만 학습을 위해 클래스 파일부터 만들어봅니다. 이름은 GenericServletTest1으로 하겠습니다.
 
-![16_createClass](/static/assets/img/blog/web/02MakeServlet/16_createClass.png){:width="40%" height="40%"}
+![16_createClass](/static/assets/img/blog/web/01MakeSimpleServlet/16_createClass.png){:width="40%" height="40%"}
 <br>
 
 ~~~java
@@ -186,4 +186,4 @@ Deploy할 때 Servlet의 정보를 설정해줍니다. 브라우저가 Java Serv
 
 우리는 서버 설정에서 Tomcat home안으로 배포가 되게 했으므로 실제 배포가 된 파일을 tomcat폴더 안에서 찾을 수 있습니다. Root context > WEB-INF > classes > 에 배포가 되는 것을 확인 할 수 있습니다. 
 
-![18resultGeneric](/static/assets/img/blog/web/02MakeServlet/18resultGeneric.png){:width="40%" height="40%"}
+![18resultGeneric](/static/assets/img/blog/web/01MakeSimpleServlet/18resultGeneric.png){:width="40%" height="40%"}

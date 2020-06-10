@@ -7,7 +7,9 @@ keywords: Servlet, getInitParameter, WAS, init, container, field, initialization
 categories: [Web]
 tags: [web, server, servlet, tomcat, container, WAS, Servlet, getInitParameter, init, field, initialization]
 ---
-
+해당 게시글은 웹을 공부하기 위해 개인적으로 기록했던 자료입니다.
+<br>
+<br>
 ## A Servlet Instance Initialization
 
 ___

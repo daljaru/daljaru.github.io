@@ -7,7 +7,9 @@ keywords: jsp, tomcat, servlet, tag, logic
 categories: [Web]
 tags: [jsp, tomcat, servlet, tag, logic, web]
 ---
-
+해당 게시글은 웹을 공부하기 위해 개인적으로 기록했던 자료입니다.
+<br>
+<br>
 ## Servlet과 jsp의 차이
 
 ___
@@ -108,12 +110,12 @@ public class ServletLifeCycleTest2 extends HttpServlet {
 Local 환경에서 Tomcat home으로 들어가서 배포된 파일들을 보겠습니다.
 <br>
 
-![38jspdeploy](/static/assets/img/blog/web/02MakeServlet/38jspdeploy.png)
+![38jspdeploy](/static/assets/img/blog/web/02ServletLifeCycle/38jspdeploy.png)
 <br>
 
 tomcat-home> webapps안에 배포되게 했었습니다. root context안에 WEB-INF는 동적인 프로그램들이 들어가야 하는데 jsp파일은 그 바깥에 있습니다. jsp파일은 태그기반이기 때문에 html파일들이 배포되는 곳과 동일한 곳에 배포가 됩니다. 
 
-![39jspdeploy2](/static/assets/img/blog/web/02MakeServlet/39jspdeploy2.png)
+![39jspdeploy2](/static/assets/img/blog/web/02ServletLifeCycle/39jspdeploy2.png)
 
 Tomcat home에서 work폴더로 들어가면 Catalina라는 폴더가 나옵니다. 톰캣은 여러개의 기능으로 구성되어 있는데 Tomcat의 core component은 Catalina라고 말합니다. Servlet스펙의 실질적인 구동을 담당하고 있습니다. 
 
@@ -123,5 +125,5 @@ Catalina에 들어가면 localhost > root context이름을 가진 폴더들이 �
 <br>
 Servlet으로 변환된 jsp파일. 
 
-![40jsptoServlet](/static/assets/img/blog/web/02MakeServlet/40jsptoServlet.png)
+![40jsptoServlet](/static/assets/img/blog/web/02ServletLifeCycle/40jsptoServlet.png)
 

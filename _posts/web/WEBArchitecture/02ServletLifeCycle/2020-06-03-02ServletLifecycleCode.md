@@ -7,7 +7,9 @@ keywords: web, html, servlet, server, WAS, tomcat, container, request, pre_loadi
 categories: [Web]
 tags: [web, server, servlet, tomcat, container, WAS, httpservletrequest, httpservletresponse, doget, dopost, service]
 ---
-
+해당 게시글은 웹을 공부하기 위해 개인적으로 기록했던 자료입니다.
+<br>
+<br>
 ## Servlet Life Cycle 코드로 알아보기
 
 ___
@@ -118,23 +120,23 @@ public class ServletLifeCycleTest1 extends HttpServlet {
 기본생성자, init(), destroy(), doProcess(), doGet(), doPost()에 각각 println()메소드를 넣어주고 확인해봅니다. 
 <br>
 
-![32lifecycle](/static/assets/img/blog/web/02MakeServlet/32lifecycle.png)
+![32lifecycle](/static/assets/img/blog/web/02ServletLifeCycle/32lifecycle.png)
 <br>
 
 Eclipse에서 Tomcat의 동작 화면을 보면 `<load-on-startup>`태그를 작성해서 pre loading 상태이기 때문에 중간에 호출하기 전에 생성자를 실행하고 init()메소드를 실행하는 것을 확인할 수 있습니다. 
 <br>
 
-![34lifecycle3](/static/assets/img/blog/web/02MakeServlet/34lifecycle3.png)
+![34lifecycle3](/static/assets/img/blog/web/02ServletLifeCycle/34lifecycle3.png)
 
 <br>
 이후 브라우저가 요청을 시작하면 그때 service()를 실행합니다. 
 
-![33lifecycle2.png](/static/assets/img/blog/web/02MakeServlet/33lifecycle2.png)
+![33lifecycle2.png](/static/assets/img/blog/web/02ServletLifeCycle/33lifecycle2.png)
 
-![35lifecycle4](/static/assets/img/blog/web/02MakeServlet/35lifecycle4.png)
+![35lifecycle4](/static/assets/img/blog/web/02ServletLifeCycle/35lifecycle4.png)
 
 <br>
 그리고 마지막으로 이클립스에서 Server탭을 눌러 오른쪽에 빨간 네모박스(중지 버튼)을 누르면 destroy() method가 작동되는 것을 확인할 수 있습니다. 
 <br>
 
-![36lifecycle5](/static/assets/img/blog/web/02MakeServlet/36lifecycle5.png)
+![36lifecycle5](/static/assets/img/blog/web/02ServletLifeCycle/36lifecycle5.png)

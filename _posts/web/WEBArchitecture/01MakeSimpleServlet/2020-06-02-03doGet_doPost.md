@@ -29,7 +29,7 @@ HttpServlet Class API를 보면 doGet()가 doPost()라는 메소드가 있습니
 
 그래서 보통 서블릿을 만들 때 아래와 같이 만듭니다. 
 
-![29doGetdoPost](/static/assets/img/blog/web/02MakeServlet/29doGetdoPost.png)
+![29doGetdoPost](/static/assets/img/blog/web/01MakeSimpleServlet/29doGetdoPost.png)
 
 doProcess라는 메소드를 하나 만들고 doGet과 doPost가 doProcess를 사용하는 형태로 만듭니다. 이렇게 만들면 웹브라우저가 get이든, post든 어떤 방식으로 페이지나 데이터를 요청해도 doProcess를 통해 가져올 수 있습니다.
 
