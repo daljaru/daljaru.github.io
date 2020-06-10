@@ -103,11 +103,11 @@ web02_HttpServletForm이라는 Context content<br>
 
 입력값과 체크박스를 선택한뒤 DataSend버튼을 누르겠습니다. 
 
-![22get](/static/assets/img/blog/web/02MakeServlet/22get.png){:width="60% height="60%"}
+![22get](/static/assets/img/blog/web/01MakeSimpleServlet/22get.png){:width="60% height="60%"}
 
 <br>
 
-![23get02](/static/assets/img/blog/web/02MakeServlet/23get02.png){:width="100% height="100%"}
+![23get02](/static/assets/img/blog/web/01MakeSimpleServlet/23get02.png){:width="100% height="100%"}
 <br>
 위의 주소창을 한번 보겠습니다. 톰캣안에서 배포된 파일의 위치가 나오는데<br>
 localhost:8888이라는 ip주소와 포트번호, web02_HttpServletForm이라는 content context, 그 다음에 FS라는 servlet-mapping정보가 들어갑니다. `<form action="FS">`이렇게 지정했기 때문에 FS라는 값이 나오는 것입니다.
@@ -129,7 +129,7 @@ response.setContentType("text/html;charset=utf-8");
 
 이 인코딩 코드는 request, response instance를 사용하기 이전에 반드시 작성되어야 합니다. 만약 request.getParameter("...")이후에 request.setCharacterEncoding("utf-8")을 적으면 에러가 납니다. 마찬가지로 response.getWriter()메소드를 작성하고 난후 response.setContentType("text/html;charset=utf-8")을 작성하면 에러가 발생합니다. 
 
-![24encoding.png](/static/assets/img/blog/web/02MakeServlet/24encoding.png){:width="100% height="100%"}
+![24encoding.png](/static/assets/img/blog/web/01MakeSimpleServlet/24encoding.png){:width="100% height="100%"}
 
 당연히 인코딩을 먼저 하고 데이터를 보내는게 순서에 맞습니다.
 
@@ -145,7 +145,7 @@ get 방식은 페이지를 불러오는게 주된 목적이고 데이터를 전�
 
 브라우저에서도 확인할 수 있습니다. F12번을 눌러 개발자 모드로 진입한 후 Network탭으로 들어가면 아래와 같은 화면을 확인할 수 있습니다. 
 
-![25queryString](/static/assets/img/blog/web/02MakeServlet/25queryString.png){:width="100% height="100%"}
+![25queryString](/static/assets/img/blog/web/01MakeSimpleServlet/25queryString.png){:width="100% height="100%"}
 
 Query String의 값으로 userId와 userPass와 menu가 넘어가는 것을 확인할 수 있습니다.
 
