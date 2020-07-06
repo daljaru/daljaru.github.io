@@ -1,62 +1,92 @@
 ---
 layout: post
-title: "What is Python programming"
-date: 2020-04-21
-desc: "what is Python programming"
-keywords: programming, programmer, programming language, computer
+title: "Python with AI"
+date: 2020-07-06
+desc: "Python is for AI, BigData rather than programming"
+keywords: Python, AI
 categories: [Python3]
-tags: [programming,computer,pl]
+tags: [python]
 ---
 
-## Programming?
+## Language for big data
 
-#### 시작하기에 앞서
+R - ML과 DL을 하는데 R로 짜는 사람도 많다. 
 
-프로그램을 한번 만들어 봤으니 조금 얼떨떨 하죠? '그냥 Hello World 하나 뜨게 한건데 저게 무슨 프로그램인가?' 라는 생각이 들 수도 있습니다. 그러나 개발하는 사람들 모두는 '프로그램'이라고 말할 것이다. 
+Matplot
 
-![Program](/static/assets/img/blog/python3/02WhatIsPythonProgramming/Program.png)
+Python 
+
+R이나 Matplot으로 짜는 것은 Python보다 어렵다. Python이 좀 더 강력한 라이브러리가 많기 때문이다.
+
+Data type, Control, Looping, function module만 알면 OK. 
+
+데이터 분석을 하기 위한 문제의식도 중요. -> 데이터를 어떻게 핸들링할것인가?에 대한 요구사항 분석. 
+
+## Anaconda
+
+Scipy(통계분석패키지), Numpy(수치 컴퓨팅 패키지), Pandas(데이터 병합 및 변환 제공하는 데이터 추상화 계층) 및 모든 종속성을 포함하는 바이너리 세트. 데이터과학작업에 필요한 거의 모든것을 제공한다. 
+
+## 데이터 분석
+
+Numpy
+
+Pandas
+
+Matplot
+
+## 머신러닝 
+
+지도학습 - Decision Tree, Random Forest, Linear Regression, Rogistic, SVN
+
+비지도학습 - Clustering, K-Means, Collaborative Filtering
+
+데이터를 불러오고 예측하고 학습하고. 전처리. . 
+
+머신을 넣은 이유는 딥을 제대로 알기 위해서.
+
+머신강의는 머신강의만.  딥강의는 딥강의만.. 조금 다른 부분이 있다.
+
+## 딥러닝
+
+레이어를 여러개 쌓는다. 
+
+딥의 레이어가 어떻게 이루어져있는지에 대한... 신경망이 어떻게 구현이 되어있는지 정확히 이해해야한다.
+
+-> 텐서플로, 파이토치. . . . . . . . . . . . . . . . . . . . .. . . . 
+
+텐서는 embedded와 모바일에 강하다는 점 빼고는 장점이 없다. Customize할 수 있는 라이브러리. 코드가 직관적이지는 않다. 
+
+텐서는 포럼이 별로 없고 tutorial도 약하다.
+
+연구원들은 pytorch로 돌아섰고   강력하고 academic한 포럼도 있다.
+
+연산과정이 텐서랑 달라서 연산속도가 매우 빠르다.
+
+Linear   
+
+Convolusion - CNN - 합성곱
+
+NN (Neural Net)     - ANN, RNN, DNN   
+
+ANN : 레이어가 하나. 
+
+D(Deep)NN : 레이어가 여러개
+
+D(Deep)CNN 
+
+DNN을 CNN으로 바꾸는 작업을 한다. VGGNet  Visual Geometric Group... GPU서버로 돌려야 한다.
+
+Colab   GPU서버를 지원해주는 구글의 소프트웨어.  - 그렇게 복잡하지 않은 걸로.
 
 
+## Keras
 
-#### 프로그램
+번외로 keras를 하자.
 
->  컴퓨터장치에서 주어진 작업을 수행하는 명령어코드들의 집합.
+엄청 간단하게. 
 
-이 프로그램들을 만드는 사람들을 **Programmer**이라고 부르고  이들이 하는 일을 **Programming**이라고 부릅니다.
-
-그렇게 때문에 소프트웨어 개발자들은, 혹은 컴퓨터를 조금이라도 공부한 사람들은 HelloWorld.py를 '프로그램'이라고 말할 것입니다. 물론 아주아주 쉬운 프로그램이라고 말하겠지만 컴퓨터가 명령어를 받아들이고 해독하고 결과를 보여줬으니 '프로그램'이 맞습니다. 
-
+재밌겠다.
 
 
-
-
-#### 프로그래밍 언어의 간단한 역사
-
-초기의 언어들은 부호였고 기계에 천공카드라는 것을 넣고 부호해석을 이용했습니다.
-
-1954 - **Fortran** 기상예측, 자원탐사, 우주항공, 유체 및 구조해석, 계산화학, 양자 및 분자 동역학 계산, 천문학, 인공위성을 포함한 군사과학, 자동차 선박 설계, 반도체설계, 금융계산 등 거의 모든 산업분야의 초대형 과학계산 문제의 프로그래밍에 필수적인 언어입니다.
-
-1972 - **C** 유닉스 기반 운영체제를 개발하기 위해 만든 절차지향적 언어.
-
-1978 - **SQL**  데이터베이스 쿼리 작성
-
-1980 - **C++** C에서 OOP(Object-Oriented Programming)객체지향프로그래밍을 위해 개발한 언어
-
-1984 - **MATLAB** 공학용 수치계산 소프트웨어
-
-1991 - **Python** - 우리가 배우는 파이썬
-
-1995 - **JAVA** - Sun Microsystems 사에서 개발한 객체지향프로그래밍언어.
-
-사이사이에 수십가지의 언어들이 만들어지고 사라졌습니다. 
-
-
-
-#### 컴퓨터의 간단한 역사
-
-컴퓨터의 시초는 아주 단순하고 추상적이고 철학적으로 본다면 '**주판**'입니다. 일종의 '계산하는 기계'를 컴퓨터의 시초라고 볼 수 있습니다. 사람들은 기계를 쓰기 시작하면서 기계의 편리함을 하고 기계로 계산을 하고 싶어졌습니다. 
-
-그렇게 나오게 된게 **파스칼의 계산기**입니다. 시간이 흘러 전자공학이 발달하여  최초의 전자식 컴퓨터 **콜로서스**가 나오게 되었고 이후  반도체공학이 발달하고 하드웨어의 소형화가 이루어지며 PC의 개인화가 이루어졌습니다. **IBM, Apple, Microsoft**등 CLI방식에서 GUI환경으로 전환되며 오늘날의 **Mac book**과 **Windows 10** 같은 일반 사용자 중심의 컴퓨터가 나오게 된 것입니다.
-
-![cal](/static/assets/img/blog/python3/02WhatIsPythonProgramming/cal.png)
+## stackoverflow developer survey results
 
