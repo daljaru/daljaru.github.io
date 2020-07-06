@@ -88,6 +88,7 @@ DEPENDENCIES
   jekyll (~> 4.0)
   jekyll-admin
   wdm (~> 0.1.0)
+  rack (~> 2.1.4)
 
 BUNDLED WITH
    2.1.4
