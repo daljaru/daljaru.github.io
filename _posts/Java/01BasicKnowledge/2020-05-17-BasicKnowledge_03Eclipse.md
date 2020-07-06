@@ -28,4 +28,9 @@ Eclipse는 자바를 기반으로 한 IDE입니다. 원래는 IBM에서 VisualAg
 
 ![11_downloadEclipse](/static/assets/img/blog/java/01BasicKnowledge/11_downloadEclipse.png){:width="100%" height="100%"}
 
-우측 하단에 More downloads에서 Eclipse Photon으로 들어갑니다. 여러 버전들이 있는데 
+우측 하단에 More downloads에서 Eclipse Photon으로 들어갑니다. 여러 버전들이 있는데 Eclipse Photon(4.8)을 설치합니다. 
+
+## Workspace
+
+Eclipse 설치 시에 Workspace를 설정할 수 있는데 Workspace에는 Eclipse의 프로젝트들을 모아놓을 수 있습니다. Workspace는 추후에도 여러 곳을 만들 수 있습니다. 
+
