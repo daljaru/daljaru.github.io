@@ -12,7 +12,7 @@ tags: [String, type]
 
 ___
 
-![StringBufferConstructor](/static/assets/img/blog/java/02DataType/StringBufferConstructor.png)
+![StringBufferConstructor](/static/assets/img/blog/java/02DataType/StringBufferConstructor.png){:width="50%" height="50%"}
 <br>
 
 ~~~java
