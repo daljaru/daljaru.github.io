@@ -12,7 +12,7 @@ tags: [String, type]
 
 ___
 
-![StringBuffer](/static/assets/img/blog/java/02DataType/StringBuffer.png)
+![StringBuffer](/static/assets/img/blog/java/02DataType/StringBuffer.png){:width="50%" height="50%"}
 <br>
 
 ### 특징
