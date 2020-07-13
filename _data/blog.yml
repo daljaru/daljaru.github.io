@@ -6,8 +6,8 @@
 - name: Python3
   href: /python3/
 
-- name: Data_Analysis
-  href: /data_analysis/
+- name: DataAnalysis
+  href: /dataanalysis/
 
 - name: Java
   href: /java/
