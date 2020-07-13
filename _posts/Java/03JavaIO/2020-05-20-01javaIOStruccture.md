@@ -10,6 +10,8 @@ tags: [java.io, class diagram]
 
 ## java.io 패키지 클래스 구조
 
+___
+
 ![javaIOClassStructure](/static/assets/img/blog/java/03JavaIO/javaIOClassStructure.png){:width="100%" height="100%"}
 <br>
 
