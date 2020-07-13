@@ -12,7 +12,7 @@ tags: [java.io, class diagram]
 
 ___
 
-![javaIOClassStructure](static/assets/img/blog/java/03javaIO/javaIOClassStructure.png){:width="100%" height="100%"}
+![javaIOClassStructure](/static/assets/img/blog/java/03javaIO/javaIOClassStructure.png){:width="100%" height="100%"}
 
 <br>
 
