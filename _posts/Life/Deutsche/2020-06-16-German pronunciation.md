@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "What is Python programming"
+title: "Deutsche pronunciation"
 date: 2020-04-21
-desc: "what is Python programming"
-keywords: programming, programmer, programming language, computer
-categories: [Python3]
-tags: [programming,computer,pl]
+desc: "Deutsche pronunciation"
+keywords: Deutsche, Germany, German
+categories: [Life]
+tags: [language, deutsche]
 ---

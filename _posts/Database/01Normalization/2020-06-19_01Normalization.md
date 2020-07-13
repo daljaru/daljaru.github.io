@@ -4,7 +4,7 @@ title: "Normalization"
 date: 2020-06-19
 desc: "Normalization description"
 keywords: ExERD, Normalization, BCNF, Database
-categories: [Java]
+categories: [Database]
 tags: [ExERD, Normalization, BCNF, Database]
 ---
 
