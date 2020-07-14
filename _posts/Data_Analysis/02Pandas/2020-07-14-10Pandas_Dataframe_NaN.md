@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "NaN handling in pandas"
-date: 2020-07-13
+date: 2020-07-14
 desc: "Nan handling in pandas"
 keywords: python, pandas, NaN
 categories: [Data_analysis]
