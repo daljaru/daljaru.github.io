@@ -13,7 +13,6 @@ tags: [numpy, array, list]
 ___
 
 numpy array는 array()를 사용합니다. 리스트는 list()를 사용합니다. 
-<br>
 
 ~~~python
 import numpy as np
@@ -30,12 +29,10 @@ print(myArr)
 [4 5 6 7]
 '''
 ~~~
-<br>
-<br>
-
-리스트는 출력결과가 `[]`안에 요소들이 `,`로 구분이 되어 나타나고 Numpy배열은 출력결과가`[]`안에 요소들이 `,`로 구분되지 않습니다. 
 
 <br>
+
+리스트는 출력결과가 `[]`안에 요소들이 `,`로 구분이 되어 나타나고 Numpy배열은 출력결과가`[]`안에 요소들이 `,`로 구분되지 않습니다. Numpy배열은 ndarray객체 타입으로 나옵니다. ndarray객체는 다차원 행렬구조를 지원하는 numpy의 핵심클래스입니다. 
 
 ~~~python
 print(type(myList))
@@ -47,10 +44,6 @@ print(type(myArr))
 <class 'numpy.ndarray'>
 '''
 ~~~
-<br>
-<br>
-
-Numpy배열은 ndarray객체 타입으로 나옵니다. ndarray객체는 다차원 행렬구조를 지원하는 numpy의 핵심클래스입니다. 
 
 <br>
 

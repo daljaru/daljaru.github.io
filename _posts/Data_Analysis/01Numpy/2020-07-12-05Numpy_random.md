@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Numpy Random
+title: "Numpy Random function"
 date: 2020-07-12
 desc: "Generate Random Number"
 keywords: numpy, randint, randn, randrange
