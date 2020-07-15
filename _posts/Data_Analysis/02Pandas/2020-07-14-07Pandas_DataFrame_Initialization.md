@@ -1,12 +1,17 @@
 ---
 layout: post
-title: "DataFrame 개념"
+title: "DataFrame Initialization"
 date: 2020-07-14
-desc: "DataFrame 개념"
-keywords: python, pandas, DataFrame
+desc: "DataFrame Initialization"
+keywords: python, pandas, DataFrame, read_csv, read_excel
 categories: [Data_analysis]
-tags: [python, pandas, DataFrame]
+tags: [python, pandas, DataFrame, read_csv, read_excel]
 ---
+
+## DataFrame Initialization
+
+___
+
 
 
 
