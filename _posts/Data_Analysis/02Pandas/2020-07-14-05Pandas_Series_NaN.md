@@ -41,8 +41,12 @@ dtype: float64
 ### isnull()
 
 ~~~python
-.
-.
+import numpy as np
+import pandas as pd
+from pandas import Series, DataFrame
+import matplotlib.pyplot as plt
+
+test= Series([None, None, 1, 2, 3, 4, 5, 6, None])
 print(test.isnull())
 '''
 0     True
@@ -65,8 +69,12 @@ dtype: bool      --> NaN은 True, 그 외는 False
 ### notnull()
 
 ~~~python
-.
-.
+import numpy as np
+import pandas as pd
+from pandas import Series, DataFrame
+import matplotlib.pyplot as plt
+
+test= Series([None, None, 1, 2, 3, 4, 5, 6, None])
 print(test.notnull())
 '''
 0    False
@@ -81,4 +89,46 @@ print(test.notnull())
 '''
 .
 .
+~~~
+
+<br>
+
+### NaN값의 개수 구하기
+
+~~~python
+import numpy as np
+import pandas as pd
+from pandas import Series, DataFrame
+import matplotlib.pyplot as plt
+
+test= Series([None, None, 1, 2, 3, 4, 5, 6, None])
+
+test.isnull().sum()
+'''
+3
+'''
+~~~
+
+<br>
+
+### NaN이 아닌 데이터 조회하기
+
+~~~python
+import numpy as np
+import pandas as pd
+from pandas import Series, DataFrame
+import matplotlib.pyplot as plt
+
+test= Series([None, None, 1, 2, 3, 4, 5, 6, None])
+
+print(result[result.notnull()])
+'''
+2   -3.0
+3   -6.0
+4   -5.0
+5    3.0
+6    0.0
+7    3.0
+dtype: float64
+'''
 ~~~
