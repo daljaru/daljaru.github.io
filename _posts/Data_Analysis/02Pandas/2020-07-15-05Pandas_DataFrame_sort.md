@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "DataFrame Sorting"
-date: 2020-07-14
+date: 2020-07-15
 desc: "DataFrame Sorting"
 keywords: python, pandas, NaN, sort_value
 categories: [Data_analysis]
-tags: [python, pandas, NaN]
+tags: [python, pandas, NaN, sort_value]
 ---
 
 ## DataFrame 정렬하기
