@@ -145,4 +145,94 @@ df1.head()
 
 ![dataframe_sample](../../../static/assets/img/blog/data_analysis/03Matplotlib/dataframe_sample.png){:width="30%" height="30%}
 
+<br>
+
+DataFrame의 각 열을 추출해서 x,y에 넣는 방법이 있습니다. 
+
+~~~python
+plt.plot(df1['a'], df1['b'], 'o')
+plt.show()
+~~~
+
+![dataframe_plot](../../../static/assets/img/blog/data_analysis/03Matplotlib/dataframe_plot.png){:width="40%" height="40%}
+
+<br>
+
+DataFrame객체를 넣는다면 전체 컬럼의 데이터가 각각 다른 색으로 찍힙니다. 
+
+~~~python
+plt.plot(df1)
+plt.show()
+~~~
+
+![dataframe_plot2](../../../static/assets/img/blog/data_analysis/03Matplotlib/dataframe_plot2.png){:width="40%" height="40%}
+
+<br>
+
+## PlotAccessor 이용하기 
+
+___
+
+DataFrame을 그리는 방법 중에서 가장 많이 쓰이는 것은 DataFrame객체에서 plotAccessor를 plot()함수로 불러오는 것입니다. 
+
+~~~python
+df1.plot(kind='scatter', x='a', y='b', color='r')
+plt.show()
+~~~
+![plotaccessor](../../../static/assets/img/blog/data_analysis/03Matplotlib/plotaccessor.png){:width="40%" height="40%}
+
+<br>
+
+## PlotAccessor definition
+
+___
+
+> Make plots of Series or DataFrame.<br>
+> df.plot(*args, **kwargs)
+
+Series나 DataFrame의 plot을 만다는 함수라고 정의되어있습니다. 
+
+<br>
+
+### 대표적인 파라미터 정의
+
+* data : Series나 DataFrame을 넣습니다. (Series, DataFrame)  
+* x : x 라벨 (str)
+* y : y 라벨 (str)
+* kind : 그래프의 종류 (str)
+* figsize : 도면의 크기
+* title : 그래프제목 (str)
+* grid : 교차선 (bool)
+* legend : legend 그리기(bool)
+* rot : 눈금 방향.(int)
+* fontsize : 눈금 크기(int)
+* colormap : (str or matplotlib colormap obj)
+* colorbar : bar의 색깔. ('scatter' and 'hexbin')에만 적용
+
+<br>
+
+### 그래프의 종류
+- 'line' : line plot (default)
+- 'bar' : vertical bar plot
+- 'barh' : horizontal bar plot
+- 'hist' : histogram
+- 'box' : boxplot
+- 'kde' : Kernel Density Estimation plot
+- 'density' : same as 'kde'
+- 'area' : area plot
+- 'pie' : pie plot
+- 'scatter' : scatter plot
+ - 'hexbin' : hexbin plot.
+
+<br>
+
+~~~python
+df1.plot(kind='bar', x='a', y='b', color='r', grid=True, legend=True, rot = 0, figsize=(12,4))
+plt.show()
+~~~
+
+![plotaccessor_bar](../../../static/assets/img/blog/data_analysis/03Matplotlib/plotaccessor_bar.png){:width="70%" height="70%}
+
+<br>
+
 
