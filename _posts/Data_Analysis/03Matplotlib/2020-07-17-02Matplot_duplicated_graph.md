@@ -48,7 +48,7 @@ plt.ylabel('Count', rotation=0)
 plt.show()
 ~~~
 
-![dup](../../../static/assets/img/blog/data_analysis/03Matplotlib/dup.png){:width="40%" height="40%}
+![dup](/static/assets/img/blog/data_analysis/03Matplotlib/dup.png){:width="40%" height="40%}
 
 <br>
 
@@ -65,7 +65,7 @@ plt.plot(Series(np.random.randint(20,60,20)), Series(np.random.randint(20,60,20)
 plt.show()
 ~~~
 
-![argtype](../../../static/assets/img/blog/data_analysis/03Matplotlib/argtype.png){:width="40%" height="40%}
+![argtype](/static/assets/img/blog/data_analysis/03Matplotlib/argtype.png){:width="40%" height="40%}
 
 <br>
 
@@ -86,7 +86,7 @@ plt.title('SinCos graph')
 plt.show()
 ~~~
 
-~[consin](../../../static/assets/img/blog/data_analysis/03Matplotlib/consin.png){:width="40%" height="40%}
+![consin](/static/assets/img/blog/data_analysis/03Matplotlib/consin.png){:width="40%" height="40%}
 
 <br>
 
@@ -122,7 +122,7 @@ plt.title('Random Graph')
 plt.show()
 ~~~
 
-![plotfigure](../../../static/assets/img/blog/data_analysis/03Matplotlib/plotfigure.png){:width="40%" height="40%}
+![plotfigure](/static/assets/img/blog/data_analysis/03Matplotlib/plotfigure.png){:width="40%" height="40%}
 
 <br>
 
@@ -143,7 +143,7 @@ df1 = DataFrame(data)
 df1.head()
 ~~~
 
-![dataframe_sample](../../../static/assets/img/blog/data_analysis/03Matplotlib/dataframe_sample.png){:width="30%" height="30%}
+![dataframe_sample](/static/assets/img/blog/data_analysis/03Matplotlib/dataframe_sample.png){:width="30%" height="30%}
 
 <br>
 
@@ -154,7 +154,7 @@ plt.plot(df1['a'], df1['b'], 'o')
 plt.show()
 ~~~
 
-![dataframe_plot](../../../static/assets/img/blog/data_analysis/03Matplotlib/dataframe_plot.png){:width="40%" height="40%}
+![dataframe_plot](/static/assets/img/blog/data_analysis/03Matplotlib/dataframe_plot.png){:width="40%" height="40%}
 
 <br>
 
@@ -165,7 +165,7 @@ plt.plot(df1)
 plt.show()
 ~~~
 
-![dataframe_plot2](../../../static/assets/img/blog/data_analysis/03Matplotlib/dataframe_plot2.png){:width="40%" height="40%}
+![dataframe_plot2](/static/assets/img/blog/data_analysis/03Matplotlib/dataframe_plot2.png){:width="40%" height="40%}
 
 <br>
 
@@ -179,7 +179,7 @@ DataFrame을 그리는 방법 중에서 가장 많이 쓰이는 것은 DataFrame
 df1.plot(kind='scatter', x='a', y='b', color='r')
 plt.show()
 ~~~
-![plotaccessor](../../../static/assets/img/blog/data_analysis/03Matplotlib/plotaccessor.png){:width="40%" height="40%}
+![plotaccessor](/static/assets/img/blog/data_analysis/03Matplotlib/plotaccessor.png){:width="40%" height="40%}
 
 <br>
 
@@ -231,8 +231,4 @@ df1.plot(kind='bar', x='a', y='b', color='r', grid=True, legend=True, rot = 0, f
 plt.show()
 ~~~
 
-![plotaccessor_bar](../../../static/assets/img/blog/data_analysis/03Matplotlib/plotaccessor_bar.png){:width="70%" height="70%}
-
-<br>
-
-
+![plotaccessor_bar](/static/assets/img/blog/data_analysis/03Matplotlib/plotaccessor_bar.png){:width="70%" height="70%}
