@@ -3,9 +3,9 @@ layout: post
 title: "겹쳐진 그래프 그리기"
 date: 2020-07-17
 desc: "duplicated_graph"
-keywords: python, pandas, matplotlib, pyplot
+keywords: python, pandas, matplotlib, pyplot, plot, show
 categories: [Data_analysis]
-tags: [python, pandas,  matplotlib, pyplot]
+tags: [python, pandas,  matplotlib, pyplot, plot, show]
 ---
 
 ## plot()
