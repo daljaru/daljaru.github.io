@@ -27,7 +27,7 @@ plt.plot(t,t,'r--',t,t**2,'gs', t,t**3,'*')
 plt.show()
 ~~~
 
-![dupli_plot](/static/assets/img/blog/data_analysis/03Matplotlib/dupli_plot.png)
+![dupli_plot](/static/assets/img/blog/data_analysis/03Matplotlib/dupli_plot.png){:width="40%" height="40%}
 
 <br>
 
@@ -48,7 +48,7 @@ plt.ylabel('Count', rotation=0)
 plt.show()
 ~~~
 
-![dup](../../../static/assets/img/blog/data_analysis/03Matplotlib/dup.png)
+![dup](../../../static/assets/img/blog/data_analysis/03Matplotlib/dup.png){:width="40%" height="40%}
 
 <br>
 
@@ -65,7 +65,7 @@ plt.plot(Series(np.random.randint(20,60,20)), Series(np.random.randint(20,60,20)
 plt.show()
 ~~~
 
-![argtype](../../../static/assets/img/blog/data_analysis/03Matplotlib/argtype.png)
+![argtype](../../../static/assets/img/blog/data_analysis/03Matplotlib/argtype.png){:width="40%" height="40%}
 
 <br>
 
@@ -86,7 +86,7 @@ plt.title('SinCos graph')
 plt.show()
 ~~~
 
-~[consin](../../../static/assets/img/blog/data_analysis/03Matplotlib/consin.png)
+~[consin](../../../static/assets/img/blog/data_analysis/03Matplotlib/consin.png){:width="40%" height="40%}
 
 <br>
 
@@ -121,3 +121,28 @@ plt.ylabel('y axis')
 plt.title('Random Graph')
 plt.show()
 ~~~
+
+![plotfigure](../../../static/assets/img/blog/data_analysis/03Matplotlib/plotfigure.png){:width="40%" height="40%}
+
+<br>
+
+## DataFrame Visualizaton
+
+___
+
+마지막으로 DataFrame으로 시각화 작업을 해보도록 하겠습니다. 
+
+~~~python
+import numpy as np
+from pandas import DataFrame
+np.random.seed(100)
+data = dict(a=np.arange(0,50,1), c=np.random.randint(0,50,50), d=np.random.randn(50))
+data['b'] = data['a']+10 *np.random.randn(50)
+data['d'] = np.abs(data['d'])*100
+df1 = DataFrame(data)
+df1.head()
+~~~
+
+![dataframe_sample](../../../static/assets/img/blog/data_analysis/03Matplotlib/dataframe_sample.png){:width="30%" height="30%}
+
+
