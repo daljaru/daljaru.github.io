@@ -4,7 +4,7 @@ title: "AI Introduction"
 date: 2020-07-22
 desc: "AI Introduction"
 keywords: Machine Learning, Deep Learning, Neural Network, Decision Tree, Random Fores, Classification, Linear Regression, Rogistic
-categories: [Algorithm]
+categories: [AI]
 tags: [Machine Learning, Deep Learning, Neural Network, Decision Tree, Random Fores, Classification, Linear Regression, Rogistic]
 ---
 
