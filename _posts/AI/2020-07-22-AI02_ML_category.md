@@ -47,3 +47,33 @@ ___
     신규데이터를 넣고 학습시킨 모델을 이용해 결과값을 예측합니다. 예측의 정확도에 따라 모델의 성능을 평가할 수 있습니다. 
 
 <br>
+
+## 간단한 머신러닝 학습분류
+
+___
+
+### Unsupervised
+
+* Clustering & Dimensionality Reduction
+
+    * SVD, PCA, K-means
+  
+* Association Analysis
+
+    * Apriori, FP-Growth
+
+* Hidden Markov Model
+
+### Supervised
+
+* Regression
+
+    * Linear, Polynomial
+
+* Decision Tree
+
+* Random Forests
+
+* Classification
+
+    * KNN, Trees, Logistic Regression, Naive-Bayes, SVM
