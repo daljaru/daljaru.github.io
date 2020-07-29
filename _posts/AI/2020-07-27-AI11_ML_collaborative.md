@@ -145,7 +145,7 @@ random local search  backpropa는 아님.
 
 정리 . Gradient Descent : 가장 가파르게 loss(고도)를 감소시키며 하강하는 방법인데....
 가장 가파르게 loss(고도)를 감소시키는 weight의 방향을 찾아낸다. 
-가장 가파르ㅔ loss(고도)를 감소시키는 weight의 방향을 trial error 없이 찾아내는 optimization방법 중의 하나다. 
+가장 가파르게 loss(고도)를 감소시키는 weight의 방향을 trial error 없이 찾아내는 optimization방법 중의 하나다. 
 
 Loss에 대해서 책임론을 정량화하는 수식. 
 
@@ -164,4 +164,79 @@ feature map
 
 
 NN Neural Network
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+왜 바로바로 말이 안나왔던 것일까. . . . . . . . . . . . . . . . . . .
+
+
+
+
+
+
+
+
+
+
+
+
+Optimization
+
+하강하는 방법
+
+Loss Function
+현재 고도를 측정하는 것
+
+Gradient Descent
+- Optimization 중의 하나
+ Backpropagation 방법을 이용해서 하산하는 Optimization
+ 정확한 방향을 하나하나 계산하기 때문에 slow, 하지만 global minimum까지 정확하게 찾아간다.
+ learnign_rate는 기본적으로 0.1을 기본적으로 사용. 
+
+ Backpropagation
+ 가장 가파르게 내려갈 수 있는 방향을 정하는 것. 
+ 이때 미분(실질적으로 편미분)이 사용된다. 
+
+2) Weight값이 loss에 얼마나 영향을 주었는지를 수치화한 다음에 
+loss를 가장 많이 줄이는 방향으로 weight값을 업데이트
+loss에 영향을 많이 주었으면(책임을 많이 진다) 수정값이 크고
+loss에 영향을 작게 주었으면(책음을 적게 진다.)수정값이 작다.
+
+
+
+|｜／￣＿＼―
+
+
+Great!!!!!                 |｜／￣＿＼―
+Great!!!!!
+Great!!!!!
+Great!!!!!
+Great!!!!!
+Great!!!!!
+Great!!!!!
+Great!!!!!
+Great!!!!!
+Great!!!!!
+Great!!!!!
+
+
+
+
+
+
+
+
+
 
