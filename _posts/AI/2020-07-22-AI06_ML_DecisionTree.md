@@ -16,7 +16,13 @@ Decision Tree(결정 트리, 의사결정나무, 의사결정트리)는 특정�
 
 ![decision_tree](/static/assets/img/blog/ai/decision_tree.png){:width="40%", height="40"}
 
+<br>
 
+### 결정트리 구조
+
+결정 트리에서 질문이나 네모상자를 노드라고 합니다. 
+
+결정 트리에서 가장 맨 위의 노드를 Root Node라고 합니다. 
 
 decision tree에서 오버피팅을 줄이는 방법 중 하나는 가지치기다. .
 
