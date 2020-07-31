@@ -12,5 +12,5 @@ tags: [Machine Learning, Supervised, Unsupervised, Reinforcement]
 
 ___
 
-강화학습은 학습을 위해 라벨을 만들 필요가 없다. 
+Agent가 현재 상태에서 선택 가능한 행동들 중 보상을 최대화하는 방식으로 학습합니다. 모델이 여러 번 시행착오를 겪으며 보상이 최대화되는 행동을 하도록 학습합니다. 
 
