@@ -1,0 +1,96 @@
+Fully connected network로는 영상처리를 하지 못한다. 그 이유는 공간정보를 잃어버리기 때문이다. 
+
+각자 다 곱해서 더한 거네. 
+ 
+convolutino 이후의 feature      가 원본과 어떤 차이가 있을까?? 
+
+더 특징만 추출한다.  == 정보를 손실한다. 
+
+
+
+
+
+
+
+feature map
+
+feature map의 채널 수 
+
+fileter의 개수.
+
+
+
+poolinglayer는 각 채널별로 동작한다. 
+
+
+7*7*4096으로 채널을 늘리고 global maxpooling을 진행. (입력사이즈와 동일한 필터사이즈를 만듭니다.) 그 중에서 가장 큰 값 하나만 추출 
+9*9 -> maxpooling . . . . . ..
+
+
+
+
+learning network -> optimization
+
+
+
+2단계로 로딩하는 이유는 ?? batch size..... 어마어마하게 중요. . . . .. .  .
+
+
+
+validation 학습대상도 아니고 back propagation도 안되고 weight update도 안되ㅡㄴ데 validation data를 왜 쓰냐고. .  
+
+validation data가 왜 있냐고..... . ... 
+
+pytorch transforms -> datat augmentation... .. . ex) transforms=[transforms.RandomRotation(), transforms.RandomBlightness]
+
+
+Deep Learning은 크게 3part로 구성
+
+1. PreProcessing(70%), 2. DeepLearning(25%), 3.PostProcesing(5%)
+
+1) 깨끗한 데이터를 위한 노가다
+2) 값을 스케일링
+3) 데이타 augmentation
+4) 데이타를 균일하게 비율을 마줌
+5) 데이타 섞기
+6) 도메인 전문지식이 필요한 데이터 --> 의료스타트업
+
+
+
+
+
+97% 98% 끌어올리고 싶다. -> tip : 활성화함수 모든걸 써본다. 
+
+
+Data Processing
+>scailing.....
+
+batch normalization
+
+batch. . . . . 
+
+X-mean / s+d  -> 굳이 공식으로 쓰자면 이렇다. . .  .
+
+s+d가 255로 나누는 역할 머 비슷..
+
+분자는. . 
+
+batch normalization : scaling을 하는데 중심까지도 이동해서 ....
+얘는 슈퍼맨이라고 한다. . . . . .
+
+아무리 못줘도 12이상 batch size를 주자??
+
+validation data, tests data, batch_size
+
+
+validation tet => 파라미터 조정???
+
+validation도 배치 사이즈 설정됨. . . .
+
+마지막 train weight에 대한 loss만 저장.  -> batch사이즈의 loss의 평균과 마지막 train weight를 저장. 
+
+w1 - > w400     | batch : w400 - w400 ) 100번   loss의 평균값. ex 3   train weight w400 
+
+w400 -> w800    | batch : w800 - w800 ) 100번.   loss의 평균값.    ex 3.2  train weight w800??  no.  mean loss of batch is lower than mean loss of second batch  -> saving trainweight w400...
+
+w400 -> w800 ( real  w800 -> w1200 index)   | batch : w800 - w800 -> -> -> -> -> -> -> -> -> -> -> -> -> -> -> ->  의문점 > 파악하기 . 
