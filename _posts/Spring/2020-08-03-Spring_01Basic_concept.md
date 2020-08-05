@@ -1,24 +1,20 @@
 ---
 layout: post
-title: "Spring basic"
+title: "Spring basic knowledge"
 date: 2020-08-03
 desc: "Spring basic"
-keywords: Spring, framework
+keywords: spring, framework, mybatis, mvc, di, aop. security
 categories: [Spring]
-tags: [spring, framework]
+tags: [spring, framework, mybatis, mvc, di, aop. security]
 ---
 
-## Spring framework
+## Spring
 
 ___
 
+Spring은 Java 서버사이드 진영에서 가장 핵심적인 Framework로서 현업에서 많이 쓰입니다. 우리는 흔히 Spring MVC Framework라고 말하지만
 
-
-java에서 가장 핵심적인 프레임워크 서버사이드 현업에서 쓰인다. 
-
-우리가 말하는 spring framework에는 spring mvc, spring di, spring jdbc, spring aop, spring security 프레임워크도 포함되어 있다. 
-
-위 말을 하나로 말하는게 spring framework.
+우리가 말하는 spring framework에는 spring mvc, spring di, spring jdbc, spring aop, spring security 프레임워크도 포함되어 있다. 위 말을 하나로 말하는게 spring framework.
 
 spring jdbc framework는 잘 안쓰고 jpa, mybatis, mibatis프레임워크를 현업에서 가장 많이 쓴다. 
 
