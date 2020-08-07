@@ -62,3 +62,4 @@ WEB-INF 디렉토리가 가지고 있는 의미. -> 정적인 문서와 동적�
 web.xml  servletname->  dispatcher
 
 url-patten *.do   확장자가 있을 때 / 안함. 
+
