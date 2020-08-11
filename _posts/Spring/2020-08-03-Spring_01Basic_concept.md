@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Spring Basic Conception"
+title: "Spring basic knowledge"
 date: 2020-08-03
-desc: "Spring Basic Conception"
-keywords: Spring, framework
+desc: "Spring basic"
+keywords: spring, framework, mybatis, mvc, di, aop. security
 categories: [Spring]
-tags: [spring, framework]
+tags: [spring, framework, mybatis, mvc, di, aop. security]
 ---
 
 해당 게시물은 Spring Framework를 공부하기 위해 개인적으로 공부했던 자료입니다. 현업에서 쓰이는 코드와는 무관합니다. 기본적인 베이스를 탄탄히 다지는 코드들로 점근적으로 빌드업하는 방향으로 쓰여졌습니다. 
