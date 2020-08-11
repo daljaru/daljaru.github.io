@@ -8,216 +8,78 @@ categories: [Spring]
 tags: [spring, framework, mybatis, mvc, di, aop. security]
 ---
 
-## Spring
+해당 게시물은 Spring Framework를 공부하기 위해 개인적으로 공부했던 자료입니다. 현업에서 쓰이는 코드와는 무관합니다. 기본적인 베이스를 탄탄히 다지는 코드들로 점근적으로 빌드업하는 방향으로 쓰여졌습니다. 
+
+<br>
+
+## Spring framework
 
 ___
 
-Spring은 Java 서버사이드 진영에서 가장 핵심적인 Framework로서 현업에서 많이 쓰입니다. 우리는 흔히 Spring MVC Framework라고 말하지만
+![spring_logo](/static/assets/img/blog/spring/spring_logo.png)
 
-우리가 말하는 spring framework에는 spring mvc, spring di, spring jdbc, spring aop, spring security 프레임워크도 포함되어 있다. 위 말을 하나로 말하는게 spring framework.
+<br> 
 
-spring jdbc framework는 잘 안쓰고 jpa, mybatis, mibatis프레임워크를 현업에서 가장 많이 쓴다. 
+## Framework?? 프레임워크가 뭐지... 
 
-jdbc framework는 일본기업에서 많이 쓴다. 
+___
 
+Spring Framework를 공부할 때 Framework의 의미를 어느정도 알고 있다면 Spring을 공부할 때 많은 도움이 됩니다. 앞으로 공부할 수록 점점 알게 되겠지만 **Framework**는 다른 것에 비유하자면 '일정한 공정 프로세스를 가진 공장'이라고 볼 수 있습니다. 
 
+![myway](/static/assets/img/blog/spring/myway.png)
 
-mybatis.org......튜토리얼은..한국어로 된것도 있다.... . 
+Java Programming을 생각해봅시다. 우리는 패키지를 만들고 싶은대로 구조화하고 각 패키지마다 자바클래스파일을 만들어서 빌드 후 배포를 합니다. 비유하자면 '자유로운 작업방식이 허용된 공장' 이라고 볼 수 있겠네요. 
 
-Mybatis. . . . . 튜토리얼이 거의 전부다. 
+<br>
 
-spring framework....는 실상 mvc를 말하는 거일텐데.. spring framework는 여러개의 모듈들이 합쳐진거를 한번에 말하는 거다. . .
+![rule](/static/assets/img/blog/spring/rule.png)
 
-여러개의 모듈들이 모두 spring꺼를 굳이 쓰지 않아도 된다. 하나하나가 완벽한 컴포넌트이기 때문에   spring jdbc자리에 mybatis로 대체해도 되고, jpa로 대체해도 된다. 
+이와 다르게 Framework는 조금 다릅니다. 반드시 작성해야하는 일종의 '규칙'이 굉장히 많이 있습니다. 어떤 클래스를 쓰기위해 반드시 지정된 라이브러리를 import해야하고, 태그기반의 xml파일 경우 반드시 써야하는 태그들이 정해져 있습니다. 심지어 파라미터명까지 작성하는 규칙이 정해져 있을 정도입니다. 
 
+<br>
 
+## For what??
 
-spring mvc framework가 나오기 전에 strut1, strut2가 있었다. 
+___
 
-framework란 무엇인가??? ->->->->
+이렇게 규칙이 정해진 데는 이유가 있습니다. Spring이 제공하는 규칙을 따라서 자바프로그래밍을 한다면 굉장히 재사용성이 높은 프로젝트를 완성할 수 있습니다. 
 
-기본을 알면... . 어떤 framework를 접하든지,, 공부하면 익숙하게 사용할 수 있다. 
+![pre](/static/assets/img/blog/spring/pre.png)
 
-![spring_structure](/static/assets/img/blog/spring/spring_structure.png)
+Java Programming에서는 모든 것은 클래스로 이루어져 있고 클래스간의 연관관계를 통해서 전체 프로젝트를 완성할 수 있습니다. Java Programming에서 가장 중요한 부분은 바로 이 연관관계의 정도를 낮추는 것입니다. 흔히 연관도를 낮춘다, 결합도를 낮춘다, 재사용성을 높인다 라고 표현합니다.  
 
+클래스간의 연관도를 줄여야 유지보수를 잘 할 수 있기 때문에 이와 관련된 기법도 아주 다양하게 존재합니다. 
 
+<br>
 
-Core container... hasing. . .
+![rule2](/static/assets/img/blog/spring/rule2.png)
 
+Spring Framework는 이 연관도를 아주아주 느슨하게(거의 없다시피 느껴지게)만들어 개발자입장에서 유지보수가 정말 편리해지고 프로젝트의 확장성을 획기적으로 높여줍니다. 
 
-dependency injection 
+<br>
 
-의존 : 필요한 사람이 의존하는 것.  고객이 통장을 필요로 하니까 고객이 의존의 대상. 
+## Spring....
 
+___
 
-Core Container.... Beans. Core.. Contxt   library    -> di framework. 
+Spring은 java에서 가장 핵심적인 프레임워크로 서버사이드 영역에서 현업에서 많이 쓰입니다. 
 
-di framework가 구축이 된 상태에서 AOP를 끼워 넣을 수 있읍. Aspect Oriented Programming. . . . . . . . . . . 
+흔히 Spring Framework라고 하면 Spring MVC Framework를 떠올리는데 Spring에는 다양한 Framework들이 존재합니다. 예를 들어 Spring di, Spring jdbc, Spring aop, Spring security 프레임워크가 있습니다. 위 말을 하나로 그룹화해서 나온 단어가 spring framework입니다.
 
+Spring jdbc framework는 한국에서는 잘 쓰지 않고 있습니다. 일본에서 많이 쓰는 걸로 알고 있습니다. 대신에 jpa나 mybatis프레임워크를 한국에서 가장 많이 쓰고 있습니다. 
 
+Mybatis 프레임워크는 한국어로 된 튜토리얼도 있습니다. Mybatis를 소개하는 책도 있지만 내용은 튜토리얼과 매우 비슷하기 때문에 책을 사기보단 Tutotial을 보면서 공부하는 게 좋습니다. 
 
-spring jdbc. . .
+<br>
 
-mibatis를 쓰자. 
+## Spring basic structure
 
+___
 
-Web > 라이브러리.. . prtlet , struts는 spring mvc를 쓰기전에 쓰던거.. . 지금 안씀.
+![spring_framework](/static/assets/img/blog/spring/spring_framework.png)
 
+Spring framework의 간단한 구조를 예시르 그렸습니다.
 
+Spring framework는 여러개의 모듈들이 합쳐진 거대한 묶음입니다. 예를 들어 위 그림에서 Core Container는 beans, Core, Context, Expression Language라는 라이브러리들이 묶여진 모듈이고 이와 비슷한 모듈이 묶여 framework가 이루어집니다. 
 
-순서는 DI(dependency injection)
-
-data access / integration
-
-
-
-Maven 구조?   수동으로 만들어서 확실히 이해할 수 있도록. 
-
-
-spring frame work의 핵심 모듈. 
-
-core라고 부르는 di
-
-그 다음은 aop, db framework
-
-최종적으로 web. 
-
-전부다 같이 돌아간다. 
-
-그 전까지 하나하나 살펴보고 merge... . .
-
-내가 지금 뭘 하고 있는지 항상 생각해야 한다. 
-
-.
-
-.
-
-.
-
-dependency는 뒤어서부터..? 
-
-dao.. . service . . con->>>>   
-
-dao에서 만든걸 Service로 넘기고. . . Controller -> handleradapter> dispatcherservlet.. 
-
-코딩에서의 dependency 흐름.
-
-
-서비스 요청흐름과는 별개. 
-
-모든 것에는 방향성이 있다. 
-
-전체 flow이해하기..
-
-![spring_mvc_architecture](/static/assets/img/blog/spring/spring_mvc_architecture.png)
-
-dependency > 
-
-dao수정하면 > > > > >> > > >>>     연쇄적으로 수정. 
-
-도메인별로 dao가 나오게 된다. 
-
-집에 못가.... . . . . . . . . ㅠㅅㅠ  --> 재사용성이 떨어짐. 
-
-enterprise급으로 가게 되면....  기존의 dependency구조는 재사용성이 떨어진다. . . 
-
-
-해결책은 관계를 끊으면 되는데... 
-
-Coupling 
- * tight한 coupling 생성자로 만드는 것. 
- * loose한 coupling setter...로 주입. 
- coupling의 발상.
-
- DAO와 service의 의존성 해제를 위해 di framework가 먼저 나왔다.    (dependency injection)
-
- DAO를 완전한 독립적인 클래스로 만들기 위한.......  -> DAO를 아무리 바꿔도 Service에 아무런 영향을 안끼치는.. . . 
-
- sts...
-
-
- maven 구조. 
-
- modeuler...
-
-
-프로젝트 만들때 src를 없앴다/?
-src폴더를 다각화 시킨다. . ... .. javacode,,  xml, testcode. . . 
-
-![src_structure](/static/assets/img/blog/spring/src_structure.png)
-
-
-지금 maven 구조..를 만들고 있는 것. 
-
-
-현업에서는 5개이상의 패키지를 쓴다. (최소)
-
-
-spring framework > service > hello 도메인
-
-
-![first_web_project](/static/assets/img/blog/spring/first_web_project.png)
-
-
-
-plain  어느 것으로부터 제약 받지 않는. 
-
-
-interface도 없는 ...  생성자 getter, setter만 있는. . . .
-
-
-
-~~~java
-Hello hello = new HelloImpl()
-
-/*
-
-HelloImpl() 구상객체, 실체클래스. 실제로 메모리에 올라가는 클래스.  component bean 
-
-재사용성을 높이는 방법은 인터페이스 코드의 실체클래스명이 언급되면 안되는 것. 
-
--- > 객체생성은 내가 안하고 컨테이너에게 맡기는 것. . . . . . 이것도 재사용성을 높인다.
-
-
-
-hello           DI container (core container)   helloAppTest02
-heloImpl            1. 생성
-                    2. 저장
-
-
-개발자는 주문서를 만든다. 
-*/
-~~~
-
-라이브러리 사이에 dependence가 일어남????/
-
-
-인터페이스를 써도 재사용성이 늘어나긴 하는데  new 키워드를 쓰긴 쓴ㄷ다. 
-
-
-그래서 객체생성 역할을 다른 곳으로 위임해주는에 di container로 위임한다. 
-
-hellofactory를 생각하면 쉬운데       ==> new를 생성하는 권한을 컨테이너한테 준ㄷ. ioc (제어의 역전) 
-
-
-~~~java
-'''
-DAO                 BeanContainer (-> 추상 컨테이너)....
-                        XMLBeanContainer -> 
-|                   1. Bean을 생성하고 
-                    2. 생성한 Bean을 보관. 
-DAOImpl             3. 다른 기능은 다른 컨테이너가 있다.. . XMLBeanContainer는 deprecated...
-                    개발자는 설정문서. bean.xml  -> Bean설정문서. .(Bean Configuration file) . 
-
-                    컨테이너가 주문서를 읽어들인다. 
-
-
-
-'''
-~~~
-
-Bean이 생성되는 시점은 클라이언트가 요청을 할 때. 
-
-pre loading은 언제 하냐??? 
-
-
+여러개의 모듈들을 모두 spring것으로 굳이 쓰지 않아도 됩니다. 하나하나가 완벽한 컴포넌트이기 때문에   spring jdbc자리에 mybatis로 대체해도 되고, jpa로 대체해도 됩니다.

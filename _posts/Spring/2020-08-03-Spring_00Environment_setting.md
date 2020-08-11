@@ -8,6 +8,10 @@ categories: [Spring]
 tags: [Spring, sts, eclipse]
 ---
 
+해당 게시물은 Spring Framework를 공부하기 위해 개인적으로 공부했던 자료입니다. 현업에서 쓰이는 코드와는 무관합니다. 기본적인 베이스를 탄탄히 다지는 코드들로 점근적으로 빌드업하는 방향으로 쓰여졌습니다. 
+
+<br>
+
 ## Spring 공부를 위한 환경설정. 
 
 ___
