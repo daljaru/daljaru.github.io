@@ -66,3 +66,4 @@ dispatcher > init
 
 param-value /WEB-INF/businessBean.xml을    classathsystem으로 설정해도 된다. 
 
+base
