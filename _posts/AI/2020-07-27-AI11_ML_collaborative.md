@@ -1,4 +1,12 @@
-
+---
+layout: post
+title: "Decision Tree"
+date: 2020-07-22
+desc: "Decision Tree"
+keywords: Machine Learning, decision tree
+categories: [AI]
+tags: [Machine Learning, decision tree]
+---
 
 collaborative filtering
 

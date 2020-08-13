@@ -1,3 +1,13 @@
+---
+layout: post
+title: "Decision Tree"
+date: 2020-07-22
+desc: "Decision Tree"
+keywords: Machine Learning, decision tree
+categories: [AI]
+tags: [Machine Learning, decision tree]
+---
+
 특성중요도 : 0과 1사이의 값. 
 
 정규화 > normalization  모든 특성을 더했을 때 1이 나온다. 
