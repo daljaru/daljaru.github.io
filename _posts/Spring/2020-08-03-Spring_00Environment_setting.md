@@ -20,13 +20,13 @@ ___
 
 ![spring_tool_4](/static/assets/img/blog/spring/spring_tool_4.png){:width="40%" height="40%"}
 
-Spring을 학습하기 위해 코딩 환경설정을 먼저 진행합니다. 
+Spring을 학습하기 위해 코딩 환경설정을 먼저 진행합니다. ㄸ
 
 Spring Tools 4라는 걸 설치할 것입니다. Spring Tools 4는 Spring기반의 enterprise application을 위한 개발 환경을 제공합니다. 외양은 Eclipse와 동일합니다.
 
 <br>
 
-https://spring.io/tools
+https://spring.io/tools0
 
 위 사이트로 들어가면 Spring tool 4를 다운로드 받을 수 있습니다. 저는 이클립스 환경에서 Spring을 사용할 것이기 때문에 Spring Tools 4 for Eclipse로 들어가서 jar파일을 다운로드 받았습니다. 
 
