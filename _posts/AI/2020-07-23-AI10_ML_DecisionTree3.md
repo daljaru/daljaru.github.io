@@ -4,7 +4,7 @@ title: "Decision Tree"
 date: 2020-07-22
 desc: "Decision Tree"
 keywords: Machine Learning, decision tree
-categories: [AI]
+categories: [Ai]
 tags: [Machine Learning, decision tree]
 ---
 

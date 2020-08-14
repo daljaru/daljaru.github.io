@@ -4,7 +4,7 @@ title: "ML Category"
 date: 2020-07-22
 desc: "ML Category"
 keywords: Machine Learning, Supervised, Unsupervised, Reinforcement
-categories: [AI]
+categories: [Ai]
 tags: [Machine Learning, Supervised, Unsupervised, Reinforcement]
 ---
 

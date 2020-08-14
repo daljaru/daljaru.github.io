@@ -4,7 +4,7 @@ title: "basic reinforcement learning"
 date: 2020-07-22
 desc: "basic reinforcement learning"
 keywords: Machine Learning, Supervised, Unsupervised, Reinforcement
-categories: [AI]
+categories: [Ai]
 tags: [Machine Learning, Supervised, Unsupervised, Reinforcement]
 ---
 
