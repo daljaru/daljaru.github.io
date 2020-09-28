@@ -16,19 +16,19 @@ ___
 
 윈도우 키를 누르고 "언어"라고 입력하면 나오는 언어 설정을 클릭합니다. 
 
-![German_keyboard_01](../../../static/assets/img/blog/life/deutsche/German_keyboard_01.png)
+![german_keyboard_01](../../../static/assets/img/blog/life/deutsche/german_keyboard_01.png)
 
 <br>
 
 기본 설정 언어 -> 기본 설정 언어 추가하기를 선택합니다. 
 
-![German_keyboard_02](../../../static/assets/img/blog/life/deutsche/German_keyboard_02.png)
+![german_keyboard_02](../../../static/assets/img/blog/life/deutsche/german_keyboard_02.png)
 
 <br>
 
 언어 검색 창에서 독일어를 선택하고 -> 다음 -> 설치를 누릅니다. 
 
-![German_keyboard_03](../../../static/assets/img/blog/life/deutsche/German_keyboard_03.png)
+![german_keyboard_03](../../../static/assets/img/blog/life/deutsche/german_keyboard_03.png)
 
 <br>
 
@@ -50,4 +50,4 @@ ___
 
 독일어 쿼티 자판 배열은 아래와 같습니다. z와 y의 위치가 바뀌고 p와 l 오른쪽이 변모음으로 바뀌었습니다.
 
-![German_keyboard_04](../../../static/assets/img/blog/life/deutsche/German_keyboard_04.png)
+![german_keyboard_04](../../../static/assets/img/blog/life/deutsche/german_keyboard_04.png)
