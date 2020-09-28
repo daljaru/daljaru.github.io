@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Deutsche pronunciation"
+title: "독일어 알파벳"
 date: 2020-04-21
-desc: "Deutsche pronunciation"
+desc: "독일어 알파벳"
 keywords: Deutsche, Germany, German
 categories: [Life]
 tags: [language, deutsche]
