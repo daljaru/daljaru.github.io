@@ -45,4 +45,9 @@ ___
 한글 -> 한/영 -> 영어
 
 꼭 Alt + Shift키를 눌러야 외국어 자판으로 변경되는 것을 확인할 수 있었습니다. 
- 
+
+<br>
+
+독일어 쿼티 자판 배열은 아래와 같습니다. z와 y의 위치가 바뀌고 p와 l 오른쪽이 변모음으로 바뀌었습니다.
+
+![German_keyboard_04](../../../static/assets/img/blog/life/deutsche/German_keyboard_04.png)
